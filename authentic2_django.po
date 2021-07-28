@@ -23,7 +23,7 @@ msgstr ""
 #: src/authentic2/saml/models.py:145
 #: src/authentic2/templates/authentic2/api_user_create_registration_email_body.txt:4
 msgid "Email"
-msgstr "Courriel"
+msgstr "E-Mail"
 
 #: src/authentic2/a2_rbac/admin.py:94 src/authentic2/a2_rbac/models.py:413
 #: src/authentic2/apps/journal/models.py:181
@@ -103,7 +103,7 @@ msgstr "L’identifiant doit être unique"
 
 #: src/authentic2/a2_rbac/models.py:76
 msgid "Email is unique"
-msgstr "Le courriel doit être unique"
+msgstr "Le E-Mail doit être unique"
 
 #: src/authentic2/a2_rbac/models.py:77
 #: src/authentic2/a2_rbac/signal_handlers.py:41
@@ -112,7 +112,7 @@ msgstr "Collectivité par défaut"
 
 #: src/authentic2/a2_rbac/models.py:79
 msgid "Validate emails"
-msgstr "Validation des adresses de courriel"
+msgstr "Validation des adresses de E-Mail"
 
 #: src/authentic2/a2_rbac/models.py:81
 msgid "Show username"
@@ -261,7 +261,7 @@ msgstr "Activation"
 #: src/authentic2/a2_rbac/models.py:434
 msgctxt "operation"
 msgid "Change email"
-msgstr "Modification de l’adresse de courriel"
+msgstr "Modification de l’adresse de E-Mail"
 
 #: src/authentic2/a2_rbac/models.py:435
 msgid "Manage role members"
@@ -308,7 +308,7 @@ msgstr "domaine"
 
 #: src/authentic2/admin.py:202 src/authentic2/admin.py:249
 msgid "You must at least give a username or an email to your user"
-msgstr "Un utilisateur doit au minimum posséder un courriel ou un identifiant."
+msgstr "Un utilisateur doit au minimum posséder un E-Mail ou un identifiant."
 
 #: src/authentic2/admin.py:206 src/authentic2/admin.py:251
 #: src/authentic2/authenticators.py:70
@@ -318,7 +318,7 @@ msgstr "Un utilisateur doit au minimum posséder un courriel ou un identifiant."
 #: src/authentic2/manager/journal_views.py:90
 #: src/authentic2/templates/authentic2/login_password_profile.html:4
 msgid "Password"
-msgstr "Mot de passe"
+msgstr "Passwort / Mot de passe"
 
 #: src/authentic2/admin.py:208
 msgid ""
@@ -334,19 +334,19 @@ msgstr ""
 #: src/authentic2/admin.py:248 src/authentic2/forms/registration.py:166
 #: src/authentic2/manager/forms.py:207
 msgid "The two password fields didn't match."
-msgstr "Les deux champs mot de passe ne correspondent pas l’un à l’autre."
+msgstr "Die beiden Passwortfelder stimmen nicht überein. / Les deux champs mot de passe ne correspondent pas l’un à l’autre."
 
 #: src/authentic2/admin.py:253
 msgid "Password confirmation"
-msgstr "Confirmation du mot de passe"
+msgstr "Passwort Bestätigung / Confirmation du mot de passe"
 
 #: src/authentic2/admin.py:255
 msgid "Enter the same password as above, for verification."
-msgstr "Entrez le même mot de passe qu’au dessus, pour validation."
+msgstr "Geben Sie zur Validierung dasselbe Passwort wie oben ein / Entrez le même mot de passe qu’au dessus, pour validation."
 
 #: src/authentic2/admin.py:290
 msgid "Personal info"
-msgstr "Informations personnelles"
+msgstr "Persönliche Informationen / Informations personnelles"
 
 #: src/authentic2/admin.py:291 src/authentic2/manager/role_views.py:306
 #: src/authentic2/manager/templates/authentic2/manager/role_members.html:41
@@ -378,16 +378,16 @@ msgstr "Vous n’êtes pas autorisé à vous inscrire dans cette collectivité."
 
 #: src/authentic2/api_views.py:162
 msgid "Email is required"
-msgstr "Le courriel est obligatoire"
+msgstr "E-Mail ist Pflicht / L'E-Mail est obligatoire"
 
 #: src/authentic2/api_views.py:164 src/authentic2/api_views.py:176
 #: tests/test_all.py:515 tests/test_all.py:625
 msgid "Account already exists"
-msgstr "Le compte existe déjà"
+msgstr "Benutzerkonto existiert bereits / Le compte existe déjà"
 
 #: src/authentic2/api_views.py:168
 msgid "Email is required in this ou"
-msgstr "Le courriel est obligatoire dans cette collectivité."
+msgstr "Le E-Mail est obligatoire dans cette collectivité."
 
 #: src/authentic2/api_views.py:170 src/authentic2/api_views.py:182
 #: tests/test_all.py:492 tests/test_all.py:602
@@ -396,7 +396,7 @@ msgstr "Le compte existe déjà dans cette collectivité"
 
 #: src/authentic2/api_views.py:174 tests/test_all.py:503 tests/test_all.py:613
 msgid "Username is required"
-msgstr "L’identifiant est obligatoire"
+msgstr "Benutzername wird benötigt / L’identifiant est obligatoire"
 
 #: src/authentic2/api_views.py:180
 msgid "Username is required in this ou"
@@ -450,19 +450,19 @@ msgstr "Utilisateurs assignés au rôle avec succès"
 
 #: src/authentic2/api_views.py:1167
 msgid "Day"
-msgstr "Jour"
+msgstr "Tag / Jour"
 
 #: src/authentic2/api_views.py:1167
 msgid "Month"
-msgstr "Mois"
+msgstr "Monat / Mois"
 
 #: src/authentic2/api_views.py:1167
 msgid "Year"
-msgstr "Année"
+msgstr "Jahr / Année"
 
 #: src/authentic2/api_views.py:1213
 msgid "Time interval"
-msgstr "Période"
+msgstr "Zeitraum / Période"
 
 #: src/authentic2/api_views.py:1225
 msgid "Service"
@@ -505,13 +505,15 @@ msgid "Required. At most 30 characters. Letters, digits, and @/./+/-/_ only."
 msgstr ""
 "Requis. 30 caractères maximum. Uniquement des lettres, nombres et les "
 "caractères « @ », « . », « + », « - » et « _ »."
+"Erforderlich. Maximal 30 Zeichen. Nur Buchstaben, Zahlen und"
+"figuren « @ », « . », « + », « - » et « _ »."
 
 #: src/authentic2/app_settings.py:149
 #: src/authentic2/forms/authentication.py:147
 #: src/authentic2/manager/templates/authentic2/manager/user_create_registration_email_body.txt:3
 #: src/authentic2/templates/authentic2/api_user_create_registration_email_body.txt:3
 msgid "Username"
-msgstr "Identifiant"
+msgstr "Nutzername / Identifiant"
 
 #: src/authentic2/apps/journal/app.py:24
 #: src/authentic2/manager/journal_views.py:137
@@ -632,7 +634,7 @@ msgid ""
 "to users with this email address.</tt>."
 msgstr ""
 "Utilisez <tt>email:jean.dupond@example.com</tt> pour trouver tous les "
-"évènements relatifs aux utilisateurs ayant cette adresse de courriel."
+"évènements relatifs aux utilisateurs ayant cette adresse de E-Mail."
 
 #: src/authentic2/apps/journal/search_engine.py:135
 msgid ""
@@ -688,12 +690,12 @@ msgstr "Derniers évènements"
 #: src/authentic2/attribute_kinds.py:51
 msgctxt "title"
 msgid "Mrs"
-msgstr "Madame"
+msgstr "Frau / Madame"
 
 #: src/authentic2/attribute_kinds.py:52
 msgctxt "title"
 msgid "Mr"
-msgstr "Monsieur"
+msgstr "Herr / Monsieur"
 
 #: src/authentic2/attribute_kinds.py:57
 msgid "Format: yyyy-mm-dd"
@@ -701,16 +703,21 @@ msgstr "Format : jj/mm/aaaa"
 
 #: src/authentic2/attribute_kinds.py:66
 msgid "This field may not be blank."
-msgstr "Le champ ne peut pas être vide."
+msgstr ""
+"Das Feld darf nicht leer sein."
+"Le champ ne peut pas être vide."
 
 #: src/authentic2/attribute_kinds.py:98
 msgid "birthdate must be in the past and greater or equal than 1900-01-01."
 msgstr ""
+"Ein Geburtsdatum muss in der Vergangenheit und nach dem 1. Januar 1900 liegen."
 "Une date de naissance doit être dans le passé et après le 1er janvier 1900."
 
 #: src/authentic2/attribute_kinds.py:145
 msgid "Phone number can start with a + and must contain only digits."
 msgstr ""
+"Eine Telefonnummer kann mit einem + beginnen und darf nur "
+"Zahlen.""
 "Un numéro de téléphone peut commencer par un + et ne doit contenir que des "
 "chiffres."
 
@@ -720,7 +727,9 @@ msgstr "ex.: 0699999999"
 
 #: src/authentic2/attribute_kinds.py:176
 msgid "The value must be a valid french postcode"
-msgstr "Vous devez entrer un code postal"
+msgstr ""
+"Vous devez entrer un code postal."
+"Sie müssen eine Postleitzahl eingeben."
 
 #: src/authentic2/attribute_kinds.py:181
 msgid "ex.: 13260"
@@ -728,35 +737,35 @@ msgstr "ex : 13260"
 
 #: src/authentic2/attribute_kinds.py:269
 msgid "title"
-msgstr "civilité"
+msgstr " Anstand / Civilité"
 
 #: src/authentic2/attribute_kinds.py:278
 msgid "boolean"
-msgstr "booléen"
+msgstr "boolesche Werte / Booléen"
 
 #: src/authentic2/attribute_kinds.py:286
 msgid "date"
-msgstr "date"
+msgstr "Datiert / Date"
 
 #: src/authentic2/attribute_kinds.py:294
 msgid "birthdate"
-msgstr "date de naissance"
+msgstr "Geburtsdatum / date de naissance"
 
 #: src/authentic2/attribute_kinds.py:303
 msgid "address (autocomplete)"
-msgstr "adresse (autocomplétion)"
+msgstr "Adresse (automatische Vervollständigung) / Adresse (autocomplétion)"
 
 #: src/authentic2/attribute_kinds.py:308
 msgid "french postcode"
-msgstr "code postal"
+msgstr "Postleitzahl / Code postall"
 
 #: src/authentic2/attribute_kinds.py:314
 msgid "phone number"
-msgstr "numéro de téléphone"
+msgstr "Telefonnummer / Numéro de téléphone"
 
 #: src/authentic2/attribute_kinds.py:320
 msgid "profile image"
-msgstr "image de profil"
+msgstr "Profilbild / Image de profil"
 
 #: src/authentic2/attribute_kinds.py:363
 msgid "SIRET number must contain 14 digits"
@@ -774,7 +783,7 @@ msgstr "Les clé de validation de votre SIRET sont inexactes"
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:50
 #: src/authentic2/saml/models.py:124
 msgid "None"
-msgstr "Aucun·e"
+msgstr "Keine / Aucun·e"
 
 #: src/authentic2/attributes_ng/engine.py:127
 msgid "List of verified attributes"
@@ -798,11 +807,11 @@ msgstr "Domaine de l’utilisateur."
 
 #: src/authentic2/attributes_ng/sources/django_user.py:56
 msgid "User identifier"
-msgstr "Identifiant de l’utilisateur"
+msgstr "Benutzeridentifikation / Identifiant de l’utilisateur"
 
 #: src/authentic2/attributes_ng/sources/django_user.py:57
 msgid "Full name"
-msgstr "Nom complet"
+msgstr "Vollständiger Name / Nom complet"
 
 #: src/authentic2/attributes_ng/sources/django_user.py:58
 msgid "Role slugs"
@@ -834,12 +843,12 @@ msgstr "attribut de rôle"
 
 #: src/authentic2/authenticators.py:123
 msgid "Username or email"
-msgstr "Identifiant ou courriel"
+msgstr "Benutzername oder E-Mail-Adresse"
 
 #: src/authentic2/backends/ldap_backend.py:307
 #, python-brace-format
 msgid "The password expired after {pwdmaxage}"
-msgstr "Le mot de passe a expiéré après {pwdmaxage}"
+msgstr "Passwort abgelaufen nach {pwdmaxage} / Le mot de passe a expiéré après {pwdmaxage}"
 
 #: src/authentic2/backends/ldap_backend.py:309
 #, python-brace-format
@@ -847,35 +856,37 @@ msgid ""
 "The account is locked since {pwdaccountlockedtime[0]} after {pwdmaxfailure} "
 "failures."
 msgstr ""
-"Ce compte est verrouillé depuis {pwdaccountlockedtime[0]} après "
+"Dieses Benutzerkonto ist seit gesperrt / Ce compte est verrouillé depuis {pwdaccountlockedtime[0]} après "
 "{pwdmaxfailure} échecs."
 
 #: src/authentic2/backends/ldap_backend.py:311
 msgid "The password was reset and must be changed."
-msgstr "Votre mot de passe a été réinitialisé, veuillez le changer."
+msgstr "Ihr Passwort wurde zurückgesetzt, bitte ändern Sie es. / Votre mot de passe a été réinitialisé, veuillez le changer."
 
 #: src/authentic2/backends/ldap_backend.py:312
 msgid "It is not possible to modify the password."
-msgstr "Votre mot de passe ne peut être modifié."
+msgstr "Ihr Passwort kann nicht geändert werden. / Votre mot de passe ne peut être modifié."
 
 #: src/authentic2/backends/ldap_backend.py:313
 msgid "The old password must be supplied."
-msgstr "Vous devez fournir votre ancien mot de passe."
+msgstr "Sie müssen Ihr altes Passwort angeben. / Vous devez fournir votre ancien mot de passe."
 
 #: src/authentic2/backends/ldap_backend.py:314
 msgid "The password does not meet the quality requirements."
 msgstr ""
+"Dieses Passwort ist nicht komplex genug, bitte beachten Sie die Einschränkungen."
 "Ce mot de passe n'est pas assez complexe, veuillez respecter les contraintes."
 
 #: src/authentic2/backends/ldap_backend.py:315
 #, python-brace-format
 msgid "The password is too short {pwdminlength}."
-msgstr "Ce mot de passe est trop court ({pwdminlength})."
+msgstr "Dieses Passwort ist zu kurz ({pwdminlength}). / Ce mot de passe est trop court ({pwdminlength})."
 
 #: src/authentic2/backends/ldap_backend.py:316
 #, python-brace-format
 msgid "It is too soon to change the password {pwdminage}."
 msgstr ""
+"Sie müssen warten, um Ihr Passwort erneut zu ändern ({pwdminage})."
 "Vous devez attendre pour changer de nouveau de mot de passe ({pwdminage})."
 
 #: src/authentic2/backends/ldap_backend.py:318
@@ -886,16 +897,18 @@ msgid ""
 msgstr ""
 "Ce mot de passe fait partie des {pwdhistory} mots de passe qui ont déjà été "
 "utilisés, et ne peut pas être réutilisé."
+"Dieses Passwort ist eines der {pwdhistory} Passwörter, die es bereits gab"
+"verwendet und kann nicht wiederverwendet werden."
 
 #: src/authentic2/backends/ldap_backend.py:321
 #, python-brace-format
 msgid "Unexpected error {error}"
-msgstr "Erreur technique {error}"
+msgstr "Technischer Fehler {error} / Erreur technique {error}"
 
 #: src/authentic2/backends/ldap_backend.py:327
 #, python-brace-format
 msgid "The password will expire at {expiration_date}."
-msgstr "Votre mot de passe ne sera plus valable le {expiration_date}."
+msgstr "Ihr Passwort ist am {expiration_date} nicht mehr gültig. / Votre mot de passe ne sera plus valable le {expiration_date}."
 
 #: src/authentic2/backends/ldap_backend.py:332
 #, python-brace-format
@@ -906,9 +919,13 @@ msgid_plural ""
 msgstr[0] ""
 "Votre mot de passe aura bientôt dépassé sa limite d'utilisation, c'est la "
 "dernière que vous pouvez l'utiliser."
+"Ihr Passwort wird bald sein Nutzungslimit überschritten haben, es ist das"
+"letzte, dass Sie es verwenden können."
 msgstr[1] ""
 "Votre mot de passe aura bientôt dépassé sa limite d'utilisation, vous pouvez "
 "encore l'utiliser {graceAuthNsRemaining} fois en incluant cette connexion."
+"Ihr Passwort wird bald sein Nutzungslimit überschritten haben, das können Sie"
+"benutze es immer noch {graceAuthNsRemaining} mal, einschließlich dieser Verbindung."
 
 #: src/authentic2/csv_import.py:146
 msgid "Cannot detect encoding"
@@ -942,7 +959,7 @@ msgstr "Identifiant court du rôle"
 
 #: src/authentic2/csv_import.py:255
 msgid "Email user so they can set a password"
-msgstr "Envoi à l’utilisateur d’un courriel d’initialisation de mot de passe"
+msgstr "Envoi à l’utilisateur d’un E-Mail d’initialisation de mot de passe"
 
 #: src/authentic2/csv_import.py:258
 msgid "Registration option"
@@ -1066,38 +1083,38 @@ msgstr "Le rôle « %s » n’existe pas"
 #: src/authentic2/saml/management/commands/mapping.py:1107
 #: src/authentic2/templates/authentic2/api_user_create_registration_email_body.txt:5
 msgid "First name"
-msgstr "Prénom"
+msgstr "Vorname / Prénom"
 
 #: src/authentic2/custom_user/apps.py:68
 #: src/authentic2/manager/templates/authentic2/manager/user_create_registration_email_body.txt:6
 #: src/authentic2/saml/management/commands/mapping.py:809
 #: src/authentic2/templates/authentic2/api_user_create_registration_email_body.txt:6
 msgid "Last name"
-msgstr "Nom"
+msgstr "Nachname / Nom"
 
 #: src/authentic2/custom_user/models.py:145
 msgid "uuid"
-msgstr "identifiant unique"
+msgstr "eindeutige Kennung / identifiant unique"
 
 #: src/authentic2/custom_user/models.py:147
 msgid "username"
-msgstr "identifiant"
+msgstr "Nutzername / Identifiant"
 
 #: src/authentic2/custom_user/models.py:148
 msgid "first name"
-msgstr "prénom"
+msgstr "vorname / prénom"
 
 #: src/authentic2/custom_user/models.py:149
 msgid "last name"
-msgstr "nom"
+msgstr "nachname / nom"
 
 #: src/authentic2/custom_user/models.py:150
 msgid "email address"
-msgstr "courriel"
+msgstr "E-Mail"
 
 #: src/authentic2/custom_user/models.py:151
 msgid "email verified"
-msgstr "courriel vérifié"
+msgstr "Email überprüft / E-Mail vérifié"
 
 #: src/authentic2/custom_user/models.py:153
 msgid "staff status"
@@ -1149,12 +1166,14 @@ msgid ""
 "(first and last name)."
 msgstr ""
 "Vous devez préciser au moins un identifiant parmi : identifiant utilisateur, "
-"adresse de courriel ou nom complet – prénom et nom."
+"adresse de E-Mail ou nom complet – prénom et nom."
 
 #: src/authentic2/custom_user/models.py:279
 #: src/authentic2/forms/registration.py:117 tests/test_all.py:701
 msgid "This username is already in use. Please supply a different username."
 msgstr ""
+"Diese Kennung wird bereits verwendet. Bitte verwenden Sie einen anderen "
+"Kennung."
 "Cet identifiant est déjà utilisé. Utilisez s’il vous plaît un autre "
 "identifiant."
 
@@ -1164,8 +1183,10 @@ msgid ""
 "This email address is already in use. Please supply a different email "
 "address."
 msgstr ""
-"Cette adresse de courriel est déjà utilisée. Utilisez s’il vous plaît une "
-"autre adresse de courriel."
+"Diese E-Mail-Adresse wird bereits verwendet. Bitte verwenden Sie eine"
+"andere E-Mail-Adresse."
+"Cette adresse de E-Mail est déjà utilisée. Utilisez s’il vous plaît une "
+"autre adresse de E-Mail."
 
 #: src/authentic2/custom_user/models.py:405
 msgid "Deletion date"
@@ -1181,7 +1202,7 @@ msgstr "Ancien identifiant en base"
 
 #: src/authentic2/custom_user/models.py:408
 msgid "Old email adress"
-msgstr "Ancienne adresse de courriel"
+msgstr "Ancienne adresse de E-Mail"
 
 #: src/authentic2/custom_user/models.py:409
 msgid "Old data"
@@ -1271,11 +1292,11 @@ msgstr "URL de retour %(return_url)s invalide pour %(entity_id)s"
 
 #: src/authentic2/forms/authentication.py:43
 msgid "Remember me"
-msgstr "Se souvenir de moi"
+msgstr "Behalte mich in Erinnerung / Se souvenir de moi"
 
 #: src/authentic2/forms/authentication.py:44
 msgid "Do not ask for authentication next time"
-msgstr "Ne pas demander d’authentification au prochain accès"
+msgstr "Beim nächsten Zugriff nicht nach Authentifizierung fragen / Ne pas demander d’authentification au prochain accès"
 
 #: src/authentic2/forms/authentication.py:47
 #: src/authentic2/manager/forms.py:163 src/authentic2/manager/forms.py:397
@@ -1304,6 +1325,8 @@ msgid ""
 "You made too many login errors recently, you must wait <span class=\"js-"
 "seconds-until\">%s</span> seconds to try again."
 msgstr ""
+"Sie haben zu viele Verbindungsfehler gemacht, Sie müssen warten <span class ="
+"\" js-seconds-bis \">%s </span> Sekunden, bevor Sie es erneut versuchen können."
 "Vous avez fait trop d’erreurs de connexions, vous devez attendre <span class="
 "\"js-seconds-until\">%s</span> secondes avant de pouvoir à nouveau essayer."
 
@@ -1326,7 +1349,7 @@ msgstr ""
 
 #: src/authentic2/forms/authentication.py:162
 msgid "Try again or create an account."
-msgstr "Vous pouvez réessayer ou vous créer un compte."
+msgstr "Sie können es erneut versuchen oder ein Benutzerkonto erstellen. / Vous pouvez réessayer ou vous créer un compte."
 
 #: src/authentic2/forms/fields.py:62
 msgid "Both passwords must match."
@@ -1334,67 +1357,67 @@ msgstr "Les deux mots de passe doivent être identiques."
 
 #: src/authentic2/forms/fields.py:63
 msgid "Passwords match."
-msgstr "Les mots de passe sont identiques."
+msgstr "Die beiden Passwörter müssen gleich sein. / Les mots de passe sont identiques."
 
 #: src/authentic2/forms/fields.py:64
 msgid "Passwords do not match."
-msgstr "Les mots de passe ne sont pas identiques."
+msgstr "Passwörter sind nicht gleich. / Les mots de passe ne sont pas identiques."
 
 #: src/authentic2/forms/fields.py:84
 msgid "The image is not valid"
-msgstr "L’image n’est pas valide"
+msgstr "Das Bild ist nicht gültig / L’image n’est pas valide"
 
 #: src/authentic2/forms/passwords.py:48
 msgid "Email or username"
-msgstr "Courriel ou identifiant"
+msgstr "E-Mail Adresse oder Benutzername / E-Mail ou identifiant"
 
 #: src/authentic2/forms/passwords.py:135 src/authentic2/forms/passwords.py:149
 msgid "New password"
-msgstr "Nouveau mot de passe"
+msgstr "Neues Kennwort / Nouveau mot de passe"
 
 #: src/authentic2/forms/passwords.py:136 src/authentic2/forms/passwords.py:150
 msgid "New password confirmation"
-msgstr "Confirmation du nouveau mot de passe"
+msgstr "Bestätige neues Passwort / Confirmation du nouveau mot de passe"
 
 #: src/authentic2/forms/passwords.py:141 src/authentic2/forms/passwords.py:156
 msgid "New password must differ from old password"
-msgstr "Le nouveau mot de passe doit être différent de l’ancien."
+msgstr "Das neue Passwort muss sich vom alten unterscheiden. / Le nouveau mot de passe doit être différent de l’ancien."
 
 #: src/authentic2/forms/passwords.py:148
 msgid "Old password"
-msgstr "Ancien mot de passe"
+msgstr "Altes Kennwort / Ancien mot de passe"
 
 #: src/authentic2/forms/profile.py:41
 msgid "Password is invalid"
-msgstr "Le mot de passe est invalide"
+msgstr "Das Passwort ist ungültig / Le mot de passe est invalide"
 
 #: src/authentic2/forms/profile.py:46
 msgid "New email"
-msgstr "Nouveau courriel"
+msgstr "Neue e-mail /Nouveau E-Mail"
 
 #: src/authentic2/forms/profile.py:59
 msgid "This is already your email address."
-msgstr "Cette adresse de courriel est déjà la vôtre."
+msgstr "Diese E-Mail-Adresse gehört bereits Ihnen. / Cette adresse de E-Mail est déjà la vôtre."
 
 #: src/authentic2/forms/profile.py:66
 msgid "Incorrect password."
-msgstr "Mot de passe incorrect."
+msgstr "Falsches Passwort./ Mot de passe incorrect."
 
 #: src/authentic2/forms/profile.py:74
 msgid "A user with that username already exists."
-msgstr "Un utilisateur avec cet identifiant existe déjà."
+msgstr "Ein Benutzer mit dieser Kennung existiert bereits. / Un utilisateur avec cet identifiant existe déjà."
 
 #: src/authentic2/forms/registration.py:61
 msgid "You cannot register with this email."
-msgstr "Vous ne pouvez pas vous inscrire avec cette adresse de courriel."
+msgstr "Sie können sich mit dieser E-Mail-Adresse nicht registrieren / Vous ne pouvez pas vous inscrire avec cette adresse de E-Mail."
 
 #: src/authentic2/forms/registration.py:67
 msgid "Special characters are not allowed."
-msgstr "Les caractères spéciaux sont interdits."
+msgstr "Sonderzeichen sind verboten. / Les caractères spéciaux sont interdits."
 
 #: src/authentic2/forms/registration.py:155
 msgid "Password (again)"
-msgstr "Confirmation du mot de passe"
+msgstr "Passwort Bestätigung / Confirmation du mot de passe"
 
 #: src/authentic2/forms/widgets.py:166
 msgid "Format:"
@@ -1422,14 +1445,14 @@ msgstr "condensé"
 #: src/authentic2/templates/authentic2/login.html:7
 #: src/authentic2/templates/registration/registration_completion_choose.html:9
 msgid "Login"
-msgstr "Connexion"
+msgstr "Einloggen / Connexion"
 
 #: src/authentic2/idp/saml/backend.py:93
 #: src/authentic2/templates/authentic2/base.html:34
 #: src/authentic2/templates/authentic2/logout.html:5
 #: src/authentic2/templates/authentic2/logout_confirm.html:6
 msgid "Logout"
-msgstr "Déconnexion"
+msgstr "Ausloggen / Déconnexion"
 
 #: src/authentic2/idp/saml/backend.py:165
 #: src/authentic2/manager/templates/authentic2/manager/delete.html:15
@@ -1443,14 +1466,14 @@ msgstr "Déconnexion"
 #: src/authentic2/manager/templates/authentic2/manager/user_import_report_row.html:12
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:46
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "Entfernen / Supprimer"
 
 #: src/authentic2/idp/saml/backend.py:183
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:20
 #: src/authentic2/manager/user_views.py:166
 #: src/authentic2/templates/authentic2/accounts_edit.html:23
 msgid "Create"
-msgstr "Créer"
+msgstr "Erschaffen / Créer"
 
 #: src/authentic2/idp/saml/saml2_endpoints.py:536
 msgid ""
@@ -1475,7 +1498,7 @@ msgstr "sso: Pas de politique pour les fournisseurs de service définie"
 #: src/authentic2/idp/saml/saml2_endpoints.py:684
 #: src/authentic2/idp/saml/saml2_endpoints.py:1104
 msgid "request has expired"
-msgstr "la requête a expiré"
+msgstr "die Anfrage ist abgelaufen / la requête a expiré"
 
 #: src/authentic2/idp/saml/saml2_endpoints.py:692
 msgid "continue_sso: error loading login"
@@ -1504,16 +1527,16 @@ msgstr "Pas de politique de fournisseur de service définie"
 #: src/authentic2/idp/saml/saml2_endpoints.py:1409
 #, python-format
 msgid "You are being redirected to \"%s\""
-msgstr "Vous allez être redirigé sur « %s »"
+msgstr "Sie werden weitergeleitet zu / Vous allez être redirigé sur « %s »"
 
 #: src/authentic2/idp/saml/saml2_endpoints.py:1399
 msgid "Invalid logout request"
-msgstr "Requête de déconnexion invalide"
+msgstr "Ungültige Anforderung zum Trennen der Verbindung / Requête de déconnexion invalide"
 
 #: src/authentic2/idp/saml/templates/idp/saml/logout_fragment.html:2
 #, python-format
 msgid "Sending logout to %(name)s..."
-msgstr "Déconnexion avec %(name)s…"
+msgstr "Abmelden mit / Déconnexion avec %(name)s…"
 
 #: src/authentic2/idp/saml/templates/idp/saml/unknown_provider.html:6
 #, python-format
@@ -1572,7 +1595,7 @@ msgstr "demande de création de compte"
 #: src/authentic2/journal_event_types.py:173
 #, python-format
 msgid "registration request with email \"%s\""
-msgstr "demande de création de compte pour l’adresse de courriel « %s »"
+msgstr "demande de création de compte pour l’adresse de E-Mail « %s »"
 
 #: src/authentic2/journal_event_types.py:178
 msgid "registration"
@@ -1596,7 +1619,7 @@ msgstr "demande de réinitialisation du mot de passe"
 #, python-format
 msgid "password reset request with email \"%s\""
 msgstr ""
-"demande de réinitialisation du mot de passe pour l’adresse de courriel « %s »"
+"demande de réinitialisation du mot de passe pour l’adresse de E-Mail « %s »"
 
 #: src/authentic2/journal_event_types.py:217 src/authentic2/models.py:359
 #: src/authentic2/models.py:360
@@ -1611,7 +1634,7 @@ msgstr "échec de réinitialisation du mot de passe"
 #, python-format
 msgid "password reset failure with email \"%s\""
 msgstr ""
-"échec de réinitialisation du mot de passe pour l’adresse de courriel « %s »"
+"échec de réinitialisation du mot de passe pour l’adresse de E-Mail « %s »"
 
 #: src/authentic2/journal_event_types.py:242
 msgid "password change"
@@ -1661,21 +1684,21 @@ msgstr "refus d’authentification unique sur le service « {service} »"
 #: src/authentic2/journal_event_types.py:316
 #: src/authentic2/manager/journal_event_types.py:85
 msgid "email change request"
-msgstr "Demande de changement d'adresse de courriel"
+msgstr "Demande de changement d'adresse de E-Mail"
 
 #: src/authentic2/journal_event_types.py:329
 #, python-brace-format
 msgid "email change request for email address \"{0}\""
-msgstr "demande de changement d'adresse de courriel pour l'adresse « {0} »"
+msgstr "demande de changement d'adresse de E-Mail pour l'adresse « {0} »"
 
 #: src/authentic2/journal_event_types.py:334
 msgid "email change"
-msgstr "Changement d’adresse de courriel"
+msgstr "Changement d’adresse de E-Mail"
 
 #: src/authentic2/journal_event_types.py:348
 #, python-brace-format
 msgid "email address changed from \"{0}\" to \"{1}\""
-msgstr "changement d'adresse de courriel de « {0} » à « {1} »"
+msgstr "changement d'adresse de E-Mail de « {0} » à « {1} »"
 
 #: src/authentic2/manager/forms.py:113
 #: src/authentic2/manager/templates/authentic2/manager/user_add.html:5
@@ -1709,46 +1732,52 @@ msgid ""
 "reset mail"
 msgstr ""
 "Vous devez choisir entre la génération d’un mot de passe, en définir un "
-"nouveau ou envoyer un courriel de réinitialisation."
+"nouveau ou envoyer un E-Mail de réinitialisation."
+"Sie müssen wählen, ob Sie ein Passwort generieren oder eines definieren"
+"neu oder senden Sie eine Reset-E-Mail."
 
 #: src/authentic2/manager/forms.py:239
 msgid "User does not have a mail, we cannot send the informations to him."
 msgstr ""
-"L’utilisateur n’a pas d’adresse de courriel, nous ne pouvons donc pas lui "
+"L’utilisateur n’a pas d’adresse de E-Mail, nous ne pouvons donc pas lui "
 "envoyer les informations."
+"Der Benutzer hat keine E-Mail-Adresse, daher können wir nicht"
+"Senden Sie die Informationen."
 
 #: src/authentic2/manager/forms.py:271
 msgid "Generate new password"
-msgstr "Générer un mot de passe"
+msgstr "Passwort generieren / Générer un mot de passe"
 
 #: src/authentic2/manager/forms.py:273
 msgid "Confirmation"
-msgstr "Confirmation"
+msgstr "Bestätigung / Confirmation"
 
 #: src/authentic2/manager/forms.py:274
 msgid "Send informations to user"
-msgstr "Envoyer les informations à l’utilisateur"
+msgstr "Informationen an den Benutzer senden / Envoyer les informations à l’utilisateur"
 
 #: src/authentic2/manager/forms.py:288
 msgid "Ask for password reset on next login"
-msgstr "Doit changer de mot de passe à la prochaine connexion"
+msgstr "Muss das Passwort bei der nächsten Anmeldung ändern / Doit changer de mot de passe à la prochaine connexion"
 
 #: src/authentic2/manager/forms.py:292
 msgid "Send mail to user to make it choose a password"
-msgstr "Envoi à l’utilisateur d’un courriel d’initialisation de mot de passe"
+msgstr "Senden einer Passwort-Initialisierungs-E-Mail an den Benutzer / Envoi à l’utilisateur d’un E-Mail d’initialisation de mot de passe"
 
 #: src/authentic2/manager/forms.py:312
 msgid ""
 "You must set a username or an email to set a password or send an activation "
 "link."
 msgstr ""
-"Vous devez au moins définir soit un identifiant soit un courriel pour  "
+"Vous devez au moins définir soit un identifiant soit un E-Mail pour  "
 "pouvoir définir un mot de passe ou envoyer un lien d’activation."
+"Sie müssen mindestens entweder eine Kennung oder eine E-Mail definieren für"
+"in der Lage sein, ein Passwort festzulegen oder einen Aktivierungslink zu senden."
 
 #: src/authentic2/manager/forms.py:363 src/authentic2/manager/forms.py:598
 #: src/authentic2/saml/forms.py:33
 msgid "Name"
-msgstr "Nom"
+msgstr "Nachname / Nom"
 
 #: src/authentic2/manager/forms.py:364
 msgid "Show internal roles"
@@ -1776,7 +1805,7 @@ msgstr "Recherche libre"
 #: src/authentic2/manager/tables.py:134 src/authentic2/manager/tables.py:146
 #: src/authentic2/manager/tables.py:185 src/authentic2/models.py:137
 msgid "label"
-msgstr "libellé"
+msgstr "Wortlaut / libellé"
 
 #: src/authentic2/manager/forms.py:675
 msgid "Site Export File"
@@ -1892,14 +1921,14 @@ msgstr "édition du profil du compte « {0} » ({1})"
 msgid "email change for email address \"%s\" requested by administrator"
 msgstr ""
 "demande de changement de mot de passe par un administrateur envoyée à "
-"l’adresse de courriel « %s »"
+"l’adresse de E-Mail « %s »"
 
 #: src/authentic2/manager/journal_event_types.py:103
 #, python-brace-format
 msgid "email change of user \"{0}\" for email address \"{1}\""
 msgstr ""
 "demande de changement de mot de passe pour le compte « {0} » envoyée à "
-"l’dresse de courriel « {1} »"
+"l’dresse de E-Mail « {1} »"
 
 #: src/authentic2/manager/journal_event_types.py:109
 msgid "user password change"
@@ -1933,14 +1962,14 @@ msgstr "demande de réinitialisation du mot de passe (backoffice)"
 msgid "password reset request by administrator sent to \"%s\""
 msgstr ""
 "demande de réinitilisation du mot de passe par un administrateur envoyée à "
-"l’adresse de courriel « %s »"
+"l’adresse de E-Mail « %s »"
 
 #: src/authentic2/manager/journal_event_types.py:155
 #, python-brace-format
 msgid "password reset request of \"{0}\" sent to \"{1}\""
 msgstr ""
 "demande de réinitilisation du mot de passe pour le compte « {0} » envoyée à "
-"l’adresse de courriel « {1} »"
+"l’adresse de E-Mail « {1} »"
 
 #: src/authentic2/manager/journal_event_types.py:161
 msgid "mandatory password change at next login set"
@@ -2523,12 +2552,12 @@ msgstr "Cet utilisateur n’a accordé aucun accès à ses données de profil."
 
 #: src/authentic2/manager/templates/403.html:5
 msgid "You are not authorized to see this page."
-msgstr "Vous n’êtes pas autorisé à voir cette page."
+msgstr "Sie sind nicht berechtigt, diese Seite anzuzeigen. / Vous n’êtes pas autorisé à voir cette page."
 
 #: src/authentic2/manager/templates/403.html:7
 #: src/authentic2/manager/templates/authentic2/manager/base.html:33
 msgid "Homepage"
-msgstr "Accueil"
+msgstr "Startseite / Accueil"
 
 #: src/authentic2/manager/templates/403.html:8
 #: src/authentic2/templates/authentic2/unauthorized.html:9
@@ -2536,12 +2565,12 @@ msgstr "Accueil"
 #: src/authentic2/templates/registration/logout.html:10
 #: src/authentic2/templates/registration/registration_complete.html:41
 msgid "Back"
-msgstr "Retour"
+msgstr "Zurück / Retour"
 
 #: src/authentic2/manager/templates/authentic2/manager/base.html:38
 #: src/authentic2/templates/authentic2/homepage.html:7
 msgid "Administration"
-msgstr "Administration"
+msgstr "Verwaltung / Administration"
 
 #: src/authentic2/manager/templates/authentic2/manager/change-password-notification_body.txt:1
 #, python-format
@@ -2556,11 +2585,16 @@ msgstr ""
 "\n"
 "Un administrateur a modifié votre mot de passe, c’est désormais :\n"
 "\n"
-"   %(new_password)s\n"
+"   %(new_password)s\n\n"
+"Hallo %(full_name)s !\n"
+"\n"
+"Ein Administrator hat Ihr Passwort geändert, es lautet jetzt: \n"
+"\n"
+"%(new_password)s \n"
 
 #: src/authentic2/manager/templates/authentic2/manager/change-password-notification_subject.txt:1
 msgid "Your password has been changed"
-msgstr "Votre mot de passe a été changé"
+msgstr "Ihr Passwort wurde geändert / Votre mot de passe a été changé"
 
 #: src/authentic2/manager/templates/authentic2/manager/delete.html:12
 #, python-format
@@ -2568,6 +2602,8 @@ msgid "Do you want to delete %(model_name)s %(object)s ?"
 msgstr ""
 "Souhaitez-vous vraiment supprimer l’objet « %(model_name)s » nommé "
 "« %(object)s » ?"
+"Sind Sie sicher, dass Sie das Objekt löschen möchten « %(model_name)s » named"
+"« %(object)s »?"
 
 #: src/authentic2/manager/templates/authentic2/manager/delete.html:16
 #: src/authentic2/manager/templates/authentic2/manager/form.html:35
@@ -2587,18 +2623,18 @@ msgstr ""
 #: src/authentic2/templates/registration/password_change_form.html:26
 #: tests/test_idp_saml2.py:340
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Stornieren / Annuler"
 
 #: src/authentic2/manager/templates/authentic2/manager/duplicate_user_add.html:11
 #: src/authentic2/manager/templates/authentic2/manager/user_detail.html:62
 #, python-format
 msgid "Created on %(date)s"
-msgstr "Créé le %(date)s"
+msgstr "Erstellt die / Créé le %(date)s"
 
 #: src/authentic2/manager/templates/authentic2/manager/duplicate_user_add.html:13
 #, python-format
 msgid "Last login on %(date)s"
-msgstr "Dernière connexion le %(date)s"
+msgstr "Letzte Verbindung an / Dernière connexion le %(date)s"
 
 #: src/authentic2/manager/templates/authentic2/manager/duplicate_user_add.html:15
 msgid "Never logged in"
@@ -2611,7 +2647,7 @@ msgstr "Télécharger la liste en CSV"
 #: src/authentic2/manager/templates/authentic2/manager/form.html:36
 #: src/authentic2/manager/templates/authentic2/manager/role_edit.html:17
 msgid "Save"
-msgstr "Sauvegarder"
+msgstr "Speichern / Sauvegarder"
 
 #: src/authentic2/manager/templates/authentic2/manager/form.html:58
 #: src/authentic2/manager/templates/authentic2/manager/user_import.html:23
@@ -2637,18 +2673,18 @@ msgstr "Importer un site"
 #: src/authentic2/manager/templates/authentic2/manager/roles.html:21
 #: src/authentic2/manager/templates/authentic2/manager/roles_csv_import_form.html:12
 msgid "Import"
-msgstr "Importer"
+msgstr "Importieren / Importer"
 
 #: src/authentic2/manager/templates/authentic2/manager/journal.html:17
 #: src/authentic2/manager/templates/authentic2/manager/search_form.html:2
 msgctxt "title"
 msgid "Search"
-msgstr "Recherche"
+msgstr "Forschung / Recherche"
 
 #: src/authentic2/manager/templates/authentic2/manager/journal.html:21
 #: src/authentic2/manager/templates/authentic2/manager/search_form.html:5
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Forschen / Rechercher"
 
 #: src/authentic2/manager/templates/authentic2/manager/new-account-notification_body.txt:1
 #, python-format
@@ -2661,7 +2697,7 @@ msgid ""
 "\tEmail : %(email)s\n"
 "\tFirst name : %(first_name)s\n"
 "\tLast name : %(last_name)s\n"
-"\tRoles: %(roles)s\n"
+"\tRoles: %(roles)s \n"
 "\n"
 "Your new password is:\n"
 "\n"
@@ -2672,18 +2708,31 @@ msgstr ""
 "Un administrateur vous a créé un compte avec ces informations:\n"
 "\n"
 "\tIdentifiant : %(username)s\n"
-"\tCourriel : %(email)s\n"
+"\tE-Mail : %(email)s\n"
 "\tPrénom : %(first_name)s\n"
 "\tNom : %(last_name)s\n"
 "\tRôle(s) : %(roles)s\n"
 "\n"
 "Votre nouveau mot de passe est :\n"
 "\n"
-"\t%(new_password)s\n"
+"\t%(new_password)s \n\n"
+"Hallo  %(fullname)s ! \n"
+"\n"
+"Ein Administrator hat mit diesen Informationen ein Konto für Sie erstellt: \n"
+"\n"
+"\tBenutzername:%(username)s \n"
+"\tE-Mail: %(email)s \n"
+"\tVorname: %(first_name)s \n"
+"\tName: %(last_name)s \n"
+"\tRole (s): %(roles)s \n"
+"\n"
+"Ihr neues Passwort ist: \n"
+"\n"
+"\t%(new_password)s \n"
 
 #: src/authentic2/manager/templates/authentic2/manager/new-account-notification_subject.txt:1
 msgid "Your account has been created"
-msgstr "Votre compte a été créé."
+msgstr "Ihr Benutzerkonto wurde erstellt. / Votre compte a été créé."
 
 #: src/authentic2/manager/templates/authentic2/manager/ou_delete.html:8
 #, python-format
@@ -2734,7 +2783,7 @@ msgstr "Vous n’êtes pas autorisé à supprimer cette collectivité."
 #: src/authentic2/manager/templates/authentic2/manager/user_detail.html:18
 #: src/authentic2/manager/templates/authentic2/manager/user_edit.html:8
 msgid "Edit"
-msgstr "Éditer"
+msgstr "Bearbeiten / Éditer"
 
 #: src/authentic2/manager/templates/authentic2/manager/ou_detail.html:29
 msgid "You do not have the rights to edit this organizational unit."
@@ -2743,7 +2792,7 @@ msgstr "Vous n’êtes pas autorisé à modifier cette collectivité."
 #: src/authentic2/manager/templates/authentic2/manager/ous.html:18
 #: src/authentic2/manager/templates/authentic2/manager/roles.html:19
 msgid "Export"
-msgstr "Exporter"
+msgstr "Export"
 
 #: src/authentic2/manager/templates/authentic2/manager/role_delete.html:6
 #, python-format
@@ -2924,8 +2973,8 @@ msgid ""
 "click to verify that it owns\n"
 "      the email address, then it will be changed."
 msgstr ""
-"L’adresse de courriel de l’utilisateur ne va pas être modifiée tout de "
-"suite.  Il va d’abord y avoir un courriel envoyé à la nouvelle adresse, avec "
+"L’adresse de E-Mail de l’utilisateur ne va pas être modifiée tout de "
+"suite.  Il va d’abord y avoir un E-Mail envoyé à la nouvelle adresse, avec "
 "un lien que l’utilisateur aura à suivre pour vérifier qu’il possède bien "
 "l’adresse. Alors celle-ci sera changée."
 
@@ -2953,7 +3002,7 @@ msgid ""
 msgstr ""
 "Bonjour %(name)s !\n"
 "\n"
-"Un administrateur a demandé le changement de votre adresse de courriel sur\n"
+"Un administrateur a demandé le changement de votre adresse de E-Mail sur\n"
 "%(domain)s de :\n"
 "\n"
 "  %(old_email)s\n"
@@ -2996,7 +3045,7 @@ msgid ""
 msgstr ""
 "Bonjour %(name)s !\n"
 "\n"
-"Un administrateur a demandé le changement de votre adresse de courriel sur\n"
+"Un administrateur a demandé le changement de votre adresse de E-Mail sur\n"
 "%(domain)s de :\n"
 "\n"
 "  %(old_email)s\n"
@@ -3492,7 +3541,7 @@ msgstr ""
 "« mot de passe oublié » pour se connecter la première fois. Une autre "
 "possibilité est d’inclure une colonne <var>@registration</var> avec "
 "<var>send-email</var> comme valeur. Les utilisateurs créés ainsi recevront "
-"un courriel les invitant à définir un mot de passe."
+"un E-Mail les invitant à définir un mot de passe."
 
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:219
 msgid "Examples"
@@ -3501,28 +3550,28 @@ msgstr "Exemples"
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:220
 msgid "Importing first and last name of users keyed by email"
 msgstr ""
-"Importer le prénom et le nom des utilisateurs en utilisant le courriel comme "
+"Importer le prénom et le nom des utilisateurs en utilisant le E-Mail comme "
 "clé."
 
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:226
 msgid "Importing verified first and last name of users keyed by email"
 msgstr ""
 "Importer et verrouiller le prénom et le nom des utilisateurs en utilisant le "
-"courriel comme clé."
+"E-Mail comme clé."
 
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:232
 msgid ""
 "Importing email, family_reference, first and last name of users from "
 "application <var>app1</var>, ensuring family_reference is unique."
 msgstr ""
-"Importer le courriel, une référence famille, le prénom et le nom des "
+"Importer le E-Mail, une référence famille, le prénom et le nom des "
 "utilisateur depuis une application désignée par <var>app1</var>, en "
 "s’assurant de l’unicité de la référence famille."
 
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:238
 msgid "Importing email, first and last name of users while adding roles."
 msgstr ""
-"Importer le courriel, le prénom et le nom des utilisateurs en ajoutant des "
+"Importer le E-Mail, le prénom et le nom des utilisateurs en ajoutant des "
 "rôles."
 
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:246
@@ -3530,8 +3579,8 @@ msgid ""
 "Importing email, first and last name of users and sending a password reset "
 "email to John (only if the account is created by the import)."
 msgstr ""
-"Importer le courriel, le prénom et le nom des utilisateurs et envoyer un "
-"courriel d’initialisation de mot de passe à John (si le compte est créé lors "
+"Importer le E-Mail, le prénom et le nom des utilisateurs et envoyer un "
+"E-Mail d’initialisation de mot de passe à John (si le compte est créé lors "
 "de l’import)."
 
 #: src/authentic2/manager/templates/authentic2/manager/user_imports.html:255
@@ -3539,7 +3588,7 @@ msgid ""
 "Importing email, first and last name of users and setting a password using "
 "hash in standard Django format."
 msgstr ""
-"Importer le courriel, le prénom et le nom des utilisateurs et définir un mot "
+"Importer le E-Mail, le prénom et le nom des utilisateurs et définir un mot "
 "de passe en utilisant un hachage ans un format connu de Django."
 
 #: src/authentic2/manager/templates/authentic2/manager/user_roles_table.html:11
@@ -3639,7 +3688,7 @@ msgstr "Se reconnecter avec cet utilisateur"
 #: src/authentic2/manager/user_views.py:340
 #: src/authentic2/manager/user_views.py:595
 msgid "Change user email"
-msgstr "Changer l’adresse de courriel"
+msgstr "Changer l’adresse de E-Mail"
 
 #: src/authentic2/manager/user_views.py:356
 msgid "You cannot desactivate your own user"
@@ -3649,7 +3698,7 @@ msgstr "Vous ne pouvez pas désactiver votre propre utilisateur."
 msgid ""
 "User has no email, it'not possible to send him am email to reset its password"
 msgstr ""
-"Cet utilisateur n’a pas d’adresse de courriel, il n’est pas possible de lui "
+"Cet utilisateur n’a pas d’adresse de E-Mail, il n’est pas possible de lui "
 "envoyer un lien de réinitialisation de son mot de passe"
 
 #: src/authentic2/manager/user_views.py:370
@@ -3659,11 +3708,11 @@ msgstr "Un courrier électronique a été envoyé à %s."
 
 #: src/authentic2/manager/user_views.py:411
 msgid "Email verified"
-msgstr "Courriel vérifié"
+msgstr "E-Mail vérifié"
 
 #: src/authentic2/manager/user_views.py:413
 msgid "Email not verified"
-msgstr "Courriel non vérifié"
+msgstr "E-Mail non vérifié"
 
 #: src/authentic2/manager/user_views.py:459
 msgid "Change"
@@ -3683,12 +3732,12 @@ msgstr "Éditer l’utilisateur"
 #: src/authentic2/templates/registration/password_reset_form.html:16
 #: src/authentic2/templates/registration/registration_completion_form.html:17
 msgid "Submit"
-msgstr "Valider"
+msgstr "Bestätigen / Valider"
 
 #: src/authentic2/manager/user_views.py:572
 #, python-format
 msgid "New password sent to %s"
-msgstr "Un nouveau mot de passe a été envoyé par courriel à %s."
+msgstr "Un nouveau mot de passe a été envoyé par E-Mail à %s."
 
 #: src/authentic2/manager/user_views.py:574
 msgid "New password set"
@@ -3749,7 +3798,7 @@ msgstr "Import de site"
 
 #: src/authentic2/middleware.py:136
 msgid "You must change your password to continue"
-msgstr "Vous devez changer votre mot de passe avant de continuer."
+msgstr "Sie müssen Ihr Passwort ändern, bevor Sie fortfahren. / Vous devez changer votre mot de passe avant de continuer."
 
 #: src/authentic2/models.py:53
 msgid "source"
@@ -3941,24 +3990,24 @@ msgstr "Type"
 
 #: src/authentic2/models.py:467
 msgid "Content"
-msgstr "Contenu"
+msgstr "Inhalt / Contenu"
 
 #: src/authentic2/models.py:469
 msgid "Expires"
-msgstr "Expiration"
+msgstr "Ablauf / Expiration"
 
 #: src/authentic2/passwords.py:96
 #, python-format
 msgid "%s characters"
-msgstr "%s caractères"
+msgstr "%s Zeichen / %s caractères"
 
 #: src/authentic2/passwords.py:100
 msgid "1 lowercase letter"
-msgstr "1 minuscule"
+msgstr "1 Kleinbuchstabe / 1 minuscule"
 
 #: src/authentic2/passwords.py:103
 msgid "1 digit"
-msgstr "1 chiffre"
+msgstr "1 Ziffer / 1 chiffre"
 
 #: src/authentic2/passwords.py:106
 msgid "1 uppercase letter"
@@ -3974,6 +4023,8 @@ msgid ""
 "In order to create a secure password, please use at least: <span class=\"a2-"
 "password-policy-container\">%s</span>"
 msgstr ""
+"Für die Passwortsicherheit haben Sie bitte mindestens :<span class=\"a2-"
+"password-policy-container\">%s</span>"
 "Pour la sécurité du mot de passe veuillez avoir a minima : <span class=\"a2-"
 "password-policy-container\">%s</span>"
 
@@ -4049,7 +4100,7 @@ msgstr "Téléphone"
 
 #: src/authentic2/saml/management/commands/mapping.py:1227
 msgid "Email Address"
-msgstr "Courriel"
+msgstr "E-Mail"
 
 #: src/authentic2/saml/management/commands/sync-metadata.py:154
 #: src/authentic2/saml/management/commands/sync-metadata.py:240
@@ -4398,11 +4449,11 @@ msgstr "Envoyer"
 
 #: src/authentic2/templates/404.html:4 src/authentic2/templates/404.html:8
 msgid "Error: page not found"
-msgstr "Erreur : page introuvable"
+msgstr "Fehler: Seite nicht gefunden / Erreur : page introuvable"
 
 #: src/authentic2/templates/404.html:10
 msgid "The page you requested has not been found on this server."
-msgstr "La page que vous recherchez n’a pas été trouvée sur ce serveur."
+msgstr "Die gesuchte Seite wurde auf diesem Server nicht gefunden. / La page que vous recherchez n’a pas été trouvée sur ce serveur."
 
 #: src/authentic2/templates/admin/base_site.html:4
 msgid "Authentic site admin"
@@ -4510,7 +4561,7 @@ msgstr "Gestion des liaisons"
 #: src/authentic2/templates/registration/password_change_form.html:10
 #: src/authentic2/views.py:412
 msgid "Your account"
-msgstr "Votre compte"
+msgstr "Ihr Benutzerkonto / Votre compte"
 
 #: src/authentic2/templates/authentic2/accounts_authorized_oauth_services.html:20
 msgid ""
@@ -4535,7 +4586,7 @@ msgstr "Révoquer"
 
 #: src/authentic2/templates/authentic2/accounts_delete_request.html:19
 msgid "Do you really want to delete your account?"
-msgstr "Confirmez-vous la demande de suppression de votre compte ?"
+msgstr "Bestätigen Sie die Aufforderung, Ihr Konto zu löschen ? / Confirmez-vous la demande de suppression de votre compte ?"
 
 #: src/authentic2/templates/authentic2/accounts_delete_request.html:24
 #, python-format
@@ -4543,13 +4594,16 @@ msgid ""
 "A validation message will be sent to %(email)s. You will have to visit the "
 "link in this email in order to complete the deletion process."
 msgstr ""
+"Eine Bestätigungsnachricht wird an %(email)s gesendet. Sie müssen"
+"Klicken Sie auf den in dieser E-Mail enthaltenen Link, um den Vorgang abzuschließen"
+"Streichung."
 "Un message de validation vous sera envoyé à l’adresse %(email)s. Vous devrez "
-"cliquer sur le lien contenu dans ce courriel afin de finaliser le processus "
+"cliquer sur le lien contenu dans ce E-Mail afin de finaliser le processus "
 "de suppression."
 
 #: src/authentic2/templates/authentic2/accounts_delete_request.html:29
 msgid "Send the code"
-msgstr "Envoyer le code"
+msgstr "Code senden / Envoyer le code"
 
 #: src/authentic2/templates/authentic2/accounts_delete_validation.html:19
 #, python-format
@@ -4565,27 +4619,32 @@ msgstr ""
 "  Toutes les données associées seront supprimées et vous ne pourrez plus   "
 "vous connecter avec ce compte.\n"
 "   "
+"\n"
+"Sie werden das Konto von <strong>%(full_name)s </strong> löschen. \n"
+"Alle zugehörigen Daten werden gelöscht und Sie können n mehr in der Lage sein"
+"Melde dich mit diesem Konto an. \n"
+"   "
 
 #: src/authentic2/templates/authentic2/accounts_delete_validation.html:24
 msgid "Confirm deletion"
-msgstr "Confirmer la suppression"
+msgstr "Löschung bestätigen / Confirmer la suppression"
 
 #: src/authentic2/templates/authentic2/api_user_create_registration_email_body.txt:1
 #, python-format
 msgctxt "api"
 msgid "A new account was created for you on %(hostname)s"
-msgstr "Un nouveau compte vous a été créé sur %(hostname)s"
+msgstr "Ein neues Konto wurde für Sie erstellt am / Un nouveau compte vous a été créé sur %(hostname)s"
 
 #: src/authentic2/templates/authentic2/api_user_create_registration_email_subject.txt:1
 #, python-format
 msgctxt "api"
 msgid "Your account was created on %(hostname)s"
-msgstr "Votre compte a été créé sur %(hostname)s"
+msgstr "Ihr Konto wurde erstellt am / Votre compte a été créé sur %(hostname)s"
 
 #: src/authentic2/templates/authentic2/base.html:33
 #, python-format
 msgid "Last login %(LAST_LOGIN)s"
-msgstr "Date de dernière connexion : %(LAST_LOGIN)s"
+msgstr "Letzter Log-in / Date de dernière connexion : %(LAST_LOGIN)s"
 
 #: src/authentic2/templates/authentic2/change_email.html:15
 #, python-format
@@ -4595,7 +4654,10 @@ msgid ""
 msgstr ""
 "Votre adresse actuelle est %(email)s.\n"
 "La nouvelle adresse souhaitée pour votre compte sera vérifiée par l’envoi "
-"d’un courriel."
+"d’un E-Mail."
+"Ihre aktuelle Adresse ist %(email)s. \n"
+"Die gewünschte neue Adresse für Ihr Konto wird per Versand verifiziert"
+"aus einer E-Mail."
 
 #: src/authentic2/templates/authentic2/change_email_notification_body.txt:1
 #, python-format
@@ -4621,7 +4683,7 @@ msgid ""
 msgstr ""
 "Bonjour %(name)s !\n"
 "\n"
-"Vous avez demandé à changer votre adresse de courriel sur %(domain)s de :\n"
+"Vous avez demandé à changer votre adresse de E-Mail sur %(domain)s de :\n"
 "\n"
 "  %(old_email)s\n"
 "\n"
@@ -4629,13 +4691,34 @@ msgstr ""
 "\n"
 "  %(email)s\n"
 "\n"
-"Mais cette adresse de courriel est déjà utilisée par un autre compte.\n"
+"Mais cette adresse de E-Mail est déjà utilisée par un autre compte.\n"
 "\n"
 "Pour récupérer le mot de passe de ce compte veuillez utiliser le formulaire "
 "de\n"
 "réinitialisation de mot de passe\n"
 "\n"
 "  %(password_reset_url)s\n"
+"\n"
+"--\n"
+"%(domain)s"
+"---"
+"Hallo  %(name)s ! \n"
+"\n"
+"Sie haben beantragt, Ihre E-Mail-Adresse in % (Domain) s zu ändern von: \n"
+"\n"
+"  %(old_email)s\n"
+"\n"
+"an: \n"
+"\n"
+"  %(email)s\n"
+"\n"
+"Aber diese E-Mail-Adresse wird bereits von einem anderen Konto verwendet. \n"
+"\n"
+"Um das Passwort für dieses Konto abzurufen, verwenden Sie bitte das Formular"
+"von \n"
+"Passwort zurücksetzen \n"
+"\n"
+"% (password_reset_url) s \n"
 "\n"
 "--\n"
 "%(domain)s"
@@ -4664,7 +4747,7 @@ msgid ""
 msgstr ""
 "Bonjour %(name)s !\n"
 "\n"
-"Vous avez demandé à changer votre adresse de courriel sur %(domain)s de :\n"
+"Vous avez demandé à changer votre adresse de E-Mail sur %(domain)s de :\n"
 "\n"
 "  %(old_email)s\n"
 "\n"
@@ -4680,57 +4763,76 @@ msgstr ""
 "\n"
 "--\n"
 "%(domain)s"
+"---"
+"Hallo %(name)s! \n"
+"\n"
+"Sie haben beantragt, Ihre E-Mail-Adresse in %(domain)s  zu ändern von: \n"
+"\n"
+"  %(old_email)s\n"
+"\n"
+"an: \n"
+"\n"
+"  %(email)s\n"
+"\n"
+"Bitte klicken Sie auf den folgenden Link, um diese Änderung zu bestätigen: \n"
+"\n"
+"  %(link)s\n"
+"\n"
+"Dieser Link ist gültig für %(token_lifetime)s.\n"
+"\n"
+"--\n"
+"%(domain)s"
 
 #: src/authentic2/templates/authentic2/change_email_notification_subject.txt:1
 #, python-format
 msgid "Change email on %(domain)s"
-msgstr "Changer l’adresse de courriel sur %(domain)s"
+msgstr "Ändern Sie die E-Mail-Adresse in / Changer l’adresse de E-Mail sur %(domain)s"
 
 #: src/authentic2/templates/authentic2/display_message_and_continue.html:6
 #: src/authentic2/templates/authentic2/logout_confirm.html:19
 msgid "Continue"
-msgstr "Continuer"
+msgstr "Weitermachen / Continuer"
 
 #: src/authentic2/templates/authentic2/honeypot_input.html:1
 msgid "Robot detection, do not check !"
-msgstr "Détection de robot, ne pas cocher !"
+msgstr "Robotererkennung, nicht prüfen! / Détection de robot, ne pas cocher !"
 
 #: src/authentic2/templates/authentic2/login_password_form.html:11
 #: src/authentic2/templates/registration/activate.html:14
 msgid "Log in"
-msgstr "Connexion"
+msgstr "Einloggen / Connexion"
 
 #: src/authentic2/templates/authentic2/login_password_form.html:26
 msgid "Forgot password?"
-msgstr "Mot de passe perdu ?"
+msgstr "Passwort vergessen ? / Mot de passe perdu ?"
 
 #: src/authentic2/templates/authentic2/login_password_form.html:26
 msgid "Reset it!"
-msgstr "Récupérez votre accès !"
+msgstr "Holen Sie sich Ihren Zugang zurück ! / Récupérez votre accès !"
 
 #: src/authentic2/templates/authentic2/login_password_form.html:29
 msgid "Not a member?"
-msgstr "Pas de compte ?"
+msgstr "Kein Benutzerkonto ?"
 
 #: src/authentic2/templates/authentic2/login_password_form.html:29
 msgid "Register!"
-msgstr "Enregistrez-vous !"
+msgstr "Registrieren ! / Enregistrez-vous !"
 
 #: src/authentic2/templates/authentic2/login_password_profile.html:10
 msgid "Change your password"
-msgstr "Modifier votre mot de passe"
+msgstr "Ändern Sie Ihr Passwort / Modifier votre mot de passe"
 
 #: src/authentic2/templates/authentic2/login_password_profile.html:12
 msgid "Set your password"
-msgstr "Définir votre mot de passe"
+msgstr "Lege ein Passwort fest / Définir votre mot de passe"
 
 #: src/authentic2/templates/authentic2/logout.html:30
 msgid "Continue logout"
-msgstr "Continuer la déconnexion"
+msgstr "Abmelden fortsetzen / Continuer la déconnexion"
 
 #: src/authentic2/templates/authentic2/logout_confirm.html:13
 msgid "You are going to do a global logout, do you want to continue ?"
-msgstr "Vous avez demandé une déconnexion globale, voulez-vous continuer ?"
+msgstr "Sie haben eine globale Trennung beantragt, möchten Sie fortfahren ? / Vous avez demandé une déconnexion globale, voulez-vous continuer ?"
 
 #: src/authentic2/templates/authentic2/password_change_body.txt:1
 #, python-format
@@ -4742,18 +4844,22 @@ msgstr ""
 "Le mot de passe de votre compte %(user)s a été modifié. Si vous n’êtes pas à "
 "l’origine de ce changement, veuillez prendre contact avec votre "
 "administrateur."
+"---"
+"Das Passwort für Ihr %(user)s Konto wurde geändert. Wenn Sie nicht hier sind"
+"Ursprung dieser Änderung, wenden Sie sich bitte an Ihre"
+"Administrator."
 
 #: src/authentic2/templates/authentic2/password_change_subject.txt:1
 #, python-format
 msgid "Password changed on %(host)s for account %(user)s"
-msgstr "Mot de passe du compte %(user)s modifié sur %(host)s"
+msgstr "Konto Passwort / Mot de passe du compte %(user)s geändert am / modifié sur %(host)s"
 
 #: src/authentic2/templates/authentic2/password_reset_no_account_body.html:5
 #: src/authentic2/templates/authentic2/password_reset_no_account_body.txt:4
 #: src/authentic2/templates/authentic2/password_reset_refused_body.html:5
 #: src/authentic2/templates/authentic2/password_reset_refused_body.txt:4
 msgid "Hi,"
-msgstr "Bonjour,"
+msgstr "Hallo / Bonjour,"
 
 #: src/authentic2/templates/authentic2/password_reset_no_account_body.html:7
 #: src/authentic2/templates/authentic2/password_reset_no_account_body.txt:5
@@ -4764,20 +4870,23 @@ msgid ""
 msgstr ""
 "Vous avez demandé à récupérer votre accès sur\n"
 "%(hostname)s, mais aucun compte ne correspond à cette adresse."
+"---"
+"Sie haben beantragt, Ihren Zugriff auf \ n wiederzuerlangen"
+"%(hostname)s, aber kein Konto stimmt mit dieser Adresse überein."
 
 #: src/authentic2/templates/authentic2/password_reset_no_account_body.html:11
 msgid "Create an account"
-msgstr "Créer un compte"
+msgstr "Erstellen Sie ein Benutzerkonto / Créer un compte"
 
 #: src/authentic2/templates/authentic2/password_reset_no_account_body.txt:8
 msgid "You can create an account here:"
-msgstr "Vous pouvez créer un compte ici :"
+msgstr "Hier können Sie ein Konto erstellen / Vous pouvez créer un compte ici :"
 
 #: src/authentic2/templates/authentic2/password_reset_no_account_subject.txt:4
 #: src/authentic2/templates/registration/password_reset_subject.txt:1
 #, python-format
 msgid "Password reset on %(hostname)s"
-msgstr "Mot de passe oublié sur %(hostname)s"
+msgstr "Passwort vergessen an / Mot de passe oublié sur %(hostname)s"
 
 #: src/authentic2/templates/authentic2/password_reset_refused_body.html:7
 #: src/authentic2/templates/authentic2/password_reset_refused_body.txt:5
@@ -4788,11 +4897,14 @@ msgid ""
 msgstr ""
 "Vous avez demandé à récupérer votre accès sur\n"
 "%(hostname)s, mais il a été désactivé."
+"---"
+"Sie haben beantragt, Ihren Zugriff auf \n wiederzuerlangen"
+"%(hostname)s, aber es wurde deaktiviert."
 
 #: src/authentic2/templates/authentic2/password_reset_refused_subject.txt:4
 #, python-format
 msgid "Your account on %(hostname)s is disabled"
-msgstr "Votre compte sur %(hostname)s a été désactivé"
+msgstr "Ihr Konto auf %(hostname)s wurde deaktiviert. / Votre compte sur %(hostname)s a été désactivé."
 
 #: src/authentic2/templates/authentic2/registration_success_body.html:4
 #, python-format
@@ -4810,26 +4922,33 @@ msgstr ""
 "\n"
 "        <p><a href=\"%(login_url)s\">Connectez-vous !</a></p>\n"
 "    "
+"---"
+"\n"
+"<p> Hallo %(full_name)s ! </p> \n"
+"<p> Ihre Kontoerstellung auf %(site)s war erfolgreich! </p> \n"
+"\n"
+"<p> <a href=\"%(login_url)s\"> Einloggen! </a> </p> \n"
+""
 
 #: src/authentic2/templates/authentic2/registration_success_body.html:12
 #: src/authentic2/templates/authentic2/registration_success_body.txt:9
 msgid "Username:"
-msgstr "Identifiant :"
+msgstr "Nutzername / Identifiant :"
 
 #: src/authentic2/templates/authentic2/registration_success_body.html:14
 #: src/authentic2/templates/authentic2/registration_success_body.txt:10
 msgid "Email:"
-msgstr "Courriel :"
+msgstr "E-Mail :"
 
 #: src/authentic2/templates/authentic2/registration_success_body.html:16
 #: src/authentic2/templates/authentic2/registration_success_body.txt:11
 msgid "First name:"
-msgstr "Prénom :"
+msgstr "Vorname / Prénom :"
 
 #: src/authentic2/templates/authentic2/registration_success_body.html:19
 #: src/authentic2/templates/authentic2/registration_success_body.txt:12
 msgid "Last name:"
-msgstr "Nom :"
+msgstr "Nachname / Nom :"
 
 #: src/authentic2/templates/authentic2/registration_success_body.txt:1
 #, python-format
@@ -4849,18 +4968,26 @@ msgstr ""
 "Vous pourrez vous connecter sur :\n"
 "\n"
 "\t%(login_url)s\n"
+"---"
+"Hallo %(full_name)s !\n"
+"\n"
+"Ihre Kontoerstellung auf %(site)s war erfolgreich! \n"
+"\n"
+"Sie können eine Verbindung herstellen zu: \n"
+"\n"
+"\t %(login_url)s \n"
 
 #: src/authentic2/templates/authentic2/registration_success_message.html:1
 msgid "You have just created an account."
-msgstr "Vous venez de créer un compte."
+msgstr "Sie haben gerade ein Benutzerkonto erstellt. / Vous venez de créer un compte."
 
 #: src/authentic2/templates/authentic2/registration_success_subject.txt:1
 msgid "You successfully registered on"
-msgstr "Création de compte réussie sur"
+msgstr "Erfolgreiche Erstellung des Benutzerkontos am / Création de compte réussie sur"
 
 #: src/authentic2/templates/authentic2/unauthorized.html:5
 msgid "Access denied"
-msgstr "Accès refusé"
+msgstr "Zugriff abgelehnt / Accès refusé"
 
 #: src/authentic2/templates/authentic2/unauthorized.html:9
 msgid ""
@@ -4874,13 +5001,13 @@ msgstr ""
 #: src/authentic2/templates/authentic2/unused_account_alert_body.txt:1
 #, python-format
 msgid "Hi %(user.get_full_name)s,"
-msgstr "Bonjour %(user.get_full_name)s,"
+msgstr "Hallo / Bonjour %(user.get_full_name)s,"
 
 #: src/authentic2/templates/authentic2/unused_account_alert_body.html:4
 #: src/authentic2/templates/authentic2/unused_account_alert_body.txt:3
 #, python-format
 msgid "Your last logging was %(last_login_date)s."
-msgstr "Votre dernière connexion date d’%(last_login_date)s."
+msgstr "Deine letzte Verbindung war / Votre dernière connexion date d’%(last_login_date)s."
 
 #: src/authentic2/templates/authentic2/unused_account_alert_body.html:5
 #, python-format
@@ -4890,11 +5017,14 @@ msgid ""
 msgstr ""
 "Pour conserver votre compte, il vous suffit de vous <a href=\"%(login_url)s"
 "\">connecter</a> avant %(days_to_deletion)s jours."
+"---"
+"Um Ihr Konto zu behalten, müssen Sie nur <a href = \"%(login_url)s "
+"\"> Verbindung </a> vor %(days_to_deletion)s Tagen. "
 
 #: src/authentic2/templates/authentic2/unused_account_alert_body.html:6
 #: src/authentic2/templates/authentic2/unused_account_alert_body.txt:5
 msgid "Otherwise, it will be deleted after this time."
-msgstr "Dans le cas contraire, il sera supprimé passé ce délai."
+msgstr "Andernfalls werden sie nach Ablauf dieser Frist gelöscht. / Dans le cas contraire, il sera supprimé passé ce délai."
 
 #: src/authentic2/templates/authentic2/unused_account_alert_body.txt:4
 #, python-format
@@ -4904,6 +5034,9 @@ msgid ""
 msgstr ""
 "Pour conserver votre compte, il vous suffit de vous connecter avant "
 "%(days_to_deletion)s jours."
+"---"
+"Um Ihr Konto zu behalten, loggen Sie sich einfach zuerst ein"
+"%(days_to_deletion)s Tage."
 
 #: src/authentic2/templates/authentic2/unused_account_alert_subject.txt:1
 #, python-format
@@ -4911,6 +5044,9 @@ msgid "Alert: %(user.get_full_name)s your last login was %(last_login_date)s"
 msgstr ""
 "Alerte : %(user.get_full_name)s, votre dernière connexion date "
 "d’%(last_login_date)s"
+"---"
+"Alert: %(user.get_full_name)s, Ihr letztes Login-Datum"
+"von %(last_login_date)s"
 
 #: src/authentic2/templates/authentic2/unused_account_delete_body.txt:1
 #, python-format
@@ -4926,35 +5062,42 @@ msgstr ""
 "\n"
 "Votre dernière connexion date d’%(last_login_date)s, votre compte a donc été "
 "supprimé."
+"---"
+"\n"
+"Hallo %(user)s,\n"
+"\n"
+"Ihre letzte Anmeldung war %(last_login_date)s, also war Ihr Konto"
+"gelöscht."
 
 #: src/authentic2/templates/authentic2/unused_account_delete_subject.txt:1
 #, python-format
 msgid "Notification: %(user)s, your account has been deleted"
-msgstr "Notification : %(user)s, votre compte a été supprimé"
+msgstr "Benachrichtigung: %(user)s, Ihr Konto wurde gelöscht
+ / Notification : %(user)s, votre compte a été supprimé"
 
 #: src/authentic2/templates/authentic2/widgets/address_autocomplete.html:5
 msgid "Manually enter the address"
-msgstr "Entrer l’adresse manuellement"
+msgstr "Geben Sie die Adresse manuell ein / Entrer l’adresse manuellement"
 
 #: src/authentic2/templates/authentic2/widgets/email.html:5
 msgid "Did you want to write"
-msgstr "Vouliez-vous écrire"
+msgstr "Wolltest du schreiben / Vouliez-vous écrire"
 
 #: src/authentic2/templates/authentic2/widgets/email.html:6
 msgid "Apply fix"
-msgstr "Corriger"
+msgstr "Korrigieren / Corriger"
 
 #: src/authentic2/templates/error_ssl.html:4
 msgid "Error: authentication failure"
-msgstr "Erreur : échec de l’authentification"
+msgstr "Fehler: Authentifizierung fehlgeschlagen / Erreur : échec de l’authentification"
 
 #: src/authentic2/templates/error_ssl.html:8
 msgid "Authentication failure"
-msgstr "Échec de l’authentification"
+msgstr "Authentifizierungsfehler / Échec de l’authentification"
 
 #: src/authentic2/templates/error_ssl.html:10
 msgid "The SSL authentication has failed"
-msgstr "L’authentification SSL a échouée"
+msgstr "SSL-Authentifizierung fehlgeschlagen / L’authentification SSL a échouée"
 
 #: src/authentic2/templates/interaction/consent_attributes.html:4
 msgid "Consent page for attribute propagation"
@@ -4998,19 +5141,19 @@ msgstr "Refuser"
 
 #: src/authentic2/templates/registration/activate.html:5
 msgid "Account activation"
-msgstr "Activer le compte sur"
+msgstr "Aktivieren Sie das Konto auf / Activer le compte sur"
 
 #: src/authentic2/templates/registration/activate.html:12
 msgid "Account successfully activated"
-msgstr "Activation du compte réussie"
+msgstr "Kontoaktivierung erfolgreich / Activation du compte réussie"
 
 #: src/authentic2/templates/registration/activate.html:18
 msgid "Account activation failed"
-msgstr "Échec à l’activation du compte"
+msgstr "Konto konnte nicht aktiviert werden / Échec à l’activation du compte"
 
 #: src/authentic2/templates/registration/activation_complete.html:5
 msgid "Your account is now activated"
-msgstr "Votre compte est maintenant activé"
+msgstr "Ihr Konto ist jetzt aktiviert / Votre compte est maintenant activé"
 
 #: src/authentic2/templates/registration/activation_email.html:5
 #, python-format
@@ -5045,7 +5188,7 @@ msgstr "Ce lien est valide pendant 24 heures."
 msgid "If you did not register on %(site)s, ignore this email."
 msgstr ""
 "Si vous n’avez pas demandé la création d’un compte sur %(site)s, veuillez "
-"ignorer ce courriel."
+"ignorer ce E-Mail."
 
 #: src/authentic2/templates/registration/activation_email.txt:1
 #, python-format
@@ -5092,16 +5235,16 @@ msgstr "Vous demandez la création d’un compte sur"
 
 #: src/authentic2/templates/registration/logout.html:5
 msgid "Logging out"
-msgstr "Déconnexion"
+msgstr "Ausloggen / Déconnexion"
 
 #: src/authentic2/templates/registration/logout.html:9
 msgid "Logged out"
-msgstr "Déconnecté"
+msgstr "Getrennt / Déconnecté"
 
 #: src/authentic2/templates/registration/password_change_done.html:9
 #: src/authentic2/views.py:1369
 msgid "Password changed"
-msgstr "Mot de passe modifié"
+msgstr "Passwort geändert / Mot de passe modifié"
 
 #: src/authentic2/templates/registration/password_change_form.html:17
 msgid ""
@@ -5112,14 +5255,17 @@ msgid ""
 msgstr ""
 "Pour modifier votre mot de passe vous devez fournir votre mot de passe "
 "actuel ainsi que le nouveau, puis confirmer ce dernier."
+"---"
+"Um Ihr Passwort zu ändern, müssen Sie Ihr Passwort angeben"
+"aktuelle sowie die neue, dann letztere bestätigen."
 
 #: src/authentic2/templates/registration/password_change_form.html:21
 msgid "You are going to define your account password."
-msgstr "Vous allez définir le mot de passe de votre compte."
+msgstr "Sie werden das Passwort für Ihr Konto festlegen. / Vous allez définir le mot de passe de votre compte."
 
 #: src/authentic2/templates/registration/password_reset_confirm.html:21
 msgid "Password reset failed"
-msgstr "Erreur à la réinitialistion du mot de passe"
+msgstr "Fehler beim Zurücksetzen des Passworts / Erreur à la réinitialistion du mot de passe"
 
 #: src/authentic2/templates/registration/password_reset_email.html:2
 #, python-format
@@ -5129,19 +5275,22 @@ msgid ""
 msgstr ""
 "Vous avez demandé à récupérer votre accès sur\n"
 "%(hostname)s, veuillez cliquer sur le lien suivant :"
+"---"
+"Sie haben darum gebeten, Ihren Zugriff auf \n wiederherzustellen"
+"%(hostname)s, bitte klicken Sie auf den folgenden Link:"
 
 #: src/authentic2/templates/registration/password_reset_form.html:5
 #: src/authentic2/templates/registration/password_reset_form.html:10
 msgid "Resetting password"
-msgstr "Mot de passe oublié"
+msgstr "Passwort vergessen / Mot de passe oublié"
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:5
 msgid "Password reset instructions"
-msgstr "Instructions de récupération du compte"
+msgstr "Anweisungen zur Kontowiederherstellung / Instructions de récupération du compte"
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:10
 msgid "Your password reset request has been refused."
-msgstr "Votre demande de récupération du compte n'a pas été prise en compte."
+msgstr "Ihr Antrag auf Wiederherstellung des Kontos wurde nicht berücksichtigt. / Votre demande de récupération du compte n'a pas été prise en compte."
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:10
 #: src/authentic2/templates/registration/registration_complete.html:10
@@ -5155,6 +5304,7 @@ msgstr ""
 "extension de votre navigateur, auquel cas veuillez désactiver les extensions "
 "et essayer à nouveau."
 
+
 #: src/authentic2/templates/registration/password_reset_instructions.html:14
 #, python-format
 msgid ""
@@ -5163,8 +5313,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"  Un courriel a été envoyé à %(email)s.\n"
+"  Un E-Mail a été envoyé à %(email)s.\n"
 "  "
+"---"
+"\n"
+"Eine E-Mail wurde gesendet an %(email)s. \n"
+""
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:19
 msgid ""
@@ -5174,9 +5328,13 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"    Suivez les instructions dans ce courriel afin de choisir un nouveau mot "
+"    Suivez les instructions dans ce E-Mail afin de choisir un nouveau mot "
 "de passe.\n"
 "    "
+"\n"
+"Befolgen Sie die Anweisungen in dieser E-Mail, um ein neues Wort zu wählen"
+"Passwort. \n"
+""
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:25
 #: src/authentic2/templates/registration/registration_complete.html:26
@@ -5190,6 +5348,11 @@ msgstr ""
 "    Ce message peut mettre plusieurs minutes à vous parvenir. Il peut\n"
 "    également être considéré comme un pourriel (spam) : n’oubliez pas\n"
 "    de regarder dans votre dossier « courriers indésirables ».        "
+"\n"
+"Es kann einige Minuten dauern, bis Sie diese Nachricht erreicht. Sie kann \n"
+"Auch als Spam zu betrachten: nicht vergessen \n"
+"um in Ihrem Junk-Mail-Ordner zu suchen."
+
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:31
 #, python-format
@@ -5207,23 +5370,29 @@ msgstr ""
 "    à votre carnet d’adresses ou à votre liste d’expéditeurs autorisés,\n"
 "    puis recommencez la procédure de récupération du compte.\n"
 "    "
+"\n"
+"Wenn Sie die Anleitung trotzdem nicht erhalten haben, fügen Sie hinzu"
+"« %(from_email_address)s »\n"
+"in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender, \n"
+"Dann wiederholen Sie den Vorgang zur Kontowiederherstellung. \n"
+""
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:40
 msgid "Back to login"
-msgstr "Retour à la page de connexion"
+msgstr "Zurück zur Login-Seite / Retour à la page de connexion"
 
 #: src/authentic2/templates/registration/registration_closed.html:5
 #: src/authentic2/templates/registration/registration_closed.html:9
 msgid "Registration closed"
-msgstr "La création de compte est actuellement interdite."
+msgstr "Die Erstellung eines Accounts ist derzeit untersagt. / La création de compte est actuellement interdite."
 
 #: src/authentic2/templates/registration/registration_complete.html:5
 msgid "Registration in progress"
-msgstr "Création du compte en cours"
+msgstr "Erstellung eines Girokontos / Création du compte en cours"
 
 #: src/authentic2/templates/registration/registration_complete.html:10
 msgid "Your registration request has been refused."
-msgstr "Votre demande d’inscription n’a pas été prise en compte."
+msgstr "Ihre Registrierungsanfrage wurde nicht berücksichtigt. / Votre demande d’inscription n’a pas été prise en compte."
 
 #: src/authentic2/templates/registration/registration_complete.html:14
 #, python-format
@@ -5233,8 +5402,12 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"  Un courriel a été envoyé à %(email)s.\n"
+"  Un E-Mail a été envoyé à %(email)s.\n"
 "  "
+"---"
+"\n"
+"Eine E-Mail wurde gesendet an %(email)s. \n"
+""
 
 #: src/authentic2/templates/registration/registration_complete.html:19
 msgid ""
@@ -5243,9 +5416,13 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"  Suivez les instructions dans ce courriel pour continuer la création de "
+"  Suivez les instructions dans ce E-Mail pour continuer la création de "
 "votre compte.\n"
 "  "
+"\n"
+"Befolgen Sie die Anweisungen in dieser E-Mail, um mit der Erstellung fortzufahren"
+"Ihr Konto. \n"
+""
 
 #: src/authentic2/templates/registration/registration_complete.html:32
 #, python-format
@@ -5262,13 +5439,19 @@ msgstr ""
 "« %(from_email_address)s »\n"
 "    à votre carnet d’adresses ou à votre liste d’expéditeurs autorisés,    "
 "puis recommencez la procédure d’inscription.    "
+"---"
+"\n"
+"Wenn Sie die Anleitung trotzdem nicht erhalten haben, fügen Sie hinzu"
+"« %(from_email_address)s »\n"
+"in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender",
+"Dann starten Sie den Registrierungsprozess erneut."
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:5
 #: src/authentic2/templates/registration/registration_completion_form.html:5
 #: src/authentic2/templates/registration/registration_completion_form.html:10
 #: src/authentic2/views.py:846
 msgid "Registration"
-msgstr "Création d’un compte"
+msgstr "Erstellung eines Benutzerkontos / Création d’un compte"
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:11
 msgid ""
@@ -5278,36 +5461,36 @@ msgid_plural ""
 "More accounts are associated to this email.  Please choose the account you "
 "want to log in with:"
 msgstr[0] ""
-"Un compte associé à cette adresse de courriel existe déjà.\n"
+"Un compte associé à cette adresse de E-Mail existe déjà.\n"
 "Veuillez cliquer sur le nom du compte afin de vous y connecter :"
 msgstr[1] ""
-"Plusieurs comptes sont associés à cette adresse de courriel.\n"
+"Plusieurs comptes sont associés à cette adresse de E-Mail.\n"
 "Veuillez choisir le compte avec lequel vous souhaitez vous connecter :"
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:21
 #, python-format
 msgid "Account #%(c)s: %(fullname)s"
-msgstr "Compte #%(c)s : %(fullname)s"
+msgstr "Konto / Compte #%(c)s : %(fullname)s"
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:24
 #, python-format
 msgid ""
 "created on %(creation_date)s\n"
 "                    "
-msgstr "créé le %(creation_date)s"
+msgstr "erstellt die / créé le %(creation_date)s"
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:27
 #, python-format
 msgid "last login on %(login_date)s"
-msgstr "date de dernière connexion : %(login_date)s"
+msgstr "Letzter Log-in / date de dernière connexion : %(login_date)s"
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:36
 msgid "or"
-msgstr "ou"
+msgstr "wo / ou"
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:38
 msgid "create a new account"
-msgstr "créez un nouveau compte"
+msgstr "Ein neues Konto erstellen /créez un nouveau compte"
 
 #: src/authentic2/templates/registration/registration_completion_form.html:11
 msgid "Please fill the form to complete your registration"
@@ -5321,11 +5504,14 @@ msgid ""
 msgstr ""
 "Le lien de demande de récupération du compte n’est plus valide, veuillez "
 "effectuer une nouvelle demande."
+"---"
+"Der Link zur Kontowiederherstellungsanfrage ist nicht mehr gültig."
+"Stellen Sie eine neue Anfrage."
 
 #: src/authentic2/utils/evaluate.py:95
 #, python-format
 msgid "expression \"%(expression)s\" is forbidden"
-msgstr "l’expression « %(expression)s » est interdite"
+msgstr "der Ausdruck « %(expression)s » ist verboten / l’expression « %(expression)s » "
 
 #: src/authentic2/utils/evaluate.py:120
 msgid "could not parse expression"
@@ -5333,7 +5519,7 @@ msgstr "analyse de l’expression impossible"
 
 #: src/authentic2/utils/evaluate.py:183
 msgid "name must not start with a _"
-msgstr "un nom ne peut pas commencer par _"
+msgstr "ein Name darf nicht mit _ beginnen / un nom ne peut pas commencer par _"
 
 #: src/authentic2/utils/evaluate.py:200
 msgid "subscript index MUST be a constant"
@@ -5389,82 +5575,92 @@ msgid ""
 msgstr ""
 "Les cookies sont désactivés dans votre navigateur, il est nécessaire de les "
 "activer pour pouvoir se connecter."
+"---"
+"Cookies sind in Ihrem Browser deaktiviert, es ist notwendig,"
+"Aktivieren, um eine Verbindung herstellen zu können."
 
 #: src/authentic2/utils/views.py:48
 msgid "The form was out of date, please try again."
-msgstr "Ce formulaire était périmé, veuillez ré-essayer."
+msgstr "Dieses Formular war veraltet, bitte versuchen Sie es erneut. / Ce formulaire était périmé, veuillez ré-essayer."
 
 #: src/authentic2/validators.py:76
 msgid "Invalid email address."
-msgstr "Adresse de courriel invalide."
+msgstr "Ungültige E-Mail-Adresse. / Adresse de E-Mail invalide."
 
 #: src/authentic2/validators.py:94
 msgid "Email domain is invalid"
-msgstr "Le domaine de l’adresse de courriel est invalide."
+msgstr "Die Domain der E-Mail-Adresse ist ungültig. / e domaine de l’adresse de E-Mail est invalide."
 
 #: src/authentic2/validators.py:112
 msgid "Null characters are not allowed."
-msgstr "Le caractère nul est interdit."
+msgstr "Das Nullzeichen ist verboten. / Le caractère nul est interdit."
 
 #: src/authentic2/views.py:162
 msgid "Email Change"
-msgstr "Changement d’adresse de courriel"
+msgstr "Änderung der E-Mail-Adresse / Changement d’adresse de E-Mail"
 
 #: src/authentic2/views.py:187
 msgid ""
 "Your request for changing your email is received. An email of validation was "
 "sent to you. Please click on the link contained inside."
 msgstr ""
-"Votre demande de changement d’adresse de courriel a bien été reçue. Un "
-"courriel de validation vous a été envoyé. Veuillez cliquer sur le lien "
-"contenu dans ce courriel."
+"Votre demande de changement d’adresse de E-Mail a bien été reçue. Un "
+"E-Mail de validation vous a été envoyé. Veuillez cliquer sur le lien "
+"contenu dans ce E-Mail."
+"---"
+"Ihre Anfrage zur Änderung der E-Mail-Adresse ist eingegangen. A"
+"Die Bestätigungs-E-Mail wurde an Sie gesendet. Bitte klicken Sie auf den Link"
+"in dieser E-Mail enthalten."
 
 #: src/authentic2/views.py:221
 msgid "This email is already used by another account."
-msgstr "Cette adresse de courriel est déjà utilisée par un autre compte."
+msgstr "Diese E-Mail-Adresse wird bereits von einem anderen Konto verwendet. / Cette adresse de E-Mail est déjà utilisée par un autre compte."
 
 #: src/authentic2/views.py:227
 #, python-brace-format
 msgid "your request for changing your email for {0} is successful"
-msgstr "Votre demande de changement d’adresse de courriel pour {0} est validée"
+msgstr "Ihre Anfrage zur Änderung der E-Mail-Adresse in {0} wurde bestätigt / Votre demande de changement d’adresse de E-Mail pour {0} est validée"
 
 #: src/authentic2/views.py:239
 msgid "your request for changing your email is too old, try again"
 msgstr ""
-"Votre demande de changement d’adresse de courriel est trop ancienne, "
+"Votre demande de changement d’adresse de E-Mail est trop ancienne, "
 "veuillez réessayer"
 
 #: src/authentic2/views.py:241
 msgid "your request for changing your email is invalid, try again"
 msgstr ""
-"Votre demande de changement d’adresse de courriel est invalide, veuillez "
+"Votre demande de changement d’adresse de E-Mail est invalide, veuillez "
 "réessayer"
 
 #: src/authentic2/views.py:244
 msgid "your request for changing your email was not on this site, try again"
 msgstr ""
-"Votre demande de changement d’adresse de courriel vient d’un autre site que "
+"Votre demande de changement d’adresse de E-Mail vient d’un autre site que "
 "celui-ci."
 
 #: src/authentic2/views.py:248
 msgid "your request for changing your email is for an unknown user, try again"
 msgstr ""
-"Votre demande de changement d’adresse de courriel concerne un utilisateur "
+"Votre demande de changement d’adresse de E-Mail concerne un utilisateur "
 "inconnu."
 
 #: src/authentic2/views.py:580
 msgid "Logging out from all your services"
-msgstr "Déconnexion de tous les services"
+msgstr "Trennen von allen Diensten / Déconnexion de tous les services"
 
 #: src/authentic2/views.py:652
 msgid "The page is out of date, it was reloaded for you"
 msgstr ""
 "Cette page est périmée car vous vous êtes connecté entretemps; nous l’avons "
 "rechargée pour vous."
+"---"
+"Diese Seite ist veraltet, weil Sie sich zwischenzeitlich eingeloggt haben; wir haben es "
+"für dich aufgeladen."
 
 #: src/authentic2/views.py:660 src/authentic2/views.py:772
 msgid "Password Reset"
-msgstr "Mot de passe oublié"
+msgstr "Passwort vergessen / Mot de passe oublié"
 
 #: src/authentic2/views.py:705 src/authentic2/views.py:890
 #, python-format
@@ -5472,17 +5668,24 @@ msgid ""
 "An email has already been sent to %s. Click \"Validate\" again if you really "
 "want it to be sent again."
 msgstr ""
-"Un courriel a déjà été envoyé à %s. Cliquez sur « Valider » si vous voulez "
+"Un E-Mail a déjà été envoyé à %s. Cliquez sur « Valider » si vous voulez "
 "vraiment qu’il soit réenvoyé."
+"---"
+"Eine E-Mail wurde bereits an %s gesendet. Klicken Sie auf « Bestätigen » wenn Sie möchten"
+"Schick es wirklich zurück."
 
 #: src/authentic2/views.py:724 src/authentic2/views.py:908
 msgid ""
 "Multiple emails have already been sent to this address. Further attempts are "
 "blocked, please check your spam folder or try again later."
 msgstr ""
-"Plusieurs courriels ont déjà été envoyés à cette adresse. Les nouveaux "
+"Plusieurs E-Mails ont déjà été envoyés à cette adresse. Les nouveaux "
 "envois sont bloqués, vous devriez vérifier votre dossier d’indésirables "
 "(spams, pourriels) ou réessayer plus tard."
+"---"
+"An diese Adresse wurden bereits mehrere E-Mails gesendet. Die neuen"
+"Mailings sind blockiert, Sie sollten Ihren Spam-Ordner überprüfen"
+"(Spam, ...) oder versuchen Sie es später noch einmal."
 
 #: src/authentic2/views.py:740
 msgid ""
@@ -5491,20 +5694,24 @@ msgid ""
 "again later."
 msgstr ""
 "Plusieurs demandes de récupération du compte ont déjà eu lieu depuis votre "
-"adresse IP. Les nouveaux de courriels sont bloqués, vous devriez vérifier "
+"adresse IP. Les nouveaux de E-Mails sont bloqués, vous devriez vérifier "
 "votre dossier d’indésirables (spams, pourriels) ou réessayer plus tard."
+"---"
+"Es wurden bereits mehrere Anfragen zur Kontowiederherstellung von Ihrem gestellt"
+"IP-Adresse. Neue E-Mails werden blockiert, sollten Sie überprüfen"
+"Ihren Junk-Ordner (Spam, Spam) oder versuchen Sie es später noch einmal."
 
 #: src/authentic2/views.py:785
 msgid "Password reset token is unknown or expired"
-msgstr "Le lien de récupération du compte est inconnu ou expiré"
+msgstr "Der Link zur Kontowiederherstellung ist unbekannt oder abgelaufen / Le lien de récupération du compte est inconnu ou expiré"
 
 #: src/authentic2/views.py:788
 msgid "Password reset token is invalid"
-msgstr "Le lien de récupération du compte est invalide"
+msgstr "Der Link zur Kontowiederherstellung ist ungültig / Le lien de récupération du compte est invalide"
 
 #: src/authentic2/views.py:796
 msgid "User not found"
-msgstr "Utilisateur introuvable"
+msgstr "Benutzer nicht gefunden / Utilisateur introuvable"
 
 #: src/authentic2/views.py:808
 msgid ""
@@ -5512,10 +5719,13 @@ msgid ""
 msgstr ""
 "Vous ne pouvez pas utiliser la procédure de récupération de compte. Veuillez "
 "contacter votre administrateur."
+"---"
+"Sie können das Verfahren zur Kontowiederherstellung nicht verwenden. Bitte"
+"wenden Sie sich an Ihren Administrator."
 
 #: src/authentic2/views.py:816
 msgid "Enter new password"
-msgstr "Entrez un nouveau mot de passe"
+msgstr "Geben Sie ein neues Kennwort ein / Entrez un nouveau mot de passe"
 
 #: src/authentic2/views.py:923
 msgid ""
@@ -5524,21 +5734,26 @@ msgid ""
 "later."
 msgstr ""
 "Plusieurs tentatives de création de compte ont déjà eu lieu depuis votre "
-"adresse IP. Les envois de nouveaux courriels sont bloqués, vous devriez "
+"adresse IP. Les envois de nouveaux E-Mails sont bloqués, vous devriez "
 "vérifier votre dossier d’indésirables (spams, pourriels) ou réessayer plus "
 "tard."
+"---"
+"Seit Ihrer Eingabe haben bereits mehrere Versuche stattgefunden, ein Konto zu erstellen"
+"IP-Adresse. Der Versand neuer E-Mails ist gesperrt, sollten Sie"
+"Überprüfen Sie Ihren Spam-Ordner (Spam, Spam) oder versuchen Sie es erneut"
+"spät."
 
 #: src/authentic2/views.py:996
 msgid "Your activation key is unknown or expired"
-msgstr "Votre clé d’activation est inconnue ou a expiré"
+msgstr "Ihr Aktivierungsschlüssel ist unbekannt oder abgelaufen / Votre clé d’activation est inconnue ou a expiré"
 
 #: src/authentic2/views.py:999
 msgid "Activation failed"
-msgstr "Échec à l’activation du compte"
+msgstr "Konto konnte nicht aktiviert werden / Échec à l’activation du compte"
 
 #: src/authentic2/views.py:1260
 msgid "Request account deletion"
-msgstr "Demande de suppression de compte"
+msgstr "Antrag auf Kontolöschung / Demande de suppression de compte"
 
 #: src/authentic2/views.py:1271
 msgid ""
@@ -5546,22 +5761,25 @@ msgid ""
 msgstr ""
 "Un message pour valider la suppression du compte a été envoyé à votre "
 "adresse électronique."
+"---"
+"Eine Nachricht zur Bestätigung der Löschung des Kontos wurde an Sie gesendet"
+"E-Mail-Addresse."
 
 #: src/authentic2/views.py:1282
 msgid "Confirm account deletion"
-msgstr "Confirmation de la suppression du compte"
+msgstr "Bestätigung der Kontolöschung. / Confirmation de la suppression du compte"
 
 #: src/authentic2/views.py:1294
 msgid "This account is inactive, it cannot be deleted."
-msgstr "Ce compte est désactivé, il ne peut plus être supprimé."
+msgstr "Dieses Konto ist deaktiviert, es kann nicht mehr gelöscht werden. / "
 
 #: src/authentic2/views.py:1297
 msgid "The account deletion request is too old, try again"
-msgstr "La demande de suppression de compte est expirée."
+msgstr "Die Anfrage zum Löschen eines Kontos ist abgelaufen. / "
 
 #: src/authentic2/views.py:1299
 msgid "The account deletion request is invalid, try again"
-msgstr "La demande de suppression de compte n’est pas valide."
+msgstr "Die Anfrage zum Löschen eines Kontos ist ungültig. / La demande de suppression de compte n’est pas valide."
 
 #: src/authentic2/views.py:1301
 msgid "The account deletion request was not on this site, try again"
@@ -5570,15 +5788,15 @@ msgstr ""
 
 #: src/authentic2/views.py:1305
 msgid "This account has previously been deleted."
-msgstr "Ce compte a déjà été supprimé."
+msgstr "Dieses Konto wurde bereits gelöscht. / Ce compte a déjà été supprimé."
 
 #: src/authentic2/views.py:1319
 msgid "Deletion performed."
-msgstr "Suppression effectuée."
+msgstr "Löschung abgeschlossen. / Suppression effectuée."
 
 #: src/authentic2/views.py:1347
 msgid "Password Change"
-msgstr "Changement de mot de passe"
+msgstr "Passwortänderung / Changement de mot de passe"
 
 #: src/authentic2/views.py:1358
 msgid "Password change is forbidden"
@@ -5606,7 +5824,7 @@ msgstr "Gestion des autorisations"
 #~ msgstr ""
 #~ "\n"
 #~ "    Si votre adresse électronique est présente dans notre base, un "
-#~ "courriel a été envoyé à %(email)s.\n"
+#~ "E-Mail a été envoyé à %(email)s.\n"
 #~ "    "
 
 #~ msgid "Searching..."
