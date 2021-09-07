@@ -4871,7 +4871,7 @@ msgstr ""
 "Vous avez demandé à récupérer votre accès sur\n"
 "%(hostname)s, mais aucun compte ne correspond à cette adresse."
 "---"
-"Sie haben beantragt, Ihren Zugriff auf \ n wiederzuerlangen"
+"Sie haben beantragt, Ihren Zugriff auf \n wiederzuerlangen"
 "%(hostname)s, aber kein Konto stimmt mit dieser Adresse überein."
 
 #: src/authentic2/templates/authentic2/password_reset_no_account_body.html:11
