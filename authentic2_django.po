@@ -717,7 +717,7 @@ msgstr ""
 msgid "Phone number can start with a + and must contain only digits."
 msgstr ""
 "Eine Telefonnummer kann mit einem + beginnen und darf nur "
-"Zahlen.""
+"Zahlen."
 "Un numéro de téléphone peut commencer par un + et ne doit contenir que des "
 "chiffres."
 
