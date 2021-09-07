@@ -5072,7 +5072,8 @@ msgstr ""
 #: src/authentic2/templates/authentic2/unused_account_delete_subject.txt:1
 #, python-format
 msgid "Notification: %(user)s, your account has been deleted"
-msgstr "Benachrichtigung: %(user)s, Ihr Konto wurde gelöscht / Notification : %(user)s, votre compte a été supprimé"
+msgstr "Benachrichtigung: %(user)s, Ihr Konto wurde gelöscht\n"
+"Notification : %(user)s, votre compte a été supprimé"
 
 #: src/authentic2/templates/authentic2/widgets/address_autocomplete.html:5
 msgid "Manually enter the address"
