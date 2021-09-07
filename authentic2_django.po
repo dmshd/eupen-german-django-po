@@ -5443,7 +5443,7 @@ msgstr ""
 "\n"
 "Wenn Sie die Anleitung trotzdem nicht erhalten haben, fügen Sie hinzu"
 "« %(from_email_address)s »\n"
-"in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender",
+"in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender,"
 "Dann starten Sie den Registrierungsprozess erneut."
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:5
