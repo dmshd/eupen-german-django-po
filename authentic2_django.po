@@ -1325,10 +1325,11 @@ msgid ""
 "You made too many login errors recently, you must wait <span class=\"js-"
 "seconds-until\">%s</span> seconds to try again."
 msgstr ""
-"Sie haben zu viele Verbindungsfehler gemacht, Sie müssen warten <span class ="
-"\" js-seconds-bis \">%s </span> Sekunden, bevor Sie es erneut versuchen können."
-"Vous avez fait trop d’erreurs de connexions, vous devez attendre <span class="
-"\"js-seconds-until\">%s</span> secondes avant de pouvoir à nouveau essayer."
+"Sie haben zu viele Verbindungsfehler gemacht,\n"
+"Vous avez fait trop d’erreurs de connexions,\n"
+"Sie müssen warten / vous devez attendre<span class ="
+"\" js-seconds-bis \">%s </span> Sekunden/secondes, bevor Sie es erneut versuchen können / avant de pouvoir à nouveau essayer."
+
 
 #: src/authentic2/forms/authentication.py:151
 #, python-format
