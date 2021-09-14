@@ -5311,11 +5311,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Ce message peut mettre plusieurs minutes à vous parvenir. Il peut\n"
-"également être considéré comme un pourriel (spam) : n’oubliez pas\n"
-"de regarder dans votre dossier « courriers indésirables ».\n"
-"Es kann einige Minuten dauern, bis Sie diese Nachricht erreicht. Sie kann\n"
-"Auch als Spam zu betrachten: nicht vergessen um in Ihrem Junk-Mail-Ordner zu suchen.\n"
+"Ce message peut mettre plusieurs minutes à vous parvenir. Il peut également être considéré comme un pourriel (spam) : n’oubliez pas de regarder dans votre dossier « courriers indésirables ». \n"
+"Es kann einige Minuten dauern, bis Sie diese Nachricht erreicht. Sie kann Auch als Spam zu betrachten: nicht vergessen um in Ihrem Junk-Mail-Ordner zu suchen. \n"
 
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:31
