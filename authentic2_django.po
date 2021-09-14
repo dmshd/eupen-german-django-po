@@ -5290,12 +5290,10 @@ msgstr ""
 #: src/authentic2/templates/registration/password_reset_instructions.html:14
 #, python-format
 msgid ""
-"\n"
 "    An email has been sent to %(email)s.\n"
 msgstr ""
-"\n"
 "    Un E-Mail a été envoyé à %(email)s.\n"
-"    Eine E-Mail wurde gesendet an %(email)s. \n"
+"    Eine E-Mail wurde gesendet an %(email)s.\n"
 
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:19
