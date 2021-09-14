@@ -5357,7 +5357,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Eine E-Mail wurde gesendet an / Un E-Mail a été envoyé à %(email)s.\n"
+"  Eine E-Mail wurde gesendet an / Un E-Mail a été envoyé à %(email)s.\n"
 "  "
 
 #: src/authentic2/templates/registration/registration_complete.html:19
