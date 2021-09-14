@@ -1446,14 +1446,14 @@ msgstr "condensé"
 #: src/authentic2/templates/authentic2/login.html:7
 #: src/authentic2/templates/registration/registration_completion_choose.html:9
 msgid "Login"
-msgstr "Einloggen / Connexion"
+msgstr "Anmelden / Connexion"
 
 #: src/authentic2/idp/saml/backend.py:93
 #: src/authentic2/templates/authentic2/base.html:34
 #: src/authentic2/templates/authentic2/logout.html:5
 #: src/authentic2/templates/authentic2/logout_confirm.html:6
 msgid "Logout"
-msgstr "Ausloggen / Déconnexion"
+msgstr "Abmelden / Déconnexion"
 
 #: src/authentic2/idp/saml/backend.py:165
 #: src/authentic2/manager/templates/authentic2/manager/delete.html:15
@@ -4784,7 +4784,7 @@ msgstr "Robotererkennung, nicht prüfen! / Détection de robot, ne pas cocher !
 #: src/authentic2/templates/authentic2/login_password_form.html:11
 #: src/authentic2/templates/registration/activate.html:14
 msgid "Log in"
-msgstr "Einloggen / Connexion"
+msgstr "Anmelden / Connexion"
 
 #: src/authentic2/templates/authentic2/login_password_form.html:26
 msgid "Forgot password?"
@@ -5217,7 +5217,7 @@ msgstr "Vous demandez la création d’un compte sur"
 
 #: src/authentic2/templates/registration/logout.html:5
 msgid "Logging out"
-msgstr "Ausloggen / Déconnexion"
+msgstr "Abmelden / Déconnexion"
 
 #: src/authentic2/templates/registration/logout.html:9
 msgid "Logged out"
