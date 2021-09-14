@@ -5297,12 +5297,10 @@ msgstr ""
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:19
 msgid ""
-"    Follow the instructions in this email in order to choose a new "
-"password.\n"
+"    Follow the instructions in this email in order to choose a new password.\n"
 msgstr ""
-"    Befolgen Sie die Anweisungen in dieser E-Mail, um ein neues Wort zu wählen"
-"Passwort. / Suivez les instructions dans ce E-Mail afin de choisir un nouveau mot "
-"de passe.\n"
+"    Befolgen Sie die Anweisungen in dieser E-Mail, um ein neues Wort zu wählen Passwort.\n"
+"Suivez les instructions dans ce E-Mail afin de choisir un nouveau mot de passe.\n"
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:25
 #: src/authentic2/templates/registration/registration_complete.html:26
