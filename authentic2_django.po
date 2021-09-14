@@ -5327,8 +5327,9 @@ msgstr ""
 "\n"
 "    Wenn Sie die Anleitung trotzdem nicht erhalten haben, fügen Sie hinzu / Si malgré cela vous n’avez pas reçu les instructions, ajoutez\n"
 "« %(from_email_address)s »\n"
-"    à votre carnet d’adresses ou à votre liste d’expéditeurs autorisés, / in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender,\n"
-"    puis recommencez la procédure de récupération du compte. / Dann wiederholen Sie den Vorgang zur Kontowiederherstellung.\n"
+"    à votre carnet d’adresses ou à votre liste d’expéditeurs autorisés, / in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender, \n"
+"    puis recommencez la procédure de récupération du compte. / Dann wiederholen Sie den Vorgang zur Kontowiederherstellung. \n"
+"    "
 
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:40
