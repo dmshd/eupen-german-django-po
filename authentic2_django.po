@@ -5615,11 +5615,8 @@ msgid ""
 "An email has already been sent to %s. Click \"Validate\" again if you really "
 "want it to be sent again."
 msgstr ""
-"Un E-Mail a déjà été envoyé à %s. Cliquez sur « Valider » si vous voulez "
-"vraiment qu’il soit réenvoyé."
-"---"
-"Es wurde bereits eine E-Mail versandt. Klicken Sie auf « Bestätigen » wenn Sie möchten"
-"Schick es wirklich zurück."
+"Un E-Mail a déjà été envoyé à %s. Cliquez sur « Valider » si vous voulez vraiment qu’il soit réenvoyé."
+"Es wurde bereits eine E-Mail versandt. Klicken Sie auf « Bestätigen » wenn Sie möchten Schick es wirklich zurück."
 
 #: src/authentic2/views.py:724 src/authentic2/views.py:908
 msgid ""
