@@ -5313,11 +5313,10 @@ msgstr ""
 "\n"
 "    Ce message peut mettre plusieurs minutes à vous parvenir. Il peut\n"
 "    également être considéré comme un pourriel (spam) : n’oubliez pas\n"
-"    de regarder dans votre dossier « courriers indésirables ».        "
+"    de regarder dans votre dossier « courriers indésirables ».\n"
 "\n"
 "Es kann einige Minuten dauern, bis Sie diese Nachricht erreicht. Sie kann \n"
-"Auch als Spam zu betrachten: nicht vergessen \n"
-"um in Ihrem Junk-Mail-Ordner zu suchen."
+"Auch als Spam zu betrachten: nicht vergessen um in Ihrem Junk-Mail-Ordner zu suchen.\n"
 
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:31
@@ -5331,17 +5330,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"    Si malgré cela vous n’avez pas reçu les instructions, ajoutez "
+"    Wenn Sie die Anleitung trotzdem nicht erhalten haben, fügen Sie hinzu / Si malgré cela vous n’avez pas reçu les instructions, ajoutez\n"
 "« %(from_email_address)s »\n"
-"    à votre carnet d’adresses ou à votre liste d’expéditeurs autorisés,\n"
-"    puis recommencez la procédure de récupération du compte.\n"
-"    "
-"\n"
-"Wenn Sie die Anleitung trotzdem nicht erhalten haben, fügen Sie hinzu"
-"« %(from_email_address)s »\n"
-"in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender, \n"
-"Dann wiederholen Sie den Vorgang zur Kontowiederherstellung. \n"
-""
+"    à votre carnet d’adresses ou à votre liste d’expéditeurs autorisés, / in Ihr Adressbuch oder in Ihre Liste der autorisierten Absender,\n"
+"    puis recommencez la procédure de récupération du compte. / Dann wiederholen Sie den Vorgang zur Kontowiederherstellung.\n"
+
 
 #: src/authentic2/templates/registration/password_reset_instructions.html:40
 msgid "Back to login"
@@ -5379,16 +5372,12 @@ msgstr ""
 msgid ""
 "\n"
 "  Follow the instructions in that email to continue your registration.\n"
-"  "
+
 msgstr ""
 "\n"
-"  Suivez les instructions dans ce E-Mail pour continuer la création de "
-"votre compte.\n"
-"  "
-"\n"
-"Befolgen Sie die Anweisungen in dieser E-Mail, um mit der Erstellung fortzufahren"
-"Ihr Konto. \n"
-""
+"Suivez les instructions dans ce E-Mail pour continuer la création de votre compte.\n"
+"Befolgen Sie die Anweisungen in dieser E-Mail, um mit der Erstellung fortzufahren Ihr Konto. \n"
+
 
 #: src/authentic2/templates/registration/registration_complete.html:32
 #, python-format
