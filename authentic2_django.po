@@ -4906,13 +4906,11 @@ msgstr ""
 "\n"
 "        <p><a href=\"%(login_url)s\">Connectez-vous !</a></p>\n"
 "    "
-"---"
-"\n"
 "<p> Hallo %(full_name)s ! </p> \n"
 "<p> Ihre Kontoerstellung auf %(site)s war erfolgreich! </p> \n"
 "\n"
 "<p> <a href=\"%(login_url)s\"> Einloggen! </a> </p> \n"
-""
+"    "
 
 #: src/authentic2/templates/authentic2/registration_success_body.html:12
 #: src/authentic2/templates/authentic2/registration_success_body.txt:9
