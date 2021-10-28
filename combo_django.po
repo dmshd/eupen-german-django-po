@@ -2394,7 +2394,7 @@ msgstr "Démarches"
 
 #: apps/wcs/__init__.py apps/wcs/templates/combo/wcs/tracking_code_input.html
 msgid "Tracking Code"
-msgstr "Tracking-Code / Code de suivi"
+msgstr "Tracking-Code · Code de suivi"
 
 #: apps/wcs/__init__.py
 msgctxt "user-forms"
@@ -2533,7 +2533,7 @@ msgstr "Brouillons et demandes en cours"
 
 #: apps/wcs/models.py apps/wcs/templates/combo/wcs/user_all_forms.html
 msgid "All Forms"
-msgstr "Alle vorgänge / Toutes les demandes"
+msgstr "Alle vorgänge · Toutes les demandes"
 
 #: apps/wcs/models.py
 msgid "Loading drafts..."
