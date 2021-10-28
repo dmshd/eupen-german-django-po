@@ -1394,7 +1394,7 @@ msgstr "Das Passwort ist ungültig · Le mot de passe est invalide"
 
 #: src/authentic2/forms/profile.py:46
 msgid "New email"
-msgstr "Neue e-mail /Nouveau E-Mail"
+msgstr "Neue e-mail · Nouveau E-Mail"
 
 #: src/authentic2/forms/profile.py:59
 msgid "This is already your email address."
@@ -5437,7 +5437,7 @@ msgstr "wo · ou"
 
 #: src/authentic2/templates/registration/registration_completion_choose.html:38
 msgid "create a new account"
-msgstr "Ein neues Konto erstellen /créez un nouveau compte"
+msgstr "Ein neues Konto erstellen · créez un nouveau compte"
 
 #: src/authentic2/templates/registration/registration_completion_form.html:11
 msgid "Please fill the form to complete your registration"
