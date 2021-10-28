@@ -1,0 +1,3693 @@
+# Combo French Translation.
+# Copyright (C) 2015 Entr'ouvert
+# This file is distributed under the same license as the Combo package.
+# Frederic Peters <fpeters@entrouvert.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: combo 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-05 20:06+0000\n"
+"PO-Revision-Date: 2021-10-05 22:06+0200\n"
+"Last-Translator: Thomas NOËL <tnoel@entrouvert.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps/assets/__init__.py apps/assets/templates/combo/manager_assets.html
+#: apps/assets/templates/combo/manager_slot_assets.html manager/forms.py
+#: manager/templates/combo/manager_edit_cell_block.html
+msgid "Assets"
+msgstr "Ressources"
+
+#: apps/assets/forms.py
+msgid "File"
+msgstr "Fichier"
+
+#: apps/assets/forms.py
+msgid "Assets File"
+msgstr "Fichier de ressources"
+
+#: apps/assets/forms.py
+msgid "Overwrite Existing Files"
+msgstr "Écraser les fichiers existants"
+
+#: apps/assets/templates/combo/manager_asset_confirm_delete.html
+msgid "Delete Asset"
+msgstr "Suppression de la ressource"
+
+#: apps/assets/templates/combo/manager_asset_confirm_delete.html
+#: apps/lingo/templates/lingo/paymentbackend_confirm_delete.html
+#: apps/lingo/templates/lingo/regie_confirm_delete.html
+#: apps/maps/templates/maps/map_layer_confirm_delete.html
+#: manager/templates/combo/generic_confirm_delete.html
+msgid "Are you sure you want to delete this?"
+msgstr "Êtes-vous sûr·e de vouloir supprimer ceci ?"
+
+#: apps/assets/templates/combo/manager_asset_confirm_delete.html
+#: apps/assets/templates/combo/manager_assets_fragment.html
+#: apps/lingo/templates/lingo/paymentbackend_confirm_delete.html
+#: apps/lingo/templates/lingo/regie_confirm_delete.html
+#: apps/maps/templates/maps/map_cell_form.html
+#: apps/maps/templates/maps/map_layer_confirm_delete.html
+#: apps/search/templates/combo/manager/search-cell-form.html
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+#: data/templates/combo/manager/link-list-cell-form.html
+#: manager/templates/combo/delete_page.html
+#: manager/templates/combo/generic_confirm_delete.html
+#: manager/templates/combo/manager_edit_cell_block.html
+#: manager/templates/combo/page_view.html
+msgid "Delete"
+msgstr "Supprimer"
+
+#: apps/assets/templates/combo/manager_asset_confirm_delete.html
+#: apps/assets/templates/combo/manager_asset_overwrite.html
+#: apps/assets/templates/combo/manager_asset_upload.html
+#: apps/assets/templates/combo/manager_assets_import.html
+#: apps/gallery/templates/combo/gallery_image_form.html
+#: apps/lingo/templates/lingo/combo/cancel-item.html
+#: apps/lingo/templates/lingo/paymentbackend_confirm_delete.html
+#: apps/lingo/templates/lingo/paymentbackend_form.html
+#: apps/lingo/templates/lingo/regie_confirm_delete.html
+#: apps/lingo/templates/lingo/regie_form.html
+#: apps/lingo/templates/lingo/transaction_export.html
+#: apps/maps/templates/maps/layer_options_form.html
+#: apps/maps/templates/maps/map_layer_confirm_delete.html
+#: apps/maps/templates/maps/map_layer_form.html
+#: apps/pwa/templates/combo/pwa/manager_form.html
+#: apps/search/templates/combo/manager/engine-form.html
+#: manager/templates/combo/cell_options.html
+#: manager/templates/combo/cell_visibility.html
+#: manager/templates/combo/delete_page.html
+#: manager/templates/combo/generic_confirm_delete.html
+#: manager/templates/combo/link_cell_form.html
+#: manager/templates/combo/page_add.html
+#: manager/templates/combo/page_duplicate.html
+#: manager/templates/combo/page_export.html
+#: manager/templates/combo/site_export.html
+#: manager/templates/combo/site_import.html
+#: manager/templates/combo/snapshot_restore.html
+msgid "Cancel"
+msgstr "Annuler"
+
+#: apps/assets/templates/combo/manager_asset_overwrite.html
+msgid "Overwrite Asset"
+msgstr "Remplacement de la ressource"
+
+#: apps/assets/templates/combo/manager_asset_overwrite.html
+msgid "This will erase the existing file and replace it with a new one."
+msgstr "Cela va écraser le fichier existant et le remplacer par un nouveau."
+
+#: apps/assets/templates/combo/manager_asset_overwrite.html
+#: apps/assets/templates/combo/manager_asset_upload.html
+#: apps/assets/templates/combo/manager_assets.html
+msgid "Upload"
+msgstr "Transférer"
+
+#: apps/assets/templates/combo/manager_asset_upload.html
+msgid "Asset Upload"
+msgstr "Transfert de ressource"
+
+#: apps/assets/templates/combo/manager_assets.html
+msgid "Export Assets"
+msgstr "Exporter les ressources"
+
+#: apps/assets/templates/combo/manager_assets.html
+msgid "Import Assets"
+msgstr "Importer des ressources"
+
+#: apps/assets/templates/combo/manager_assets.html
+msgid ""
+"\n"
+"  This site doesn't have any asset yet. You can add some directly when "
+"editing\n"
+"  pages, in the \"Upload Image\" dialog.\n"
+"  "
+msgstr ""
+"\n"
+"  Ce site n’a pas encore de ressources.  Vous pouvez en ajouter directement "
+"lors de l’édition des pages, dans la fenêtre de transfert d’images."
+
+#: apps/assets/templates/combo/manager_assets.html
+#: apps/assets/templates/combo/manager_assets_browse.html
+#: apps/lingo/templates/lingo/basketitem_error_list.html
+#: apps/lingo/templates/lingo/transaction_list.html apps/search/__init__.py
+#: apps/search/models.py apps/search/templates/combo/search-cell.html
+msgid "Search"
+msgstr "Recherche"
+
+#: apps/assets/templates/combo/manager_assets.html
+#: apps/assets/templates/combo/manager_assets_browse.html
+msgid "(case insensitive search over filenames)"
+msgstr "(sur les noms de fichier, sans distinction de casse)"
+
+#: apps/assets/templates/combo/manager_assets_browse.html
+msgid "Browse for the file you want, then click 'Embed File' to continue..."
+msgstr ""
+"Choisissez le fichier que vous voulez puis cliquez sur « Sélectionner » pour "
+"continuer."
+
+#: apps/assets/templates/combo/manager_assets_browse.html
+msgid ""
+"No files found. Upload files using the 'Image Button' or 'Link Button' "
+"dialog's 'Upload' tab."
+msgstr ""
+"Aucun fichier trouvé. Chargez des fichiers en utilisant l’onglet « Envoyer » "
+"de la boite d dialogue."
+
+#: apps/assets/templates/combo/manager_assets_browse.html
+msgid "Embed File"
+msgstr "Sélectionner"
+
+#: apps/assets/templates/combo/manager_assets_fragment.html
+msgid "Name"
+msgstr "Nom"
+
+#: apps/assets/templates/combo/manager_assets_fragment.html
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Size"
+msgstr "Taille"
+
+#: apps/assets/templates/combo/manager_assets_fragment.html
+msgid "not defined"
+msgstr "pas de fichier associé"
+
+#: apps/assets/templates/combo/manager_assets_fragment.html
+msgid "Overwrite"
+msgstr "Remplacer"
+
+#: apps/assets/templates/combo/manager_assets_import.html
+msgid "Assets Import"
+msgstr "Importation de ressources"
+
+#: apps/assets/templates/combo/manager_assets_import.html
+msgid ""
+"Assets import allows you to integrate assets exported from another site."
+msgstr ""
+"L’importation de ressources vous permet d’intégrer les ressources exportées "
+"depuis un autre site."
+
+#: apps/assets/templates/combo/manager_assets_import.html
+#: manager/templates/combo/site_import.html
+msgid "Import"
+msgstr "Importer"
+
+#: apps/assets/views.py
+#, python-format
+msgid "You have to upload a file with the same extension (%(ext)s)."
+msgstr "Vous devez charger un fichier avec la même extension (%(ext)s)."
+
+#: apps/assets/views.py
+msgid "The assets file is not valid."
+msgstr "Le fichier de ressources n’est pas valide."
+
+#: apps/assets/views.py
+msgid "The assets file has been imported."
+msgstr "Le fichier de ressources a été importé."
+
+#: apps/calendar/__init__.py
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: apps/calendar/forms.py
+msgid "Please select slots"
+msgstr "Veuillez choisir des créneaux."
+
+#: apps/calendar/forms.py
+msgid "Please select slots of the same day"
+msgstr "Veuillez choisir des créneaux d’un même jour."
+
+#: apps/calendar/forms.py
+msgid "Please select contiguous slots"
+msgstr "Veuillez choisir des créneaux consécutifs."
+
+#: apps/calendar/forms.py
+#, python-format
+msgid "Minimal booking duration is %s"
+msgstr "La durée minimale de réservation est %s."
+
+#: apps/calendar/models.py apps/dataviz/models.py apps/family/models.py
+#: apps/gallery/models.py apps/lingo/models.py apps/maps/models.py
+#: apps/search/models.py apps/wcs/models.py
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+#: data/models.py public/views.py
+msgid "Title"
+msgstr "Titre"
+
+#: apps/calendar/models.py apps/family/models.py
+msgid "Agenda"
+msgstr "Agenda"
+
+#: apps/calendar/models.py apps/wcs/models.py
+#: apps/wcs/templates/combo/wcs/care_forms.html
+msgid "Form"
+msgstr "Formulaire"
+
+#: apps/calendar/models.py
+msgid "Slot duration"
+msgstr "Durée d’un créneau"
+
+#: apps/calendar/models.py
+msgid "Format is hours:minutes:seconds"
+msgstr "Le format est heures:minutes:secondes."
+
+#: apps/calendar/models.py
+msgid "Minimal booking duration"
+msgstr "Durée minimale de réservation"
+
+#: apps/calendar/models.py
+msgid "Number of days to display"
+msgstr "Nombre de jours à afficher"
+
+#: apps/calendar/models.py
+msgid "Booking Calendar"
+msgstr "Calendrier de réservation"
+
+#: apps/calendar/templates/calendar/booking_calendar_cell.html
+msgid "Next available slot:"
+msgstr "Prochain créneau disponible :"
+
+#: apps/calendar/templates/calendar/booking_calendar_cell.html
+msgid "No available slots."
+msgstr "Pas de créneau disponible."
+
+#: apps/calendar/templates/calendar/booking_calendar_content.html
+msgid "previous"
+msgstr "précédent"
+
+#: apps/calendar/templates/calendar/booking_calendar_content.html
+msgid "next"
+msgstr "suivant"
+
+#: apps/calendar/templates/calendar/booking_calendar_content.html
+msgctxt "booking"
+msgid "Book"
+msgstr "Réserver"
+
+#: apps/calendar/utils.py
+msgid "An error occurred while retrieving calendar's availabilities."
+msgstr "Une erreur a eu lieu lors de la récupération des disponibilités."
+
+#: apps/dashboard/__init__.py apps/dashboard/models.py
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: apps/dashboard/templates/combo/dashboardcell.html
+#: public/templates/combo/placeholder.html
+msgid "Loading error"
+msgstr "Erreur au chargement"
+
+#: apps/dataviz/__init__.py
+msgid "Data Visualisation"
+msgstr "Visualisation de données"
+
+#: apps/dataviz/forms.py
+msgid "Week"
+msgstr "Semaine"
+
+#: apps/dataviz/forms.py
+msgid "Month"
+msgstr "Mois"
+
+#: apps/dataviz/forms.py
+msgid "Year"
+msgstr "Année"
+
+#: apps/dataviz/forms.py
+msgid "Week day"
+msgstr "Jour de la semaine"
+
+#: apps/dataviz/models.py apps/notifications/models.py apps/wcs/models.py
+#: data/models.py
+msgid "URL"
+msgstr "URL"
+
+#: apps/dataviz/models.py
+msgid "Data Source"
+msgstr "Source de données"
+
+#: apps/dataviz/models.py
+msgid "Use JSONP to get data"
+msgstr "Utiliser JSONP pour récupérer les données"
+
+#: apps/dataviz/models.py
+msgid "Max Value"
+msgstr "Valeur maximale"
+
+#: apps/dataviz/models.py
+msgid "Gauge"
+msgstr "Jauge"
+
+#: apps/dataviz/models.py
+msgid "Chart (legacy)"
+msgstr "Graphe (obsolète)"
+
+#: apps/dataviz/models.py data/models.py
+msgid "Slug"
+msgstr "Slug"
+
+#: apps/dataviz/models.py apps/lingo/models.py
+#: apps/lingo/templates/lingo/combo/items.html apps/maps/models.py
+#: apps/notifications/models.py apps/pwa/models.py
+msgid "Label"
+msgstr "Libellé"
+
+#: apps/dataviz/models.py
+msgid "Site slug"
+msgstr "Slug du site"
+
+#: apps/dataviz/models.py
+msgid "Service slug"
+msgstr "Slug du service"
+
+#: apps/dataviz/models.py
+msgid "Site title"
+msgstr "Titre du site"
+
+#: apps/dataviz/models.py
+msgid "Data URL"
+msgstr "URL des données"
+
+#: apps/dataviz/models.py
+msgid "Available data"
+msgstr "Données disponibles"
+
+#: apps/dataviz/models.py
+msgid "Last update"
+msgstr "Dernière mise à jour"
+
+#: apps/dataviz/models.py
+#, python-format
+msgid "%(title)s: %(label)s"
+msgstr "%(title)s : %(label)s"
+
+#: apps/dataviz/models.py
+#, python-format
+msgid "%s (unavailable)"
+msgstr "%s (indisponible)"
+
+#: apps/dataviz/models.py
+msgid "Previous year"
+msgstr "Année précédente"
+
+#: apps/dataviz/models.py
+msgid "Current year"
+msgstr "Année en cours"
+
+#: apps/dataviz/models.py
+msgid "Next year"
+msgstr "Année suivante"
+
+#: apps/dataviz/models.py
+msgid "Previous month"
+msgstr "Mois précédent"
+
+#: apps/dataviz/models.py
+msgid "Current month"
+msgstr "Mois en cours"
+
+#: apps/dataviz/models.py
+msgid "Next month"
+msgstr "Mois suivant"
+
+#: apps/dataviz/models.py
+msgid "Previous week"
+msgstr "Semaine précédente"
+
+#: apps/dataviz/models.py
+msgid "Current week"
+msgstr "Semaine en cours"
+
+#: apps/dataviz/models.py
+msgid "Next week"
+msgstr "Semaine suivante"
+
+#: apps/dataviz/models.py
+msgid "Free range"
+msgstr "Plage libre"
+
+#: apps/dataviz/models.py
+msgid "Data"
+msgstr "Données"
+
+#: apps/dataviz/models.py
+msgid ""
+"This list may take a few seconds to be updated, please refresh the page if "
+"an item is missing."
+msgstr ""
+"La liste peut prendre quelques secondes à être mise à jour, vous pouvez "
+"rafraîchir la page si un élément manque."
+
+#: apps/dataviz/models.py
+msgid "Filtering (time)"
+msgstr "Filtrage (temporel)"
+
+#: apps/dataviz/models.py
+msgid "From"
+msgstr "De"
+
+#: apps/dataviz/models.py
+msgid "To"
+msgstr "À"
+
+#: apps/dataviz/models.py
+msgid "Chart Type"
+msgstr "Type de graphe"
+
+#: apps/dataviz/models.py
+msgid "Bar"
+msgstr "Barres"
+
+#: apps/dataviz/models.py
+msgid "Horizontal Bar"
+msgstr "Barres horizontales"
+
+#: apps/dataviz/models.py
+msgid "Stacked Bar"
+msgstr "Barres empilées"
+
+#: apps/dataviz/models.py
+msgid "Stacked Bar (%)"
+msgstr "Barres empilées (%)"
+
+#: apps/dataviz/models.py
+msgid "Line"
+msgstr "Lignes"
+
+#: apps/dataviz/models.py
+msgid "Pie"
+msgstr "Camembert"
+
+#: apps/dataviz/models.py
+msgid "Dot"
+msgstr "Points"
+
+#: apps/dataviz/models.py
+msgid "Table"
+msgstr "Tableau"
+
+#: apps/dataviz/models.py
+msgid "Height"
+msgstr "Hauteur"
+
+#: apps/dataviz/models.py
+msgid "Short (150px)"
+msgstr "Petite (150px)"
+
+#: apps/dataviz/models.py
+msgid "Average (250px)"
+msgstr "Moyenne (250px)"
+
+#: apps/dataviz/models.py
+msgid "Tall (350px)"
+msgstr "Haute (350px)"
+
+#: apps/dataviz/models.py
+msgid "Sort data"
+msgstr "Tri des données"
+
+#: apps/dataviz/models.py
+msgid "This setting only applies for one-dimensional charts."
+msgstr "Cette option s’applique uniquement aux graphes unidimensionnels."
+
+#: apps/dataviz/models.py
+msgid "None"
+msgstr "Aucun"
+
+#: apps/dataviz/models.py
+msgid "Alphabetically"
+msgstr "Alphabétique"
+
+#: apps/dataviz/models.py
+msgid "Increasing values"
+msgstr "Par valeurs, croissantes"
+
+#: apps/dataviz/models.py
+msgid "Decreasing values"
+msgstr "Par valeurs, décroissantes"
+
+#: apps/dataviz/models.py
+msgid "Hide null values"
+msgstr "Cacher les valeurs nulles"
+
+#: apps/dataviz/models.py
+msgid "Chart"
+msgstr "Graphe"
+
+#: apps/dataviz/models.py apps/dataviz/views.py
+msgid "Unsupported dataset."
+msgstr "Pas de prise en charge pour ce jeu de données."
+
+#: apps/dataviz/models.py apps/dataviz/views.py
+msgid "Visualization not found."
+msgstr "Visualisation non trouvée."
+
+#: apps/dataviz/models.py
+msgid "No data."
+msgstr "Pas de données."
+
+#: apps/dataviz/models.py
+msgid "Total"
+msgstr "Total"
+
+#: apps/dataviz/models.py
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d jour"
+msgstr[1] "%d jours"
+
+#: apps/dataviz/models.py
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d heure"
+msgstr[1] "%d heures"
+
+#: apps/dataviz/models.py
+#, python-format
+msgid "%(days_string)s and %(hours_string)s"
+msgstr "%(days_string)s et %(hours_string)s"
+
+#: apps/dataviz/models.py
+msgid "Less than an hour"
+msgstr "Moins d’une heure"
+
+#. Translators: This indicates week number followed by year, for example it can yield W2-2021.
+#. First "W" is the first letter of the word "week" and should be translated accordingly, second
+#. "W" and "o" are interpreted by Django's date filter and should be left as is. First W is
+#. backslash escaped to prevent it from being interpreted, translators should refer to Django's
+#. documentation in order to know if the new letter resulting of translation should be escaped or not.
+#: apps/dataviz/models.py
+msgid "\\WW-o"
+msgstr "\\SW-o"
+
+#: apps/dataviz/views.py
+#, python-format
+msgid "Unknown HTTP error: %s"
+msgstr "Erreur HTTP inconnue : %s"
+
+#: apps/family/__init__.py
+msgid "Family"
+msgstr "Famille"
+
+#: apps/family/forms.py
+msgid "Family identifier"
+msgstr "Identifiant famille"
+
+#: apps/family/forms.py
+msgid "Secret code"
+msgstr "Code secret"
+
+#: apps/family/models.py
+msgid "Family Information Cell"
+msgstr "Cellule Famille"
+
+#: apps/family/models.py
+msgid "An error occured while retrieving family details."
+msgstr "Une erreur a eu lieu lors de la récupération des informations famille."
+
+#: apps/family/models.py
+msgid "Weekly agenda cell"
+msgstr "Agenda hebdomadaire"
+
+#: apps/family/templates/family/infos.html
+msgid "Informations related to your family"
+msgstr "Informations relatives à votre famille"
+
+#: apps/family/templates/family/infos.html
+msgid "Top content for unlinked users"
+msgstr "Contenu pour les usagers sans liaison"
+
+#: apps/family/templates/family/infos.html
+msgid "Link to your family"
+msgstr "Se lier à une famille"
+
+#: apps/family/templates/family/infos.html
+#: apps/family/templates/family/unlink_confirm.html
+msgid "Unlink"
+msgstr "Se délier"
+
+#: apps/family/templates/family/infos.html
+#: apps/family/templates/family/person.html
+msgid "Address"
+msgstr "Adresse"
+
+#: apps/family/templates/family/infos.html
+msgid "Family quotient:"
+msgstr "Quotient familial :"
+
+#: apps/family/templates/family/infos.html
+msgid "Adults"
+msgstr "Adultes"
+
+#: apps/family/templates/family/infos.html
+msgid "Children"
+msgstr "Enfants"
+
+#: apps/family/templates/family/link_form.html
+msgid "Link to a family"
+msgstr "Se lier à une famille"
+
+#: apps/family/templates/family/link_form.html
+msgid ""
+"\n"
+"      Enter your family credentials below.\n"
+"      "
+msgstr ""
+"\n"
+"Merci de saisir vos identifiants ci-dessous.\n"
+"   "
+
+#: apps/family/templates/family/link_form.html
+#: apps/wcs/templates/combo/wcs/tracking_code_input.html
+msgid "Submit"
+msgstr "Valider"
+
+#: apps/family/templates/family/person.html
+msgid "Born on"
+msgstr "Né(e) le"
+
+#: apps/family/templates/family/person.html
+msgid "Phone:"
+msgstr "Téléphone :"
+
+#: apps/family/templates/family/person.html
+msgid "Cellphone:"
+msgstr "Téléphone portable :"
+
+#: apps/family/templates/family/person.html
+#: apps/lingo/templates/lingo/combo/item.html
+msgid "Email:"
+msgstr "Courriel :"
+
+#: apps/family/templates/family/unlink_confirm.html
+msgid "Unlink your personal account from this family account?"
+msgstr "Délier votre compte personnel du compte famille ?"
+
+#: apps/family/templates/family/weekly_agenda.html
+#, python-format
+msgid "Week<br class=\"weekbreak\"> of %(day_date)s to %(sunday_date)s"
+msgstr "Semaine<br class=\"weekbreak\"> du %(day_date)s au %(sunday_date)s"
+
+#: apps/family/templates/family/weekly_agenda.html
+msgid "No activity this week"
+msgstr "Aucune activité cette semaine"
+
+#: apps/family/views.py
+msgid "Wrong credentials: make sure you typed them correctly."
+msgstr "Codes invalides : assurez-vous de les saisir correctement."
+
+#: apps/family/views.py
+msgid "This family account is blocked."
+msgstr "Ce compte famille est bloqué."
+
+#: apps/family/views.py
+msgid ""
+"Failed to link to family. Please check your credentials and retry later."
+msgstr ""
+"Échec de liaison avec la famille. Veuillez vérifier les codes d’accès et "
+"réessayer."
+
+#: apps/family/views.py
+msgid "Your account was successfully linked."
+msgstr "Votre compte a été relié avec succès."
+
+#: apps/family/views.py
+msgid "An error occured when unlinking."
+msgstr "Une erreur est survenue lors de la déliaison."
+
+#: apps/family/views.py
+msgid "Your account was successfully unlinked."
+msgstr "Votre compte a été délié avec succès."
+
+#: apps/fargo/__init__.py
+msgid "Portfolio"
+msgstr "Porte-documents"
+
+#: apps/fargo/models.py apps/wcs/models.py
+msgid "Site"
+msgstr "Site"
+
+#: apps/fargo/models.py
+#: apps/fargo/templates/combo/fargo/recent-documents-cell.html
+msgid "Recent Documents"
+msgstr "Documents récents"
+
+#: apps/fargo/models.py
+msgid "Default"
+msgstr "Défaut"
+
+#: apps/fargo/templates/combo/fargo/recent-documents-cell.html
+msgid "You don't have any recent document."
+msgstr "Vous n’avez pas de documents récents."
+
+#: apps/gallery/__init__.py apps/gallery/models.py
+msgid "Gallery"
+msgstr "Galerie"
+
+#: apps/gallery/models.py
+msgid "Image"
+msgstr "Image"
+
+#: apps/gallery/templates/combo/gallery_image_form.html
+msgid "Edit Image"
+msgstr "Modification de l’image"
+
+#: apps/gallery/templates/combo/gallery_image_form.html
+msgid "New Image"
+msgstr "Nouvelle image"
+
+#: apps/gallery/templates/combo/gallery_image_form.html
+#: apps/lingo/templates/lingo/paymentbackend_form.html
+#: apps/lingo/templates/lingo/regie_form.html
+#: apps/maps/templates/maps/layer_options_form.html
+#: apps/maps/templates/maps/map_layer_form.html
+#: apps/pwa/templates/combo/pwa/manager_form.html
+#: apps/pwa/templates/combo/pwa/manager_home.html
+#: apps/search/templates/combo/manager/engine-form.html
+#: manager/templates/combo/cell_options.html
+#: manager/templates/combo/cell_visibility.html
+#: manager/templates/combo/link_cell_form.html
+#: manager/templates/combo/manager_edit_cell_block.html
+#: manager/templates/combo/page_add.html
+#: manager/templates/combo/page_duplicate.html
+msgid "Save"
+msgstr "Enregistrer"
+
+#: apps/gallery/templates/combo/gallery_manager.html
+msgid "Add an Image"
+msgstr "Ajouter une image"
+
+#: apps/kb/__init__.py
+msgid "Knowledge Base"
+msgstr "Base de connaissance"
+
+#: apps/kb/models.py data/models.py
+msgid "Root Page"
+msgstr "Page racine"
+
+#: apps/kb/models.py data/models.py
+msgid "Maximum number of entries"
+msgstr "Nombre maximum d’entrées"
+
+#: apps/kb/models.py apps/kb/templates/combo/latest-page-updates-cell.html
+msgid "Latest Page Updates"
+msgstr "Dernières pages modifiées"
+
+#: apps/kb/templates/combo/latest-page-updates-cell.html
+msgid "on"
+msgstr "le"
+
+#: apps/kb/templates/combo/latest-page-updates-cell.html
+msgid "(new page)"
+msgstr "(nouvelle page)"
+
+#: apps/lingo/__init__.py
+msgid "Payment"
+msgstr "Paiement"
+
+#: apps/lingo/__init__.py apps/lingo/templates/lingo/manager_base.html
+#: manager/forms.py
+msgid "Online Payment"
+msgstr "Paiement en ligne"
+
+#: apps/lingo/forms.py
+msgid "Invalid value."
+msgstr "Valeur invalide."
+
+#: apps/lingo/forms.py
+msgid "Start date"
+msgstr "Date de début"
+
+#: apps/lingo/forms.py
+msgid "End date"
+msgstr "Date de fin"
+
+#: apps/lingo/manager_views.py
+msgid "Please fill additional backend parameters."
+msgstr "Veuillez compléter les paramètres de la plateforme."
+
+#: apps/lingo/models.py
+msgid "Dummy (for tests)"
+msgstr "Factice (pour tests)"
+
+#: apps/lingo/models.py
+msgid "SIPS (Atos, other countries)"
+msgstr "SIPS (Atos, autres pays)"
+
+#: apps/lingo/models.py
+msgid "Ingenico (formerly Ogone)"
+msgstr "Ingenico (précédemment Ogone)"
+
+#: apps/lingo/models.py apps/maps/models.py
+msgid "Identifier"
+msgstr "Identifiant"
+
+#: apps/lingo/models.py
+msgid ""
+"The identifier is used in webservice calls and callback URLs for the payment "
+"backend."
+msgstr ""
+"L’identifiant est utilisé dans les appels webservice et les adresses de "
+"retour utilisées par les services de paiement."
+
+#: apps/lingo/models.py
+msgid "Payment Service"
+msgstr "Service de paiement"
+
+#: apps/lingo/models.py
+msgid "Payment Service Options"
+msgstr "Options du service de paiement"
+
+#: apps/lingo/models.py
+msgid "The identifier is used in webservice calls."
+msgstr "L’identifiant est utilisé dans les appels webservice."
+
+#: apps/lingo/models.py apps/wcs/models.py data/models.py
+msgid "Description"
+msgstr "Description"
+
+#: apps/lingo/models.py
+msgid "Default Regie"
+msgstr "Régie par défaut"
+
+#: apps/lingo/models.py
+msgid "Webservice URL to retrieve remote items"
+msgstr "Webservice de récupération des factures distantes"
+
+#: apps/lingo/models.py
+msgid "Webservice URL to compute extra fees"
+msgstr "Webservice de calcul des frais additionnels"
+
+#: apps/lingo/models.py
+msgid "Minimal payment amount"
+msgstr "Montant minimum de paiement"
+
+#: apps/lingo/models.py
+msgid "Custom text displayed on success"
+msgstr "Texte personnalisé affiché après un paiement"
+
+#: apps/lingo/models.py
+msgid "Payment backend"
+msgstr "Plateformes de paiement"
+
+#: apps/lingo/models.py
+msgid "Transaction Options"
+msgstr "Options de transaction"
+
+#: apps/lingo/models.py
+msgid "Basket items must be paid individually"
+msgstr "Les éléments du panier doivent être payés individuellement"
+
+#: apps/lingo/models.py
+msgid "Regie"
+msgstr "Régie"
+
+#: apps/lingo/models.py
+msgid "Your payment has been succesfully registered."
+msgstr "Votre paiement a été pris en compte."
+
+#: apps/lingo/models.py
+#, python-format
+msgid "Regie \"%(label)s\" is unavailable, please retry later."
+msgstr ""
+"La régie « %(label)s » n’est pas disponible. Veuillez réessayer plus tard."
+
+#: apps/lingo/models.py
+#, python-format
+msgid "Invoice %s to pay"
+msgstr "Facture n⁰ %s à payer"
+
+#: apps/lingo/models.py
+#, python-format
+msgid "Reminder: invoice %s to pay"
+msgstr "Rappel : facture n° %s à payer"
+
+#: apps/lingo/models.py
+msgid "Subject"
+msgstr "Objet"
+
+#: apps/lingo/models.py
+msgid "Source URL"
+msgstr "URL de source"
+
+#: apps/lingo/models.py
+msgid "Details"
+msgstr "Détails"
+
+#: apps/lingo/models.py apps/lingo/templates/lingo/basketitem_error_list.html
+#: apps/lingo/templates/lingo/combo/items.html
+#: apps/lingo/templates/lingo/tipi_form.html
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Amount"
+msgstr "Montant (TTC)"
+
+#: apps/lingo/models.py
+msgid "This invoice is in litigation."
+msgstr "Cette facture est en contentieux."
+
+#: apps/lingo/models.py
+msgid "Autobilling has been set for this invoice."
+msgstr "Un prélèvement automatique a lieu pour cette facture."
+
+#: apps/lingo/models.py
+msgid "Due date is over."
+msgstr "La date limite est dépassée."
+
+#: apps/lingo/models.py
+msgid "Running"
+msgstr "En cours"
+
+#: apps/lingo/models.py
+msgid "Paid"
+msgstr "Payé"
+
+#: apps/lingo/models.py
+msgid "Paid (accepted)"
+msgstr "Payé (accepté)"
+
+#: apps/lingo/models.py
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: apps/lingo/models.py
+msgid "Expired"
+msgstr "Expiré"
+
+#: apps/lingo/models.py
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: apps/lingo/models.py
+msgid "Anonymous User"
+msgstr "Usager anonyme"
+
+#: apps/lingo/models.py
+#, python-format
+msgid "Invoice #%s"
+msgstr "Facture n⁰ %s"
+
+#: apps/lingo/models.py
+msgid "Validation"
+msgstr "Validation"
+
+#: apps/lingo/models.py
+msgid "Cancellation"
+msgstr "Annulation"
+
+#: apps/lingo/models.py apps/lingo/templates/lingo/combo/basket.html
+msgid "Basket"
+msgstr "Panier"
+
+#: apps/lingo/models.py
+#, python-format
+msgid "%s€"
+msgstr "%s €"
+
+#: apps/lingo/models.py
+#: apps/lingo/templates/lingo/combo/recent_transactions.html
+msgid "Recent Transactions"
+msgstr "Transactions récentes"
+
+#: apps/lingo/models.py
+msgid "Basket Link"
+msgstr "Lien vers le panier"
+
+#: apps/lingo/models.py data/models.py
+msgid "Text"
+msgstr "Texte"
+
+#: apps/lingo/models.py
+msgid "Loading invoices..."
+msgstr "Chargement des factures…"
+
+#: apps/lingo/models.py apps/wcs/forms.py apps/wcs/models.py
+msgid "All"
+msgstr "Tout"
+
+#: apps/lingo/models.py
+msgid "Items History Cell"
+msgstr "Historique des factures"
+
+#: apps/lingo/models.py
+msgid "Hide if no items"
+msgstr "Cacher en l’absence de factures"
+
+#: apps/lingo/models.py
+msgid "Active Items Cell"
+msgstr "Factures actives"
+
+#: apps/lingo/models.py
+msgid "Self declared invoice payment"
+msgstr "Déclaration manuelle de facture"
+
+#: apps/lingo/models.py
+msgid "Indigo/PES v2"
+msgstr "Indigo/PES v2"
+
+#: apps/lingo/models.py
+msgid "ROLMRE"
+msgstr "ROLMRE"
+
+#: apps/lingo/models.py apps/lingo/templates/lingo/regie_list.html
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Regies"
+msgstr "Régies"
+
+#: apps/lingo/models.py
+msgid ""
+"Values separated by commas. It is possible to add a label after a regie "
+"identifier. Example: \"1234 - Regie A,5678 - Regie B\""
+msgstr ""
+"Valeurs séparées par des virgules. Il est possible de spécifier un libellé "
+"après l’identifiant de la régie. Exemple : « 1234 - Régie A,5678 Régie B »."
+
+#: apps/lingo/models.py
+msgid "Control protocol"
+msgstr "Protocole de contrôle"
+
+#: apps/lingo/models.py
+msgid "Default value to be used in form"
+msgstr "Valeur par défaut à utiliser dans le formulaire"
+
+#: apps/lingo/models.py
+msgid "Test mode"
+msgstr "Mode test"
+
+#: apps/lingo/models.py
+msgid "TIPI Payment Form"
+msgstr "Formulaire de paiement TIPI"
+
+#: apps/lingo/templates/lingo/basketitem_error_list.html
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Payments in error"
+msgstr "Paiements en erreur"
+
+#: apps/lingo/templates/lingo/basketitem_error_list.html
+msgid "Item"
+msgstr "Élément"
+
+#: apps/lingo/templates/lingo/basketitem_error_list.html
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Date"
+msgstr "Date"
+
+#: apps/lingo/templates/lingo/basketitem_error_list.html
+msgid "See transaction"
+msgstr "Voir la transaction"
+
+#: apps/lingo/templates/lingo/basketitem_error_list.html
+msgid "Mark as notified"
+msgstr "Marquer comme notifié"
+
+#: apps/lingo/templates/lingo/basketitem_error_list.html
+msgid ""
+"\n"
+"  This site doesn't have any payment in error.\n"
+"  "
+msgstr ""
+"\n"
+"Il n’y a aucun paiement en erreur.\n"
+"  "
+
+#: apps/lingo/templates/lingo/combo/basket.html
+#: apps/lingo/templates/lingo/combo/item.html
+#: apps/lingo/templates/lingo/combo/self-declared-invoice-payment.html
+#: apps/lingo/templates/lingo/tipi_form.html
+msgid "Pay"
+msgstr "Payer"
+
+#: apps/lingo/templates/lingo/combo/basket.html
+#: apps/lingo/templates/lingo/paymentbackend_list.html
+#: apps/lingo/templates/lingo/regie_list.html
+#: apps/maps/templates/maps/manager_home.html
+#: apps/pwa/templates/combo/pwa/manager_home.html
+#: manager/templates/combo/page_view.html
+msgid "remove"
+msgstr "supprimer"
+
+#: apps/lingo/templates/lingo/combo/basket.html
+msgid "Total:"
+msgstr "Total :"
+
+#: apps/lingo/templates/lingo/combo/basket_link.html
+msgid "Basket:"
+msgstr "Panier :"
+
+#: apps/lingo/templates/lingo/combo/basket_link.html
+#, python-format
+msgid ""
+"\n"
+"  %(counter)s item\n"
+"  "
+msgid_plural ""
+"\n"
+"  %(counter)s items\n"
+"  "
+msgstr[0] ""
+"\n"
+"%(counter)s élément\n"
+" "
+msgstr[1] ""
+"\n"
+"%(counter)s éléments\n"
+" "
+
+#: apps/lingo/templates/lingo/combo/cancel-item.html
+#, python-format
+msgid ""
+"\n"
+"Are you really sure you want to remove \"%(subject)s\"?\n"
+msgstr ""
+"\n"
+"Êtes-vous sûr·e de vouloir supprimer « %(subject)s » ?\n"
+
+#: apps/lingo/templates/lingo/combo/cancel-item.html
+msgid "Remove"
+msgstr "Supprimer"
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.html
+#, python-format
+msgid ""
+"\n"
+"      We inform you that your invoice nr. %(id)s issued on %(creation_date)s "
+"of amount of %(amount)s€ is available.\n"
+"      "
+msgstr ""
+"\n"
+"Nous vous informons que votre facture numéro %(id)s émise le "
+"%(creation_date)s et d’un montant de %(amount)s€ est disponible.\n"
+"      "
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.html
+#, python-format
+msgid "You can <a href=\"%(payment_url)s\">view and pay it online</a>."
+msgstr ""
+"Vous pouvez <a href=\"%(payment_url)s\">la visualiser et la régler en ligne</"
+"a>."
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.html
+#, python-format
+msgid "You can view it on the <a href=\"%(portal_url)s\">portal</a>."
+msgstr ""
+"Vous pouvez la visualiser sur <a href=\"%(portal_url)s\">le portail</a>."
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.html
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.txt
+#, python-format
+msgid ""
+"The amount of this invoice will be debited from your account at "
+"%(debit_date)s."
+msgstr ""
+"Le montant de cette facture sera prélevé sur votre compte le %(debit_date)s."
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.txt
+#, python-format
+msgid ""
+"\n"
+"We inform you that your invoice nr. %(id)s issued on %(creation_date)s of "
+"amount\n"
+"of %(amount)s€ is available."
+msgstr ""
+"\n"
+"Nous vous informons que votre facture numéro %(id)s émise le "
+"%(creation_date)s\n"
+"et d’un montant de %(amount)s€ est disponible."
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.txt
+#, python-format
+msgid "You can view and pay it online on %(payment_url)s."
+msgstr "Vous pouvez la visualiser et la régler en ligne sur %(payment_url)s ."
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_body.txt
+#, python-format
+msgid "You can view it on %(portal_url)s."
+msgstr "Vous pouvez la visualiser sur %(portal_url)s ."
+
+#: apps/lingo/templates/lingo/combo/invoice_email_notification_subject.txt
+#, python-format
+msgid ""
+"\n"
+"New invoice nr. %(invoice_id)s is available\n"
+msgstr ""
+"\n"
+"Nouvelle facture numéro %(invoice_id)s disponible\n"
+
+#: apps/lingo/templates/lingo/combo/invoice_fullpage.html
+#, python-format
+msgid "Invoice number %(number)s"
+msgstr "Facture n⁰ %(number)s"
+
+#: apps/lingo/templates/lingo/combo/item.html
+#, python-format
+msgid ""
+"\n"
+"      Item nr. %(number)s\n"
+"      "
+msgstr ""
+"\n"
+"Facture n⁰ %(number)s\n"
+" "
+
+#: apps/lingo/templates/lingo/combo/item.html
+#, python-format
+msgid ""
+"\n"
+"          Label: %(label)s\n"
+"          "
+msgstr ""
+"\n"
+"Libellé : %(label)s\n"
+" "
+
+#: apps/lingo/templates/lingo/combo/item.html
+#, python-format
+msgid ""
+"\n"
+"          Total amount: <span class=\"amount\">%(amount)s€</span>\n"
+"          "
+msgstr ""
+"\n"
+"Montant total : <span class=\"amount\">%(amount)s €</span>\n"
+" "
+
+#: apps/lingo/templates/lingo/combo/item.html
+#, python-format
+msgid ""
+"\n"
+"          Amount to pay: <span class=\"amount\">%(amount)s€</span>\n"
+"          "
+msgstr ""
+"\n"
+"Montant à régler : <span class=\"amount\">%(amount)s €</span>\n"
+" "
+
+#: apps/lingo/templates/lingo/combo/item.html
+#, python-format
+msgid ""
+"\n"
+"          Amount already paid: <span class=\"amount\">%(amount)s€</span>\n"
+"          "
+msgstr ""
+"\n"
+"Montant déjà payé : <span class=\"amount\">%(amount)s €</span>\n"
+" "
+
+#: apps/lingo/templates/lingo/combo/item.html
+msgid "Issue date:"
+msgstr "Date d’émission :"
+
+#: apps/lingo/templates/lingo/combo/item.html
+msgid "Payment due date:"
+msgstr "Date limite de paiement :"
+
+#: apps/lingo/templates/lingo/combo/item.html
+msgid "(up to and including)"
+msgstr "(inclu)"
+
+#: apps/lingo/templates/lingo/combo/item.html
+msgid "Payment date:"
+msgstr "Date de paiement :"
+
+#: apps/lingo/templates/lingo/combo/item.html
+msgid "Invoice has been paid."
+msgstr "La facture a été payée."
+
+#: apps/lingo/templates/lingo/combo/item.html
+msgid "Waiting for payment."
+msgstr "En attente de paiement."
+
+#: apps/lingo/templates/lingo/combo/items.html
+msgid "Number"
+msgstr "Numéro"
+
+#: apps/lingo/templates/lingo/combo/items.html
+msgid "Issue date"
+msgstr "Date d’émission"
+
+#: apps/lingo/templates/lingo/combo/items.html
+msgid "Payment limit date"
+msgstr "Date limite de paiement"
+
+#: apps/lingo/templates/lingo/combo/items.html
+msgid "Amount already paid"
+msgstr "Montant déjà payé"
+
+#: apps/lingo/templates/lingo/combo/items.html
+#, python-format
+msgid ""
+"\n"
+"      %(amount)s€\n"
+"      "
+msgstr ""
+"\n"
+"      %(amount)s €\n"
+"      "
+
+#: apps/lingo/templates/lingo/combo/items.html
+msgid "View"
+msgstr "Voir"
+
+#: apps/lingo/templates/lingo/combo/items.html
+msgid "and pay"
+msgstr "et payer"
+
+#: apps/lingo/templates/lingo/combo/items.html
+#: apps/lingo/templates/lingo/transaction_export.html
+msgid "Download"
+msgstr "Télécharger"
+
+#: apps/lingo/templates/lingo/combo/items.html
+msgid "No items yet"
+msgstr "Aucune facture"
+
+#: apps/lingo/templates/lingo/combo/payment-status.html
+msgid "Wait a moment or click on 'Continue'."
+msgstr "Attendez un instant ou cliquez sur « Continuer »."
+
+#: apps/lingo/templates/lingo/combo/payment-status.html
+msgid "Please wait while your request is being processed..."
+msgstr "Veuillez patienter, nous traitons votre demande..."
+
+#: apps/lingo/templates/lingo/combo/payment-status.html
+msgid "An error occured"
+msgstr "Une erreur est survenue"
+
+#: apps/lingo/templates/lingo/combo/payment-status.html
+msgid "Continue"
+msgstr "Continuer"
+
+#: apps/lingo/templates/lingo/combo/recent_transactions.html
+msgid "open"
+msgstr "ouvrir"
+
+#: apps/lingo/templates/lingo/combo/self-declared-invoice-payment.html
+msgid "Invoice Number"
+msgstr "Numéro de facture"
+
+#: apps/lingo/templates/lingo/combo/self-declared-invoice-payment.html
+msgid "Invoice Amount"
+msgstr "Montant de la facture"
+
+#: apps/lingo/templates/lingo/payment_form.html
+msgid ""
+"Please wait while your browser is being redirected to the payment website..."
+msgstr ""
+"Veuillez patienter, votre navigateur est envoyé sur le site de paiement en "
+"ligne…"
+
+#: apps/lingo/templates/lingo/paymentbackend_form.html
+msgid "Edit Payment backend"
+msgstr "Modification de la plateforme de paiement"
+
+#: apps/lingo/templates/lingo/paymentbackend_form.html
+msgid "New Payment backend"
+msgstr "Nouvelle plateforme de paiement"
+
+#: apps/lingo/templates/lingo/paymentbackend_form.html
+#: apps/lingo/templates/lingo/regie_form.html
+msgid "Callback URL:"
+msgstr "URL de retour (callback) :"
+
+#: apps/lingo/templates/lingo/paymentbackend_list.html
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Payment backends"
+msgstr "Plateformes de paiement"
+
+#: apps/lingo/templates/lingo/paymentbackend_list.html
+#: apps/lingo/templates/lingo/regie_list.html
+#: manager/templates/combo/manager_home.html
+msgid "New"
+msgstr "Nouvelle"
+
+#: apps/lingo/templates/lingo/paymentbackend_list.html
+msgid ""
+"\n"
+"  This site doesn't have any payment backend yet. Click on the \"New\" "
+"button in the top\n"
+"  right of the page to add a first one.\n"
+"  "
+msgstr ""
+"\n"
+"  Ce site n’a pas encore de plateforme de paiement configurée.  Cliquez sur "
+"le bouton « Nouvelle »   dans le coin supérieur droit de la page pour en "
+"ajouter une première.  "
+
+#: apps/lingo/templates/lingo/regie_form.html
+msgid "Edit Regie"
+msgstr "Modification de la régie"
+
+#: apps/lingo/templates/lingo/regie_form.html
+msgid "New Regie"
+msgstr "Nouvelle régie"
+
+#: apps/lingo/templates/lingo/regie_form.html
+msgid "Return URL:"
+msgstr "URL de retour :"
+
+#: apps/lingo/templates/lingo/regie_list.html
+msgid "(default regie)"
+msgstr "(régie par défaut)"
+
+#: apps/lingo/templates/lingo/regie_list.html
+msgid ""
+"\n"
+"  This site doesn't have any regie yet. Click on the \"New\" button in the "
+"top\n"
+"  right of the page to add a first one.\n"
+"  "
+msgstr ""
+"\n"
+"  Ce site n’a pas encore de régie.  Cliquez sur le bouton « Nouvelle »   "
+"dans le coin supérieur droit de la page pour en ajouter une première.  "
+
+#: apps/lingo/templates/lingo/tipi_form.html
+msgctxt "tipi"
+msgid "Introduction"
+msgstr "Introduction"
+
+#: apps/lingo/templates/lingo/tipi_form.html
+msgid ""
+"Your browser is blocking popups but they are required to start the payment, "
+"make sure they are allowed for this site."
+msgstr ""
+"Votre navigateur bloque les fenêtres « popup » mais elles sont nécessaires "
+"pour démarrer le paiement. Vous devriez les autoriser pour ce site."
+
+#: apps/lingo/templates/lingo/tipi_form.html
+msgid "Community identifier"
+msgstr "Identifiant de la collectivité"
+
+#: apps/lingo/templates/lingo/tipi_form.html
+msgid "invalid reference"
+msgstr "référence invalide"
+
+#: apps/lingo/templates/lingo/tipi_form.html
+#: apps/wcs/templates/combo/wcs/care_forms.html
+msgid "Reference"
+msgstr "Référence"
+
+#: apps/lingo/templates/lingo/tipi_form.html
+msgid "invalid amount"
+msgstr "montant invalide"
+
+#: apps/lingo/templates/lingo/tipi_form.html
+msgid "invalid email"
+msgstr "adresse électronique invalide"
+
+#: apps/lingo/templates/lingo/tipi_form.html
+msgid "Email"
+msgstr "Courriel"
+
+#: apps/lingo/templates/lingo/transaction_export.html
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "download CSV"
+msgstr "Télécharger au format CSV"
+
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Transactions"
+msgstr "Transactions"
+
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "(supports order identifiers, transaction identifiers, and dates)"
+msgstr "(sur dates et identifants de paiement et de transaction)"
+
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Order Identifier"
+msgstr "Identifiant de paiement"
+
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Transaction Identifier"
+msgstr "Identifiant de transaction"
+
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "User"
+msgstr "Usager"
+
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid "Items"
+msgstr "Éléments"
+
+#: apps/lingo/templates/lingo/transaction_list.html
+#, python-format
+msgid ""
+"\n"
+"  No transactions found matching \"%(query)s\".\n"
+"  "
+msgstr ""
+"\n"
+"Aucune transaction correspondant à « %(query)s » trouvée.\n"
+"  "
+
+#: apps/lingo/templates/lingo/transaction_list.html
+msgid ""
+"\n"
+"  This site doesn't have any transaction yet.\n"
+"  "
+msgstr ""
+"\n"
+"Il n’y a encore aucune transaction sur ce site.\n"
+"  "
+
+#: apps/lingo/views.py
+msgid "Items to pay are missing or are not of the same type (local/remote)."
+msgstr ""
+"Les éléments à payer sont absents ou ne sont pas du même type (local/"
+"distant)."
+
+#: apps/lingo/views.py
+msgid "Some items are already paid or are being paid."
+msgstr "Une facture a déjà été payée ou est en cours de paiement."
+
+#: apps/lingo/views.py
+msgid "This regie allows to pay only one item."
+msgstr "Cette régie autorise uniquement le paiement unitaire."
+
+#: apps/lingo/views.py
+msgid "Some items are already paid."
+msgstr "Une facture a déjà été payée."
+
+#: apps/lingo/views.py
+#, python-format
+msgid "Minimal payment amount is %s €."
+msgstr "Le montant minimal pour les paiement est de %s €."
+
+#: apps/lingo/views.py
+msgid "Invalid grouping for basket items."
+msgstr "Regroupement d’éléments de panier invalide."
+
+#: apps/lingo/views.py
+msgid "Failed to initiate payment request"
+msgstr "Erreur à l’initialisation de la demande de paiement."
+
+#: apps/lingo/views.py
+msgid "Technical error: impossible to retrieve invoices."
+msgstr "Erreur technique : impossible de récupérer les factures."
+
+#: apps/lingo/views.py
+msgid "No invoice was found."
+msgstr "Pas de facture trouvée."
+
+#: apps/lingo/views.py
+msgid "Payment requires to be logged in."
+msgstr "Le paiement nécessite d’être identifié."
+
+#: apps/lingo/views.py
+msgid "Grouping basket items is not allowed."
+msgstr "Le regroupement d’éléments du panier n’est pas autorisé."
+
+#: apps/lingo/views.py
+msgid "Invalid grouping for basket items: different capture dates."
+msgstr ""
+"Regroupement d’éléments de panier invalide : différentes dates de capture."
+
+#: apps/lingo/views.py
+msgid "You must give an email address."
+msgstr "Vous devez fournir une adresse électronique."
+
+#: apps/lingo/views.py
+msgid "Invalid payment request."
+msgstr "Demande de paiement invalide."
+
+#: apps/lingo/views.py
+msgid "No item payment allowed as extra fees set."
+msgstr "Pas de paiement autorisé car il y a des frais supplémentaires définis."
+
+#: apps/lingo/views.py
+msgid ""
+"We are sorry but the payment service failed to provide a correct answer."
+msgstr ""
+"Nous sommes désolés, le service de paiement n’a pas envoyé une réponse "
+"valide."
+
+#: apps/lingo/views.py
+msgid "We are sorry but an error occured when retrieving the invoice."
+msgstr ""
+"Nous sommes désolés mais une erreur a eu lieu à la récupération de la "
+"facture."
+
+#: apps/lingo/views.py
+msgid "No item was found."
+msgstr "Aucun élément n’a été trouvé."
+
+#: apps/lingo/views.py
+msgid "An error occured when removing the item. (no authenticated user)"
+msgstr ""
+"Une erreur a eu lieu lors de la suppression.  (pas d’utilisateur authentifié)"
+
+#: apps/lingo/views.py
+msgid "This item cannot be removed."
+msgstr "Cet élément ne peut être retiré."
+
+#: apps/lingo/views.py
+msgid "An error occured when removing the item."
+msgstr "Une erreur a eu lieu lors de la suppression."
+
+#: apps/lingo/views.py
+msgid "Sorry, the provided amount is invalid."
+msgstr "Le montant que vous avez entré n’est pas valide."
+
+#: apps/lingo/views.py
+msgid "Sorry, no invoice were found with that number and amount."
+msgstr ""
+"Une facture avec ce numéro et ce montant n’a pu être trouvée. Veuillez "
+"vérifier que vous les avez entrés correctement."
+
+#: apps/lingo/views.py
+msgid "Invalid transaction signature."
+msgstr "Signature de transaction invalide."
+
+#: apps/lingo/views.py
+msgid "Invalid transaction."
+msgstr "Transaction invalide."
+
+#: apps/lingo/views.py
+msgid "Unknown transaction."
+msgstr "Transaction inconnue."
+
+#: apps/lingo/views.py
+msgid "Transaction does not belong to the requesting user"
+msgstr "La transaction ne correspond pas à l’utilisateur"
+
+#: apps/lingo/views.py
+msgid "Payment error, you can continue and make another payment"
+msgstr "Erreur de paiement, vous pouvez continuer et faire un autre paiement."
+
+#: apps/lingo/views.py
+msgid "Payment cancelled, you can continue and make another payment"
+msgstr ""
+"Le paiement a été annulé, vous pouvez continuer et faire un autre paiement."
+
+#: apps/maps/__init__.py apps/maps/templates/maps/manager_base.html
+#: apps/maps/templates/maps/manager_home.html
+#: apps/maps/templates/maps/map_layer_form.html manager/forms.py
+msgid "Maps"
+msgstr "Cartographie"
+
+#: apps/maps/forms.py apps/maps/models.py
+msgid "Geojson URL"
+msgstr "URL GeoJSON"
+
+#: apps/maps/forms.py
+msgid "Only one default tiles layer can be defined."
+msgstr "Il ne peut y avoir qu’une couche de tuiles par défaut."
+
+#: apps/maps/manager_views.py
+#, python-format
+msgid "added layer \"%(layer)s\" to cell \"%(cell)s\""
+msgstr "ajout de la couche « %(layer)s » à la cellule « %(cell)s »"
+
+#: apps/maps/manager_views.py
+#, python-format
+msgid "changed options of layer \"%(layer)s\" in cell \"%(cell)s\""
+msgstr ""
+"changement d’options de la couche « %(layer)s » de la cellule « %(cell)s »"
+
+#: apps/maps/manager_views.py
+#, python-format
+msgid "removed layer \"%(layer)s\" from cell \"%(cell)s\""
+msgstr "suppression de la couche « %(layer)s » de la cellule « %(cell)s »"
+
+#: apps/maps/models.py
+msgid "Tiles"
+msgstr "Tuiles"
+
+#: apps/maps/models.py
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: apps/maps/models.py
+msgid "Ambulance"
+msgstr "Ambulance"
+
+#: apps/maps/models.py
+msgid "Asterisk"
+msgstr "Astérisque"
+
+#: apps/maps/models.py
+msgid "Bell"
+msgstr "Cloche"
+
+#: apps/maps/models.py
+msgid "Bicycle"
+msgstr "Vélo"
+
+#: apps/maps/models.py
+msgid "Book"
+msgstr "Livre"
+
+#: apps/maps/models.py
+msgid "Broken chain"
+msgstr "Chaîne cassée"
+
+#: apps/maps/models.py
+msgid "Building"
+msgstr "Bâtiment"
+
+#: apps/maps/models.py
+msgid "Bus"
+msgstr "Bus"
+
+#: apps/maps/models.py
+msgid "Car"
+msgstr "Voiture"
+
+#: apps/maps/models.py
+msgid "Checkmark"
+msgstr "Coche"
+
+#: apps/maps/models.py
+msgid "Cube"
+msgstr "Cube"
+
+#: apps/maps/models.py
+msgid "Drop"
+msgstr "Goutte"
+
+#: apps/maps/models.py
+msgid "Eye"
+msgstr "Œil"
+
+#: apps/maps/models.py
+msgid "Flag"
+msgstr "Drapeau"
+
+#: apps/maps/models.py
+msgid "Gavel"
+msgstr "Marteau"
+
+#: apps/maps/models.py
+msgid "Hospital"
+msgstr "Hôpital"
+
+#: apps/maps/models.py
+msgid "House"
+msgstr "Maison"
+
+#: apps/maps/models.py
+msgid "Lightbulb"
+msgstr "Ampoule"
+
+#: apps/maps/models.py
+msgid "Map signs"
+msgstr "Signalisation"
+
+#: apps/maps/models.py
+msgid "Motorcycle"
+msgstr "Moto"
+
+#: apps/maps/models.py
+msgid "Paint brush"
+msgstr "Pinceau"
+
+#: apps/maps/models.py
+msgid "Paw"
+msgstr "Empreinte"
+
+#: apps/maps/models.py
+msgid "Recycle"
+msgstr "Recyclage"
+
+#: apps/maps/models.py
+msgid "Road"
+msgstr "Route"
+
+#: apps/maps/models.py
+msgid "Shower"
+msgstr "Douche"
+
+#: apps/maps/models.py
+msgid "Star"
+msgstr "Étoile"
+
+#: apps/maps/models.py
+msgid "Subway"
+msgstr "Métro"
+
+#: apps/maps/models.py
+msgid "Taxi"
+msgstr "Taxi"
+
+#: apps/maps/models.py
+msgid "Train"
+msgstr "Train"
+
+#: apps/maps/models.py
+msgid "Trash"
+msgstr "Poubelle"
+
+#: apps/maps/models.py
+msgid "Tree"
+msgstr "Arbre"
+
+#: apps/maps/models.py
+msgid "Truck"
+msgstr "Camion"
+
+#: apps/maps/models.py
+msgid "University"
+msgstr "Université"
+
+#: apps/maps/models.py
+msgid "Warning"
+msgstr "Avertissement"
+
+#: apps/maps/models.py
+msgid "Wheelchair"
+msgstr "Chaise roulante"
+
+#: apps/maps/models.py
+msgid "Nothing"
+msgstr "Aucune"
+
+#: apps/maps/models.py
+msgid "Display data in popup"
+msgstr "Affichage des données dans une popup"
+
+#: apps/maps/models.py
+msgid "Whole world"
+msgstr "Monde entier"
+
+#: apps/maps/models.py
+msgid "Country"
+msgstr "Pays"
+
+#: apps/maps/models.py
+msgid "Wide area"
+msgstr "Large étendue"
+
+#: apps/maps/models.py
+msgid "Area"
+msgstr "Région"
+
+#: apps/maps/models.py
+msgid "Town"
+msgstr "Ville"
+
+#: apps/maps/models.py
+msgid "Small road"
+msgstr "Petite route"
+
+#: apps/maps/models.py
+msgid "Neighbourhood"
+msgstr "Quartier"
+
+#: apps/maps/models.py
+msgid "Ant"
+msgstr "Fourmi"
+
+#: apps/maps/models.py
+msgid "Tiles URL"
+msgstr "URL des tuiles"
+
+#: apps/maps/models.py
+#, python-format
+msgid "For example: %s"
+msgstr "Par exemple : %s"
+
+#: apps/maps/models.py
+msgid "Attribution"
+msgstr "Attribution"
+
+#: apps/maps/models.py
+msgid "Default tiles layer"
+msgstr "Couche de tuiles par défaut"
+
+#: apps/maps/models.py
+msgid "Marker or surface colour"
+msgstr "Couleur du marqueur ou de la surface"
+
+#: apps/maps/models.py
+msgid "Marker icon"
+msgstr "Icône du marqueur"
+
+#: apps/maps/models.py
+msgid "Icon colour"
+msgstr "Couleur de l’icône"
+
+#: apps/maps/models.py data/models.py
+msgid "Cache duration"
+msgstr "Durée de cache"
+
+#: apps/maps/models.py data/models.py
+msgid "In seconds."
+msgstr "En secondes."
+
+#: apps/maps/models.py
+msgid "Include user identifier in request"
+msgstr "Inclure l’identification de l’utilisateur dans la requête"
+
+#: apps/maps/models.py
+msgid "Properties"
+msgstr "Propriétés"
+
+#: apps/maps/models.py
+msgid "List of properties to include, separated by commas"
+msgstr "Liste des propriétés à inclure, séparées par des virgules"
+
+#: apps/maps/models.py
+msgid "Query parameter for fulltext requests"
+msgstr "Paramètre pour les recherches en texte intégral"
+
+#: apps/maps/models.py
+msgid ""
+"Name of the parameter to use for querying the GeoJSON layer (typically, q)"
+msgstr ""
+"Nom du paramètre à utiliser pour faire une recherche dans la couche GeoJSON "
+"(usuellement « q »)."
+
+#: apps/maps/models.py
+msgid "GeoJSON URL accepts a \"cirle\" parameter"
+msgstr "Paramètre de zone (« circle ») accepté par l’adresse GeoJSON"
+
+#: apps/maps/models.py
+#, python-format
+msgid "\"%s\" map layer"
+msgstr "couche cartographique « %s »"
+
+#: apps/maps/models.py
+msgid "Initial state"
+msgstr "Situation initiale"
+
+#: apps/maps/models.py
+msgid "Centered on default position"
+msgstr "Centrée sur la position par défaut"
+
+#: apps/maps/models.py
+msgid "Centered on device location"
+msgstr "Centrée sur la position de l’appareil"
+
+#: apps/maps/models.py
+msgid "Centered to fit all markers"
+msgstr "Centrée pour contenir tous les marqueurs"
+
+#: apps/maps/models.py
+msgid "Initial zoom level"
+msgstr "Niveau de zoom initial"
+
+#: apps/maps/models.py
+msgid "Minimal zoom level"
+msgstr "Niveau de zoom minimal"
+
+#: apps/maps/models.py
+msgid "Maximal zoom level"
+msgstr "Niveau de zoom maximal"
+
+#: apps/maps/models.py
+msgid "Group markers in clusters"
+msgstr "Grouper les marqueurs"
+
+#: apps/maps/models.py
+msgid "Marker behaviour on click"
+msgstr "Action lors d’un clic sur un marqueur"
+
+#: apps/maps/models.py
+msgid "Layers"
+msgstr "Couches cartographiques"
+
+#: apps/maps/models.py
+msgid "Map"
+msgstr "Carte"
+
+#: apps/maps/models.py
+msgid "Layer"
+msgstr "Couche"
+
+#: apps/maps/models.py
+msgid "Opacity"
+msgstr "Opacité"
+
+#: apps/maps/models.py
+msgid "Float value between 0 (transparent) and 1 (opaque)"
+msgstr "Nombre entre 0 (transparent) et 1 (opaque)"
+
+#: apps/maps/templates/maps/colour_or_text_input.html
+msgid "Colour"
+msgstr "Couleur"
+
+#: apps/maps/templates/maps/colour_or_text_input.html
+msgid "Property"
+msgstr "Propriété"
+
+#: apps/maps/templates/maps/layer_options_form.html
+msgid "Edit GeoJSON layer"
+msgstr "Modification de la couche GeoJSON"
+
+#: apps/maps/templates/maps/layer_options_form.html
+msgid "Edit tiles layer"
+msgstr "Modification de la couche de tuiles"
+
+#: apps/maps/templates/maps/layer_options_form.html
+#: apps/maps/templates/maps/manager_home.html
+msgid "New GeoJSON layer"
+msgstr "Nouvelle couche GeoJSON"
+
+#: apps/maps/templates/maps/layer_options_form.html
+#: apps/maps/templates/maps/manager_home.html
+msgid "New tiles layer"
+msgstr "Nouvelle couche de tuiles"
+
+#: apps/maps/templates/maps/manager_home.html
+msgid "default layer"
+msgstr "couche par défaut"
+
+#: apps/maps/templates/maps/manager_home.html
+msgid ""
+"\n"
+"  This site doesn't have any layer yet. Click on the \"New\" button in the "
+"top\n"
+"  right of the page to add a first one.\n"
+"  "
+msgstr ""
+"\n"
+"  Ce site n’a pas encore de couches cartographiques.  Cliquez sur le bouton "
+"« Nouvelle »   dans le coin supérieur droit de la page pour en ajouter une "
+"première.  "
+
+#: apps/maps/templates/maps/manager_home.html
+msgid "Maps on site"
+msgstr "Cartes sur le site"
+
+#: apps/maps/templates/maps/manager_home.html
+#, python-format
+msgid "Map \"%(map_title)s\" on page \"%(page_title)s\""
+msgstr "Carte « %(map_title)s » sur la page « %(page_title)s »"
+
+#: apps/maps/templates/maps/manager_home.html
+#, python-format
+msgid "Unnamed map on page \"%(page_title)s\""
+msgstr "Carte sans titre sur la page « %(page_title)s »"
+
+#: apps/maps/templates/maps/manager_home.html
+msgid ""
+"\n"
+"  This site doesn't have any map yet.\n"
+"  "
+msgstr ""
+"\n"
+"Il n’y a encore aucune carte sur ce site.\n"
+"  "
+
+#: apps/maps/templates/maps/map_cell_form.html
+msgid "Layers:"
+msgstr "Couches cartographiques :"
+
+#: apps/maps/templates/maps/map_cell_form.html
+#: apps/search/templates/combo/manager/search-cell-form.html
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+#: data/templates/combo/manager/link-list-cell-form.html
+msgid "Edit"
+msgstr "Modifier"
+
+#: apps/maps/templates/maps/map_cell_form.html
+msgid "Add a GeoJSON layer"
+msgstr "Ajouter une couche GeoJSON"
+
+#: apps/maps/templates/maps/map_cell_form.html
+msgid "Add a tiles layer"
+msgstr "Ajouter une couche de tuiles"
+
+#: apps/maps/templates/maps/map_layer_form.html
+msgid "Edit Map Layer"
+msgstr "Modification de la couche cartographique"
+
+#: apps/maps/templates/maps/map_layer_form.html
+msgid "New Map Layer"
+msgstr "Nouvelle couche cartographique"
+
+#: apps/notifications/__init__.py apps/notifications/models.py
+msgid "Notification"
+msgstr "Notification"
+
+#: apps/notifications/models.py
+msgid "Body"
+msgstr "Corps"
+
+#: apps/notifications/models.py
+msgid "Origin"
+msgstr "Origine"
+
+#: apps/notifications/models.py
+msgid "Start date and time"
+msgstr "Date et heure de début"
+
+#: apps/notifications/models.py
+msgid "End date and time"
+msgstr "Date et heure de fin"
+
+#: apps/notifications/models.py
+msgid "Acked"
+msgstr "Validée"
+
+#: apps/notifications/models.py
+msgid "External identifier"
+msgstr "Identifiant externe"
+
+#: apps/notifications/models.py
+msgid "Loading notifications..."
+msgstr "Chargement des notifications…"
+
+#: apps/notifications/models.py
+msgid "User Notifications"
+msgstr "Notifications à l’usager"
+
+#: apps/notifications/templates/combo/notificationscell.html
+msgid "Notifications"
+msgstr "Notifications"
+
+#: apps/notifications/templates/combo/notificationscell.html
+msgid "No notifications."
+msgstr "Aucune notification."
+
+#: apps/pwa/__init__.py manager/forms.py
+msgid "Mobile Application (PWA)"
+msgstr "Application mobile (PWA)"
+
+#: apps/pwa/forms.py
+msgid "The application icon must be in JPEG or PNG format."
+msgstr "L’icône d’application doit être au format JPEG ou PNG."
+
+#: apps/pwa/manager_views.py
+msgid "A label is required when no page is selected."
+msgstr "Un libellé est obligatoire quand une page n’est pas sélectionnée."
+
+#: apps/pwa/manager_views.py
+msgid "An URL is required when no page is selected."
+msgstr "Une URL est obligatoire quand une page n’est pas sélectionnée."
+
+#: apps/pwa/manager_views.py
+msgid "An URL cannot be specified when a page is selected."
+msgstr "Une URL ne peut pas être renseignée quand une page est sélectionnée."
+
+#: apps/pwa/models.py
+msgid "Application Name"
+msgstr "Nom de l’application"
+
+#: apps/pwa/models.py
+msgid "Application Icon"
+msgstr "Icône de l’application"
+
+#: apps/pwa/models.py
+msgid ""
+"Icon file must be in JPEG or PNG format, and should be a square of at least "
+"512×512 pixels."
+msgstr ""
+"L’icône doit être au format JPEG ou PNG et devrait être un carré d’au moins "
+"512×512 pixels."
+
+#: apps/pwa/models.py
+msgid "Offline Information Text"
+msgstr "Texte d’information non-connecté"
+
+#: apps/pwa/models.py
+msgid "You are currently offline."
+msgstr "Vous n’avez pas de connexion réseau."
+
+#: apps/pwa/models.py
+msgid "Include Retry Button"
+msgstr "Inclure un bouton pour réessayer"
+
+#: apps/pwa/models.py
+msgid "Enable subscription to push notifications"
+msgstr "Activer la possibilité de s’abonner à des notifications « push »"
+
+#: apps/pwa/models.py
+msgid "External URL"
+msgstr "URL externe"
+
+#: apps/pwa/models.py data/models.py
+msgid "Internal link"
+msgstr "Lien interne"
+
+#: apps/pwa/models.py
+msgid "Icon"
+msgstr "Icône"
+
+#: apps/pwa/models.py data/models.py
+msgid "Extra classes for CSS styling"
+msgstr "Classes supplémentaires pour le style par CSS"
+
+#: apps/pwa/models.py
+msgid "Display notification count"
+msgstr "Afficher le nombre de notifications"
+
+#: apps/pwa/models.py
+msgid "Use user name as label"
+msgstr "Utiliser le nom de l’usager comme libellé"
+
+#: apps/pwa/templates/combo/pwa/manager_base.html
+msgid "Mobile Application"
+msgstr "Application mobile"
+
+#: apps/pwa/templates/combo/pwa/manager_home.html
+#: manager/templates/combo/page_view.html
+msgid "Navigation"
+msgstr "Navigation"
+
+#: apps/pwa/templates/combo/pwa/manager_home.html
+msgid ""
+"\n"
+"Use drag and drop with the ⣿ handles to reorder navigation entries.\n"
+msgstr ""
+"\n"
+"Vous pouvez utiliser les poignées ⣿ pour ordonner la navigation.\n"
+
+#: apps/pwa/templates/combo/pwa/manager_home.html
+msgid "Add a navigation entry"
+msgstr "Ajouter une entrée à la navigation"
+
+#: apps/pwa/templates/combo/pwa/manager_home.html
+msgid "Settings"
+msgstr "Paramètres"
+
+#: apps/pwa/templates/combo/pwa/offline.html
+msgid "Retry"
+msgstr "Réessayer"
+
+#: apps/search/__init__.py
+msgid "Page Contents"
+msgstr "Contenu des pages"
+
+#: apps/search/forms.py apps/wcs/models.py
+msgid "Custom Title"
+msgstr "Titre personnalisé"
+
+#: apps/search/forms.py
+msgid "Display page's description in results"
+msgstr "Afficher la description des pages dans les résultats"
+
+#: apps/search/forms.py
+msgid "Update \"Page Contents\" engine"
+msgstr "Modification du moteur « Contenu des pages »"
+
+#: apps/search/forms.py manager/templates/combo/page_history.html
+#: manager/templates/combo/page_view.html
+#: manager/templates/combo/snapshot_restore.html
+msgid "Page"
+msgstr "Page"
+
+#: apps/search/forms.py
+msgid "Select a page to limit the search on this page and sub pages contents."
+msgstr ""
+"Sélectionner une page limitera les résultats de la recherche à la page en "
+"question et ses sous-pages."
+
+#: apps/search/forms.py
+msgid "Add a \"Page Contents\" engine"
+msgstr "Ajout d’une recherche sur le contenu des pages"
+
+#: apps/search/forms.py
+#, python-format
+msgid "Update \"%s\" engine"
+msgstr "Modification de la recherche « %s »"
+
+#: apps/search/forms.py
+msgid "Custom view"
+msgstr "Vue personnaliséé"
+
+#: apps/search/forms.py apps/wcs/models.py
+msgid "Ignore the logged-in user"
+msgstr "Ne pas prendre en compte l’usager connecté"
+
+#: apps/search/forms.py
+msgid "- All cards -"
+msgstr "- Toutes les fiches -"
+
+#: apps/search/forms.py
+#, python-format
+msgid "Add a \"%s\" engine"
+msgstr "Ajouter une recherche « %s »"
+
+#: apps/search/forms.py
+msgid "User search result template"
+msgstr "Gabarit pour les résultats de recherche"
+
+#: apps/search/forms.py
+msgid "Update \"Users\" engine"
+msgstr "Modification de la recherche sur les usagers"
+
+#: apps/search/forms.py
+msgid "Add a \"Users\" engine"
+msgstr "Ajouter une rechercher sur les usagers"
+
+#: apps/search/manager_views.py manager/views.py
+#, python-format
+msgid "changed cell \"%s\""
+msgstr "modification à la cellule « %s »"
+
+#: apps/search/models.py
+msgid "Search Services"
+msgstr "Services de recherche"
+
+#: apps/search/models.py
+msgid "Autofocus"
+msgstr "Focus automatique"
+
+#: apps/search/models.py
+msgid "Placeholder"
+msgstr "Texte indicatif"
+
+#: apps/search/models.py
+msgid "logged-in user ignored"
+msgstr "usager connecté ignoré"
+
+#: apps/search/models.py
+#, python-format
+msgid "Page \"%(page)s\" and sub pages Contents"
+msgstr "Contenu de la page « %(page)s » et de ses sous-pages"
+
+#: apps/search/templates/combo/manager/search-cell-form.html
+msgid ""
+"\n"
+"  Content indexing has been scheduled and should happen within an hour; "
+"search\n"
+"  results will then be available.\n"
+"  "
+msgstr ""
+"\n"
+"L’indexation des contenus a été programmée et devrait avoir lieu dans "
+"l’heure; les résultats seront alors disponibles.\n"
+" "
+
+#: apps/search/templates/combo/manager/search-cell-form.html
+msgid "Engines:"
+msgstr "Moteurs d’indexation :"
+
+#: apps/search/templates/combo/manager/search-cell-form.html
+msgid "Custom title:"
+msgstr "Titre personnalisé :"
+
+#: apps/search/templates/combo/manager/search-cell-form.html
+msgid "Add an engine:"
+msgstr "Ajouter :"
+
+#: apps/search/templates/combo/search-cell-results.html
+msgid "…no result found."
+msgstr "Aucun résultat."
+
+#: apps/wcs/__init__.py
+msgid "Forms"
+msgstr "Démarches"
+
+#: apps/wcs/__init__.py apps/wcs/templates/combo/wcs/tracking_code_input.html
+msgid "Tracking Code"
+msgstr "Tracking-Code / Code de suivi"
+
+#: apps/wcs/__init__.py
+msgctxt "user-forms"
+msgid "Forms"
+msgstr "Demandes"
+
+#: apps/wcs/__init__.py
+#, python-format
+msgctxt "user-forms"
+msgid "Forms (%s)"
+msgstr "Demandes (%s)"
+
+#: apps/wcs/forms.py
+msgid "Restrict to cards accessible to the user"
+msgstr "Restreindre aux fiches accessibles à l’usager connecté"
+
+#: apps/wcs/forms.py
+msgid "Customize display"
+msgstr "Personnaliser l’affichage"
+
+#: apps/wcs/forms.py
+msgid "By default forms from all categories are displayed."
+msgstr "Par défaut les démarches de toutes les catégories sont affichés."
+
+#: apps/wcs/forms.py
+msgid ""
+"Please choose at least one option among the following: Current Forms, Done "
+"Forms"
+msgstr ""
+"Veuillez choisir au moins une option parmi « demandes en cours » et "
+"« demandes terminées »."
+
+#: apps/wcs/models.py
+msgid "No form set"
+msgstr "Pas de démarche sélectionnée"
+
+#: apps/wcs/models.py
+msgid "Invalid form"
+msgstr "Démarche invalide"
+
+#: apps/wcs/models.py
+msgid "No card model set"
+msgstr "Pas de modèle de fiche sélectionné"
+
+#: apps/wcs/models.py
+msgid "Invalid card model"
+msgstr "Modèle de fiche invalide"
+
+#: apps/wcs/models.py
+msgid "No category set"
+msgstr "Pas de catégorie sélectionnée"
+
+#: apps/wcs/models.py
+msgid "Invalid category"
+msgstr "Catégorie invalide"
+
+#: apps/wcs/models.py
+msgid "Invalid site"
+msgstr "Site invalide"
+
+#: apps/wcs/models.py
+msgid "Failed to get data"
+msgstr "Erreur à la récupération des données"
+
+#: apps/wcs/models.py
+msgid "add a form link"
+msgstr "ajouter un lien vers une démarche"
+
+#: apps/wcs/models.py
+msgid "New form link"
+msgstr "Nouveau lien vers une démarche"
+
+#: apps/wcs/models.py
+msgid "Edit form link"
+msgstr "Modifier le lien lien vers une démarche"
+
+#: apps/wcs/models.py
+msgid "Form Link"
+msgstr "Lien vers une démarche"
+
+#: apps/wcs/models.py
+msgid "Category"
+msgstr "Catégorie"
+
+#: apps/wcs/models.py
+msgid "Cached URL"
+msgstr "Cache de l’URL"
+
+#: apps/wcs/models.py
+msgid "Category Link"
+msgstr "Lien vers une catégorie"
+
+#: apps/wcs/models.py
+msgid "All Sites"
+msgstr "Tous les sites"
+
+#: apps/wcs/models.py
+msgid "Loading forms..."
+msgstr "Chargement des demandes…"
+
+#: apps/wcs/models.py
+msgid "Categories"
+msgstr "Catégories"
+
+#: apps/wcs/models.py apps/wcs/templates/combo/wcs/current_forms.html
+msgid "Current Forms"
+msgstr "Demandes en cours"
+
+#: apps/wcs/models.py apps/wcs/templates/combo/wcs/user_done_forms.html
+msgid "Done Forms"
+msgstr "Demandes terminées"
+
+#: apps/wcs/models.py
+msgid "Include drafts"
+msgstr "Inclure les brouillons"
+
+#: apps/wcs/models.py
+msgid "Include forms to which the user can access"
+msgstr "Inclure les demandes auxquelles l’usager a accès"
+
+#: apps/wcs/models.py
+msgid "User Forms"
+msgstr "Demandes de l’usager"
+
+#: apps/wcs/models.py
+msgid "All Forms and Drafts"
+msgstr "Toutes les demandes et brouillons"
+
+#: apps/wcs/models.py
+msgid "Done Forms and Drafts"
+msgstr "Demandes terminées et brouillons"
+
+#: apps/wcs/models.py
+msgid "Current Forms and Drafts"
+msgstr "Brouillons et demandes en cours"
+
+#: apps/wcs/models.py apps/wcs/templates/combo/wcs/user_all_forms.html
+msgid "All Forms"
+msgstr "Alle vorgänge / Toutes les demandes"
+
+#: apps/wcs/models.py
+msgid "Loading drafts..."
+msgstr "Chargement des brouillons…"
+
+#: apps/wcs/models.py apps/wcs/templates/combo/wcs/current_drafts.html
+msgid "Current Drafts"
+msgstr "Brouillons en cours"
+
+#: apps/wcs/models.py
+msgid "Order"
+msgstr "Ordre"
+
+#: apps/wcs/models.py
+msgid "Default (alphabetical)"
+msgstr "Par défaut (alphabétique)"
+
+#: apps/wcs/models.py
+msgid "Popularity"
+msgstr "Popularité"
+
+#: apps/wcs/models.py
+msgid "Manual"
+msgstr "Manuel"
+
+#: apps/wcs/models.py
+msgid "Manual Order"
+msgstr "Ordre manuel"
+
+#: apps/wcs/models.py
+msgid "Use drag and drop to reorder forms"
+msgstr "Vous pouvez utiliser les poignées ⣿ pour ordonner les démarches."
+
+#: apps/wcs/models.py data/models.py
+msgid "Limit"
+msgstr "Limite"
+
+#: apps/wcs/models.py
+msgid "Forms of Category"
+msgstr "Démarches d’une catégorie"
+
+#: apps/wcs/models.py apps/wcs/templates/combo/wcs/care_forms.html
+msgid "Forms to process"
+msgstr "Demandes à traiter"
+
+#: apps/wcs/models.py apps/wcs/templates/combo/wcs/form_categories.html
+msgid "Form Categories"
+msgstr "Catégories de démarches"
+
+#: apps/wcs/models.py
+msgid "Card Model"
+msgstr "Modèle de fiche"
+
+#: apps/wcs/models.py
+msgid "Limit to cards linked to the logged-in user"
+msgstr "Restreindre aux fiches liées à l’usager connecté"
+
+#: apps/wcs/models.py
+msgid "Number of cards per page (default 10)"
+msgstr "Nombre de fiches par page (par défaut : 10)"
+
+#: apps/wcs/models.py
+msgid "Cards"
+msgstr "Fiches"
+
+#: apps/wcs/models.py
+msgid "Card Identifier"
+msgstr "Identifiant de fiche"
+
+#: apps/wcs/models.py
+msgid "Default Title (Card Label)"
+msgstr "Titre par défaut (celui de la fiche)"
+
+#: apps/wcs/models.py
+msgid "No Title"
+msgstr "Pas de titre"
+
+#: apps/wcs/models.py
+msgid "Card Information Cell"
+msgstr "Contenu d’une fiche"
+
+#: apps/wcs/models.py
+msgid "Tracking Code Input"
+msgstr "Entrée de code de suivi"
+
+#: apps/wcs/models.py
+msgid "Backoffice Submission"
+msgstr "Saisie backoffice"
+
+#: apps/wcs/models.py
+msgid "Misc"
+msgstr "Divers"
+
+#: apps/wcs/templates/combo/wcs/backoffice_submission.html
+msgid "New Form"
+msgstr "Nouvelle demande"
+
+#: apps/wcs/templates/combo/wcs/backoffice_submission.html
+msgid "There are no possible backoffice submissions."
+msgstr "Il n’y a pas de saisie backoffice possible."
+
+#: apps/wcs/templates/combo/wcs/card.html
+msgid "Unknown Card"
+msgstr "Fiche inconnue"
+
+#: apps/wcs/templates/combo/wcs/cards.html
+msgid "There are no cards."
+msgstr "Il n’y a aucune fiche."
+
+#: apps/wcs/templates/combo/wcs/care_forms.html
+msgid "Created"
+msgstr "Date de création"
+
+#: apps/wcs/templates/combo/wcs/care_forms.html
+msgid "Last Modified"
+msgstr "Dernière modification"
+
+#: apps/wcs/templates/combo/wcs/care_forms.html
+msgid "Status"
+msgstr "Statut"
+
+#: apps/wcs/templates/combo/wcs/care_forms.html
+msgid "See all forms"
+msgstr "Voir toutes les demandes"
+
+#: apps/wcs/templates/combo/wcs/current_drafts.html
+msgid "draft"
+msgstr "brouillon"
+
+#: apps/wcs/templates/combo/wcs/current_drafts.html
+msgid "There are no current drafts."
+msgstr "Il n’y a aucun brouillon en cours."
+
+#: apps/wcs/templates/combo/wcs/current_forms.html
+msgid "There are no current forms."
+msgstr "Il n’y a aucune demande en cours de traitement."
+
+#: apps/wcs/templates/combo/wcs/forms_of_category.html
+#: public/templates/combo/link-list-cell.html
+msgid "More items"
+msgstr "Afficher davantage d’éléments"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Grid Layout:"
+msgstr "Disposition de la grille :"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Automatic"
+msgstr "Automatique"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Add"
+msgstr "Ajouter"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Layout"
+msgstr "Disposition"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "1 column"
+msgstr "Une colonne"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "2 columns"
+msgstr "Deux colonnes"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "3 columns"
+msgstr "Trois colonnes"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Field"
+msgstr "Champ"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Display"
+msgstr "Affichage"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Label & Value"
+msgstr "Libellé et valeur"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Label only"
+msgstr "Libellé uniquement"
+
+#: apps/wcs/templates/combo/wcs/manager/card-infos-cell-form.html
+msgid "Value only"
+msgstr "Valeur uniquement"
+
+#: apps/wcs/templates/combo/wcs/tracking_code_input.html
+msgid ""
+"\n"
+"    A tracking code is attached to all your forms, it is there to help you "
+"in\n"
+"    dealing with the administration.  To find the details of a form linked "
+"to\n"
+"    a tracking code, you can enter the code in the entry below:\n"
+"    "
+msgstr ""
+"\n"
+"Un code de suivi peut être associé à vos demandes, il vous facilite les "
+"échanges avec les services. Pour retrouver une demande disposant d’un code "
+"de suivi, indiquez ce dernier ci-dessous : \n\n"
+"Ein Tracking-Code kann mit Ihren vorgänge verknüpft werden, was Ihnen die "
+"Bearbeitung der Dienste erleichtert. Um eine Anfrage mit einem Tracking-Code "
+"zu finden, geben Sie diesen unten ein: \n"
+
+#: apps/wcs/templates/combo/wcs/tracking_code_input.html apps/wcs/views.py
+msgid "The tracking code could not been found."
+msgstr "Le code de suivi n’a pas pu être trouvé."
+
+#: apps/wcs/templates/combo/wcs/tracking_code_input.html
+msgid "ex: CNPHNTFB"
+msgstr "ex. : CNPHNTFB"
+
+#: apps/wcs/templates/combo/wcs/user_all_forms.html
+msgid "There are no forms."
+msgstr "Il n’y a aucune demande."
+
+#: apps/wcs/templates/combo/wcs/user_done_forms.html
+msgid "There are no done forms or they have been removed."
+msgstr "Il n’y a aucune demande traitée ou celles-ci ont été supprimées."
+
+#: apps/wcs/views.py
+msgid "Looking up tracking code is currently rate limited."
+msgstr "La vitesse de recherche par code de suivi est actuellement réduite."
+
+#: apps/wcs/views.py
+#, python-format
+msgid "Use tracking code %s"
+msgstr "Utiliser le code de suivi %s"
+
+#: data/management/commands/export_site.py
+msgid "TAR format require output filename parameter"
+msgstr "Le format TAR requiert le paramètre output"
+
+#: data/models.py manager/forms.py
+#, python-format
+msgid "syntax error: %s"
+msgstr "erreur de syntaxe : %s"
+
+#: data/models.py
+msgid "Sub Slug"
+msgstr "Expression de sous-page"
+
+#: data/models.py
+#, python-brace-format
+msgid ""
+"Context variable assigned to the path component, for example parking_id. It "
+"is also possible to define this using a regular expression, in that case "
+"variables will be provided according to named groups, for example (?P&lt;"
+"year&gt;[0-9]{4})."
+msgstr ""
+"Variable assignée par l’élément du chemin, par exemple parking_id. Il est "
+"aussi possible de définir ici une expression rationnelle; dans ce cas des "
+"variables seront assignées selon les groupes nommés de l’expression, par "
+"exemple (?P&lt;year&gt;[0-9]{4})."
+
+#: data/models.py
+msgid "Page Template"
+msgstr "Modèle de page"
+
+#: data/models.py
+msgid "Exclude from navigation"
+msgstr "Exclure des menus"
+
+#: data/models.py
+msgid "Redirect URL"
+msgstr "URL de redirection"
+
+#: data/models.py
+msgid "Public"
+msgstr "Publique"
+
+#: data/models.py manager/forms.py
+msgid "Groups"
+msgstr "Groupes"
+
+#: data/models.py settings.py
+msgid "Picture"
+msgstr "Image"
+
+#: data/models.py manager/forms.py
+msgid "Edit Role"
+msgstr "Rôle d’édition"
+
+#: data/models.py manager/forms.py
+msgid "Subpages Edit Role"
+msgstr "Rôle d’édition des sous-pages"
+
+#: data/models.py
+#, python-format
+msgid "Unknown (%s)"
+msgstr "Inconnu (%s)"
+
+#: data/models.py manager/templates/combo/manager_home.html
+#: manager/templates/combo/page_view.html
+msgid "logged users"
+msgstr "utilisateurs connectés"
+
+#: data/models.py
+#, python-format
+msgid "Private (%s)"
+msgstr "Privée (%s)"
+
+#: data/models.py
+msgid "navigation"
+msgstr "navigation"
+
+#: data/models.py
+msgid "redirection"
+msgstr "redirection"
+
+#: data/models.py
+#, python-format
+msgid ""
+"Unknown parent for page \"%s\"; parent has been reset and page was excluded "
+"from navigation."
+msgstr ""
+"Page parente inconnue pour « %s », la page a été placée à la racine du site "
+"et a été marquée comme exclue des menus."
+
+#: data/models.py
+#, python-format
+msgid "Copy of %s"
+msgstr "Copie de %s"
+
+#: data/models.py
+msgid "deletion"
+msgstr "suppression"
+
+#: data/models.py
+msgid "Cell Template"
+msgstr "Modèle de cellule"
+
+#: data/models.py
+msgid "Restrict to unlogged users"
+msgstr "Restreindre aux utilisateurs non connectés"
+
+#: data/models.py
+msgid "Loading..."
+msgstr "Chargement…"
+
+#: data/models.py
+#, python-format
+msgid "%(cell_label)s on page %(page_name)s (%(page_slug)s)"
+msgstr "%(cell_label)s sur la page %(page_name)s (%(page_slug)s)"
+
+#: data/models.py
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+#: data/models.py
+msgid "Fortune"
+msgstr "Fortune du jour"
+
+#: data/models.py
+msgid "Unlock Marker"
+msgstr "Marqueur de déblocage"
+
+#: data/models.py
+msgid "Depth"
+msgstr "Profondeur"
+
+#: data/models.py
+msgid "Initial Level"
+msgstr "Niveau initial"
+
+#: data/models.py
+msgid "Same as page"
+msgstr "Identique à la page"
+
+#: data/models.py
+msgid "Menu"
+msgstr "Menu"
+
+#: data/models.py
+msgid "Anchor"
+msgstr "Ancre"
+
+#: data/models.py
+msgid "add a link"
+msgstr "ajouter un lien"
+
+#: data/models.py
+msgid "New link"
+msgstr "Nouveau lien"
+
+#: data/models.py
+msgid "Edit link"
+msgstr "Modifier le lien"
+
+#: data/models.py
+msgid "No link set"
+msgstr "Pas de lien défini"
+
+#: data/models.py
+msgid "URL seems to unexist"
+msgstr "L’adresse ne semble pas exister"
+
+#: data/models.py
+msgid "URL seems to be invalid"
+msgstr "L’adresse semble invalide"
+
+#: data/models.py
+msgid "Link"
+msgstr "Lien"
+
+#: data/models.py
+msgid "Invalid link"
+msgstr "Lien invalide"
+
+#: data/models.py
+msgid "List of links"
+msgstr "Liste de liens"
+
+#: data/models.py
+msgid "No URL set"
+msgstr "Pas d’adresse définie"
+
+#: data/models.py
+msgid "RSS/Atom Feed"
+msgstr "Flux RSS/Atom"
+
+#: data/models.py
+msgid "Same as parent"
+msgstr "Identique à la page parente"
+
+#: data/models.py
+msgid "Display Template"
+msgstr "Gabarit d’affichage"
+
+#: data/models.py
+msgid "Force asynchronous mode"
+msgstr "Forcer le mode asynchrone"
+
+#: data/models.py
+msgid "Variable names"
+msgstr "Noms des variables"
+
+#: data/models.py
+msgid ""
+"Comma separated list of query-string variables to be copied in template "
+"context"
+msgstr ""
+"Liste des variables de la query-string à envoyer dans le contexte pour le "
+"template (noms séparés par des virgules)"
+
+#: data/models.py
+msgid "Request timeout"
+msgstr "Expiration des requêtes"
+
+#: data/models.py
+msgid "In seconds. Use 0 for default system timeout"
+msgstr "En secondes.  Utiliser 0 pour le délai d’expiration par défaut."
+
+#: data/models.py
+msgid "JSON Prototype"
+msgstr "Prototype JSON"
+
+#: data/models.py
+#, python-format
+msgid "%s (JSON Cell)"
+msgstr "%s (cellule JSON)"
+
+#: data/models.py
+msgid "Extra"
+msgstr "Extra"
+
+#: data/templates/combo/manager/link-list-cell-form.html
+msgid "Links:"
+msgstr "Liens :"
+
+#: data/templates/combo/manager/link-list-cell-form.html
+#, python-format
+msgid "This link is no longer displayed since %(invalidity_date)s."
+msgstr "Ce lien n’est plus affiché depuis %(invalidity_date)s."
+
+#: data/templates/combo/manager/link-list-cell-form.html
+#, python-format
+msgid "This link will no longer be displayed in %(invalidity_delay)s."
+msgstr "Ce lien ne sera plus affiché dans %(invalidity_delay)s."
+
+#: data/utils.py
+#, python-format
+msgid "Missing groups: %s"
+msgstr "Rôles manquants : %s"
+
+#: data/utils.py
+#, python-format
+msgid "Unknown page \"%s\"."
+msgstr "Page inconnue (« %s »)"
+
+#: data/utils.py
+msgid "TAR file should provide _site.json file"
+msgstr "Le fichier TAR doit contenir un fichier _site.json"
+
+#: manager/forms.py
+msgid "New title"
+msgstr "Nouveau titre"
+
+#: manager/forms.py
+msgid "Also export subpages"
+msgstr "Inclure les sous-pages dans l’export"
+
+#: manager/forms.py
+msgid "Slug must be unique"
+msgstr "Le slug doit être unique"
+
+#: manager/forms.py
+msgid "Bad Regular expression."
+msgstr "Expression invalide."
+
+#: manager/forms.py
+msgid "Include in navigation menus"
+msgstr "Inclure dans les menus"
+
+#: manager/forms.py manager/templates/combo/manager_edit_cell_block.html
+msgid "Visibility"
+msgstr "Visibilité"
+
+#: manager/forms.py
+msgid "Everybody"
+msgstr "Tout le monde"
+
+#: manager/forms.py
+msgid "Logged users"
+msgstr "Utilisateurs connectés"
+
+#: manager/forms.py
+msgid "Unlogged users"
+msgstr "Utilisateurs non connectés"
+
+#: manager/forms.py
+msgid "Users with one of these groups"
+msgstr "Utilisateurs avec un de ces rôles"
+
+#: manager/forms.py
+msgid "Users with none of these groups"
+msgstr "Utilisateurs sans aucun de ces rôles"
+
+#: manager/forms.py
+msgid "Site Export File"
+msgstr "Fichier d’export de site"
+
+#: manager/forms.py manager/templates/combo/manager_home.html
+msgid "Pages"
+msgstr "Pages"
+
+#: manager/forms.py
+msgid "Assets Files"
+msgstr "Fichiers de ressources"
+
+#: manager/templates/combo/cell_options.html
+msgid "Cell Options"
+msgstr "Options de cellule"
+
+#: manager/templates/combo/cell_visibility.html
+msgid "Cell Visibility"
+msgstr "Visibilité de la cellule"
+
+#: manager/templates/combo/delete_page.html
+msgid "This page has subpages, what do you want to do with them?"
+msgstr "Cette page contient des sous-pages, que voulez-vous faire ?"
+
+#: manager/templates/combo/delete_page.html
+msgid "Delete only this page"
+msgstr "Supprimer uniquement cette page"
+
+#: manager/templates/combo/delete_page.html
+msgid "Delete this page and all subpages"
+msgstr "Supprimer cette page et toutes ses sous-pages"
+
+#: manager/templates/combo/delete_page.html
+msgid "Are you sure you want to delete this page?"
+msgstr "Êtes-vous sûr·e de vouloir supprimer cette page ?"
+
+#: manager/templates/combo/invalid_cell_report.html
+msgid "Invalid cells"
+msgstr "Cellules invalides"
+
+#: manager/templates/combo/invalid_cell_report.html
+#: manager/templates/combo/manager_home.html
+msgid "Anomaly report"
+msgstr "Rapport d’anomalies"
+
+#: manager/templates/combo/invalid_cell_report.html
+msgid "Page:"
+msgstr "Page :"
+
+#: manager/templates/combo/invalid_cell_report.html
+msgid "Cell:"
+msgstr "Cellule :"
+
+#: manager/templates/combo/invalid_cell_report.html
+msgid "No invalid cell found."
+msgstr "Pas de cellule invalide trouvée."
+
+#: manager/templates/combo/manager_base.html
+msgid "Portal"
+msgstr "Portail"
+
+#: manager/templates/combo/manager_base.html
+msgid "Portal Management"
+msgstr "Gestion du portail"
+
+#: manager/templates/combo/manager_edit_cell_block.html
+msgid "There are no options for this cell."
+msgstr "Il n’y a pas d’option pour cette cellule."
+
+#: manager/templates/combo/manager_edit_cell_block.html
+msgid "Options"
+msgstr "Options"
+
+#: manager/templates/combo/manager_edit_cell_block.html
+#: manager/templates/combo/page_view.html
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: manager/templates/combo/manager_edit_cell_block.html
+msgid "Close"
+msgstr "Fermer"
+
+#: manager/templates/combo/manager_home.html
+msgid "Export Site"
+msgstr "Exporter le site"
+
+#: manager/templates/combo/manager_home.html
+msgid "Import Site"
+msgstr "Importer un site"
+
+#: manager/templates/combo/manager_home.html
+msgid ""
+"\n"
+"Use drag and drop with the ⣿ handles to reorder and change hierarchy of "
+"pages.\n"
+msgstr ""
+"\n"
+"Vous pouvez utiliser les poignées ⣿ pour ordonner et modifier la hiérarchie "
+"des pages.\n"
+
+#: manager/templates/combo/manager_home.html
+#: manager/templates/combo/page_view.html
+msgid "Restricted visibility"
+msgstr "Visibilité restreinte"
+
+#: manager/templates/combo/manager_home.html
+msgid ""
+"\n"
+"  This site doesn't have any page yet. Click on the \"New\" button in the "
+"top\n"
+"  right of the page to add a first one.\n"
+"  "
+msgstr ""
+"\n"
+"  Ce site n’a pas encore de pages.  Cliquez sur le bouton « Nouvelle »   "
+"dans le coin supérieur droit de la page pour en ajouter une première.  "
+
+#: manager/templates/combo/page_add.html
+msgid "Edit Page"
+msgstr "Modification de la page"
+
+#: manager/templates/combo/page_add.html
+msgid "New Page"
+msgstr "Nouvelle page"
+
+#: manager/templates/combo/page_duplicate.html
+msgid "Duplicate Page"
+msgstr "Duplication de la page"
+
+#: manager/templates/combo/page_export.html
+msgid "Export Page"
+msgstr "Export de la page"
+
+#: manager/templates/combo/page_export.html
+#: manager/templates/combo/page_view.html
+#: manager/templates/combo/site_export.html
+msgid "Export"
+msgstr "Exporter"
+
+#: manager/templates/combo/page_history.html
+msgid "Page History"
+msgstr "Historique de la page"
+
+#: manager/templates/combo/page_history.html
+#: manager/templates/combo/page_view.html
+#: manager/templates/combo/snapshot_restore.html
+msgid "History"
+msgstr "Historique"
+
+#: manager/templates/combo/page_history.html
+msgid "view"
+msgstr "voir"
+
+#: manager/templates/combo/page_history.html
+msgid "restore"
+msgstr "restaurer"
+
+#: manager/templates/combo/page_view.html
+msgid "See online"
+msgstr "Voir en ligne"
+
+#: manager/templates/combo/page_view.html
+msgid "Add a child page"
+msgstr "Ajouter une sous-page"
+
+#: manager/templates/combo/page_view.html
+msgid "Manage edit roles"
+msgstr "Gestion des rôles d’édition"
+
+#: manager/templates/combo/page_view.html
+msgid "Parameters"
+msgstr "Paramètres"
+
+#: manager/templates/combo/page_view.html
+msgid "Title:"
+msgstr "Titre :"
+
+#: manager/templates/combo/page_view.html
+msgid "change"
+msgstr "modifier"
+
+#: manager/templates/combo/page_view.html
+msgid "Slug:"
+msgstr "Slug :"
+
+#: manager/templates/combo/page_view.html
+msgid "Description:"
+msgstr "Description :"
+
+#: manager/templates/combo/page_view.html
+msgid "none"
+msgstr "aucune"
+
+#: manager/templates/combo/page_view.html
+msgid "Template:"
+msgstr "Modèle de page :"
+
+#: manager/templates/combo/page_view.html
+msgid "missing"
+msgstr "manquant"
+
+#: manager/templates/combo/page_view.html
+msgid "Visibility:"
+msgstr "Visibilité :"
+
+#: manager/templates/combo/page_view.html
+msgid "Include in navigation menus:"
+msgstr "Incluse dans les menus :"
+
+#: manager/templates/combo/page_view.html
+msgid "no"
+msgstr "non"
+
+#: manager/templates/combo/page_view.html
+msgid "yes"
+msgstr "oui"
+
+#: manager/templates/combo/page_view.html
+msgid "Redirection:"
+msgstr "URL de redirection :"
+
+#: manager/templates/combo/page_view.html
+msgid "Picture:"
+msgstr "Image :"
+
+#: manager/templates/combo/page_view.html
+msgid "Optional sections"
+msgstr "Sections optionnelles"
+
+#: manager/templates/combo/page_view.html
+msgid "empty"
+msgstr "vide"
+
+#: manager/templates/combo/page_view.html
+msgid "like parent"
+msgstr "identique à la page parente"
+
+#: manager/templates/combo/page_view.html
+#, python-format
+msgid ""
+"This page is configured as a redirection to the URL \"%(redirect_url)s\", it "
+"can also be used as a template for the pages behind this URL."
+msgstr ""
+"Cette page est configurée en tant que redirection vers l’adresse "
+"« %(redirect_url)s », elle peut également être utilisée comme modèle pour "
+"cette adresse ou d’autres adresses sous celle-ci."
+
+#: manager/templates/combo/page_view.html
+#, python-format
+msgid "This cell is no longer displayed since %(invalidity_date)s."
+msgstr "Cette cellule n’est plus affichée depuis %(invalidity_date)s."
+
+#: manager/templates/combo/page_view.html
+#, python-format
+msgid "This cell will no longer be displayed in %(invalidity_delay)s."
+msgstr "Cette cellule ne sera plus affichée dans %(invalidity_delay)s."
+
+#: manager/templates/combo/page_view.html
+msgid "unlogged users"
+msgstr "utilisateurs non connectés"
+
+#: manager/templates/combo/page_view.html
+msgid "Add a new cell"
+msgstr "Ajouter une nouvelle cellule"
+
+#: manager/templates/combo/site_export.html
+msgid "Site Export"
+msgstr "Export de site"
+
+#: manager/templates/combo/site_import.html
+msgid "Site Import"
+msgstr "Importation de site"
+
+#: manager/templates/combo/snapshot_restore.html
+msgid "Snapshot Restore"
+msgstr "Restauration d’instantané"
+
+#: manager/templates/combo/snapshot_restore.html
+#, python-format
+msgid ""
+"\n"
+"  Are you sure you want to restore snapshot #%(snapshot_id)s of the page "
+"(dated %(date)s)?\n"
+"  "
+msgstr ""
+"\n"
+"  Êtes-vous sûr·e de vouloir restaurer l’instantané %(snapshot_id)s de la "
+"page (du %(date)s) ?\n"
+"  "
+
+#: manager/templates/combo/snapshot_restore.html
+msgid "Restore"
+msgstr "Restaurer"
+
+#: manager/templates/registration/login.html
+msgid "Log in"
+msgstr "S’identifier"
+
+#: manager/views.py
+msgid "File is not in the expected TAR or JSON format."
+msgstr "Le fichier n’est pas au format TAR ou JSON attendu."
+
+#: manager/views.py
+msgid "imported"
+msgstr "importée"
+
+#: manager/views.py
+msgid "Home"
+msgstr "Accueil"
+
+#: manager/views.py
+#, python-format
+msgid "switched template to %s"
+msgstr "changement de modèle vers %s"
+
+#: manager/views.py
+msgid "changed redirection"
+msgstr "changement de l’URL de redirection"
+
+#: manager/views.py
+msgid "Edit roles management"
+msgstr "Gestion des rôles d’édition"
+
+#: manager/views.py
+msgid "changed edit roles"
+msgstr "changement des rôles d’édition"
+
+#: manager/views.py
+msgid "changed navigation inclusion"
+msgstr "changement de l’inclusion dans les menus"
+
+#: manager/views.py
+msgid "changed slug"
+msgstr "changement du slug"
+
+#: manager/views.py
+msgid "changed description"
+msgstr "changement de la description"
+
+#: manager/views.py
+msgid "changed title"
+msgstr "changement du titre"
+
+#: manager/views.py
+msgid "changed visibility"
+msgstr "changement de la visibilité"
+
+#: manager/views.py
+msgid "changed picture"
+msgstr "changement de l’image"
+
+#: manager/views.py
+msgid "removed picture"
+msgstr "suppression de l’image"
+
+#: manager/views.py
+#, python-format
+msgid ""
+"Page %s has been duplicated, it has been marked as excluded from navigation."
+msgstr ""
+"La page « %s » a été dupliquée, la nouvelle page a été marquée comme exclue "
+"des menus."
+
+#: manager/views.py
+#, python-format
+msgid "Page %s has been duplicated."
+msgstr "La page « %s » a été dupliquée."
+
+#: manager/views.py
+#, python-format
+msgid "restored snapshot from %s"
+msgstr "restauration de l’instantané du %s"
+
+#: manager/views.py
+#, python-format
+msgid "Snapshot from %s has been restored."
+msgstr "L’instantané du %s a été restauré."
+
+#: manager/views.py
+#, python-format
+msgid "added cell \"%s\""
+msgstr "ajout d’une cellule « %s »"
+
+#: manager/views.py
+#, python-format
+msgid "removed cell \"%s\""
+msgstr "suppression de la cellule « %s »"
+
+#: manager/views.py
+#, python-format
+msgid "duplicated cell \"%s\""
+msgstr "duplication de la callule « %s »"
+
+#: manager/views.py
+#, python-format
+msgid "Cell %s has been duplicated."
+msgstr "La cellule « %s » a été dupliquée."
+
+#: manager/views.py
+msgid "reordered cells"
+msgstr "modification de l’ordre des cellules"
+
+#: manager/views.py
+#, python-format
+msgid "Editing \"%(site_title)s\""
+msgstr "Édition « %(site_title)s »"
+
+#: manager/views.py
+msgid "Content Management"
+msgstr "Gestion de contenu"
+
+#: profile/__init__.py profile/models.py profile/templates/combo/profile.html
+msgid "Profile"
+msgstr "Profil"
+
+#: profile/__init__.py
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: profile/templates/combo/profile.html
+msgid "Unknown User"
+msgstr "Utilisateur inconnu"
+
+#: public/templates/combo/404.html
+msgid "This page doesn't exist"
+msgstr "Cette page n’existe pas"
+
+#: public/templates/combo/404.html
+msgid ""
+"\n"
+"  <p>\n"
+"   Maybe it got removed, maybe a link is wrong, luckily there's still\n"
+"   the <a href=\"/\">home page</a> to get back to a safe place.\n"
+"  </p>\n"
+"  "
+msgstr ""
+"\n"
+"  <p>\n"
+"   Peut-être a-t-elle été supprimée, peut-être un lien est-il\n"
+"   mauvais, par chance la <a href=\"/\">page d’accueil</a> reste bien\n"
+"   présente.\n"
+"  </p>\n"
+"  "
+
+#: public/templates/combo/empty_site.html
+msgid "Welcome!"
+msgstr "Bienvenue !"
+
+#: public/templates/combo/empty_site.html
+msgid ""
+"\n"
+"<p>\n"
+"Your installation of Combo was successful and you can now play with it\n"
+"to your heart's content.  It is currently empty, your first move should\n"
+"probably be to head to the management interface to add some pages.\n"
+"</p>\n"
+"   "
+msgstr ""
+"\n"
+"<p>\n"
+"Votre installation de Combo fonctionne et vous pouvez maintenant y dire\n"
+"ce que vous avez sur le cœur. Le site est actuellement vide, la première\n"
+"chose à faire est certainement de vous rendre dans l’interface de gestion\n"
+"pour ajouter quelques pages.\n"
+"</p>\n"
+"   "
+
+#: public/templates/combo/json-error-cell.html
+msgid "Technical error getting data."
+msgstr "Erreur technique à la récupération des données."
+
+#: public/templates/combo/menu.html
+msgid "active page"
+msgstr "page active"
+
+#: public/templates/combo/page_template.html
+#: public/templates/combo/page_template_sidebar.html
+msgid "Content"
+msgstr "Contenu"
+
+#: public/templates/combo/page_template.html
+msgid "Footer"
+msgstr "Pied de page"
+
+#: public/templates/combo/page_template_sidebar.html
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: public/views.py
+msgid "Error sending data."
+msgstr "Erreur à l’envoi des données."
+
+#: public/views.py
+msgid "Style Demo"
+msgstr "Démonstration des styles"
+
+#: public/views.py
+msgid "Select"
+msgstr "Sélectionner"
+
+#: public/views.py
+msgid "Success notice"
+msgstr "Message de succès"
+
+#: public/views.py
+msgid "Info notice"
+msgstr "Message d’information"
+
+#: public/views.py
+msgid "Warning notice"
+msgstr "Message d’avertissement"
+
+#: public/views.py
+msgid "Error notice"
+msgstr "Message d’erreur"
+
+#: settings.py
+msgid "One column"
+msgstr "Une colonne"
+
+#: settings.py
+msgid "One column + sidebar"
+msgstr "Une colonne et une barre latérale"
+
+#: settings.py
+msgid "Two columns"
+msgstr "Deux colonnes"
+
+#: settings.py
+msgid "Two columns + sidebar"
+msgstr "Deux colonnes et une barre latérale"
+
+#: settings.py
+msgid "Left column"
+msgstr "Colonne de gauche"
+
+#: settings.py
+msgid "Right column"
+msgstr "Colonne de droite"
+
+#: settings.py
+msgid "Home page"
+msgstr "Page d’accueil"
+
+#: settings.py
+msgid "Top banner"
+msgstr "Bandeau"
+
+#: settings.py
+msgid "Middle column"
+msgstr "Colonne du milieu"
+
+#~ msgid "Include requests for which the user is not the author"
+#~ msgstr "Inclure les demandes pour lesquelles l’usager n’est pas l’auteur"
+
+#~ msgid "Forms you can access"
+#~ msgstr "Demandes auxquelles vous avez accès"
+
+#~ msgid "There are no forms you can access."
+#~ msgstr "Il n’y a aucune demande auxquelles vous avez accès."
+
+#~ msgid "TIPI payment service URL"
+#~ msgstr "URL du service de paiement TIPI"
+
+#~ msgid ""
+#~ "Regular expression to create variadic subpages. Matching named groups are "
+#~ "exposed as context variables."
+#~ msgstr ""
+#~ "Expression rationnelle utilisée pour créer des variantes de sous-pages. "
+#~ "Les groupes nommés seront exposés comme variables dans le contexte."
+
+#~ msgid "Newsletters"
+#~ msgstr "Newsletters"
+
+#~ msgid "An error occured while getting newsletters. Please try later."
+#~ msgstr ""
+#~ "Une erreur est survenue lors de la récupération des newsletters. Veuillez "
+#~ "essayer plus tard."
+
+#~ msgid "An error occured while getting subscriptions. Please try later."
+#~ msgstr ""
+#~ "Une erreur est survenue lors de la récupération des vos abonnements. "
+#~ "Veuillez essayer plus tard."
+
+#~ msgid "Newsletters service url"
+#~ msgstr "Adresse du service des newsletters"
+
+#~ msgid "resources restrictions"
+#~ msgstr "restrictions des ressources"
+
+#~ msgid "list of resources(themes) separated by commas"
+#~ msgstr "liste des ressources(thèmes) séparées par des virgules"
+
+#~ msgid "transports restrictions"
+#~ msgstr "restrictions de transport"
+
+#~ msgid "list of transports separated by commas"
+#~ msgstr "liste des transports séparés par des virgules"
+
+#~ msgid "Theme"
+#~ msgstr "Rubrique"
+
+#~ msgid "Modify"
+#~ msgstr "Modifier"
+
+#~ msgid "No subscriptions"
+#~ msgstr "Aucun abonnement"
+
+#~ msgid "Your subscriptions are successfully saved"
+#~ msgstr "Vos abonnements ont été bien pris en compte."
+
+#~ msgid "An error occured while saving your subscriptions. Please try later."
+#~ msgstr ""
+#~ "Une erreur est survenue lors de la sauvegarde de vos abonnements. "
+#~ "Veuillez essayer plus tard."
