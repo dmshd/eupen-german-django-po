@@ -664,7 +664,7 @@ msgstr ""
 #: apps/family/templates/family/link_form.html
 #: apps/wcs/templates/combo/wcs/tracking_code_input.html
 msgid "Submit"
-msgstr "Valider"
+msgstr "Validieren · Valider"
 
 #: apps/family/templates/family/person.html
 msgid "Born on"
@@ -2665,11 +2665,11 @@ msgstr "brouillon"
 
 #: apps/wcs/templates/combo/wcs/current_drafts.html
 msgid "There are no current drafts."
-msgstr "Il n’y a aucun brouillon en cours."
+msgstr "Es sind keine Entwürfe in Arbeit. · Il n’y a aucun brouillon en cours."
 
 #: apps/wcs/templates/combo/wcs/current_forms.html
 msgid "There are no current forms."
-msgstr "Il n’y a aucune demande en cours de traitement."
+msgstr "Es sind keine Anträge in Bearbeitung. · Il n’y a aucune demande en cours de traitement."
 
 #: apps/wcs/templates/combo/wcs/forms_of_category.html
 #: public/templates/combo/link-list-cell.html
@@ -2753,7 +2753,7 @@ msgstr "ex. : CNPHNTFB"
 
 #: apps/wcs/templates/combo/wcs/user_all_forms.html
 msgid "There are no forms."
-msgstr "Il n’y a aucune demande."
+msgstr "Es gibt keine vorgänge. · Il n’y a aucune demande."
 
 #: apps/wcs/templates/combo/wcs/user_done_forms.html
 msgid "There are no done forms or they have been removed."
