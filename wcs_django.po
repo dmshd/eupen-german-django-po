@@ -66,7 +66,7 @@ msgstr "Rôles donnés par cet accès"
 #: qommon/ident/franceconnect.py qommon/ident/idp.py qommon/ident/password.py
 #: root.py wf/form.py
 msgid "Submit"
-msgstr "Validieren / Valider"
+msgstr "Validieren · Valider"
 
 #: admin/api_access.py admin/blocks.py admin/categories.py
 #: admin/data_sources.py admin/fields.py admin/forms.py admin/mail_templates.py
@@ -77,7 +77,7 @@ msgstr "Validieren / Valider"
 #: qommon/ident/franceconnect.py qommon/ident/idp.py qommon/ident/password.py
 #: qommon/myspace.py
 msgid "Cancel"
-msgstr "Abbrechen / Annuler"
+msgstr "Abbrechen · Annuler"
 
 #: admin/api_access.py admin/data_sources.py admin/forms.py admin/wscalls.py
 msgid "This name is already used."
@@ -169,7 +169,7 @@ msgstr "Enregistrer une sauvegarde"
 #: admin/workflows.py admin/wscalls.py backoffice/snapshots.py
 #: templates/wcs/backoffice/snapshots.html
 msgid "History"
-msgstr "Verlauf / Historique"
+msgstr "Verlauf · Historique"
 
 #: admin/blocks.py admin/settings.py backoffice/root.py
 #: qommon/admin/settings.py templates/wcs/backoffice/settings/import.html
@@ -587,7 +587,7 @@ msgstr "Modification du champ « %s »"
 #: admin/fields.py
 msgid "Warning: this field data will be permanently deleted."
 msgstr ""
-"Achtung: Die in diesem Feld enthaltenen Informationen gehen unwiderruflich verloren. / Attention : l’information contenue dans ce champ sera perdue de façon "
+"Achtung: Die in diesem Feld enthaltenen Informationen gehen unwiderruflich verloren. · Attention : l’information contenue dans ce champ sera perdue de façon "
 "irréversible."
 
 #: admin/fields.py
@@ -744,7 +744,7 @@ msgstr "Workflow"
 msgid ""
 "Warning: this field data will be permanently deleted from existing forms."
 msgstr ""
-"Achtung: Bei bereits gestellten Anträgen gehen die in diesem Feld enthaltenen Informationen unwiderruflich verloren. / Attention : pour les demandes déjà effectuées, l’information contenue dans "
+"Achtung: Bei bereits gestellten Anträgen gehen die in diesem Feld enthaltenen Informationen unwiderruflich verloren. · Attention : pour les demandes déjà effectuées, l’information contenue dans "
 "ce champ sera perdue de façon irréversible."
 
 #: admin/forms.py
@@ -811,7 +811,7 @@ msgstr "La durée de vie doit être entre 2 et 100 jours."
 #: admin/forms.py backoffice/management.py backoffice/submission.py
 #: forms/root.py
 msgid "Tracking Code"
-msgstr "Tracking-Code / Code de suivi"
+msgstr "Tracking-Code · Code de suivi"
 
 #: admin/forms.py
 msgid "Prepend a CAPTCHA page for anonymous users"
@@ -1206,7 +1206,7 @@ msgid "This identifier is already used."
 msgstr "Cet identifiant est déjà utilisé."
 
 #: admin/forms.py
-msgid "Change of title / URL"
+msgid "Change of title · URL"
 msgstr "Changement du titre ou de l’adresse"
 
 #: admin/forms.py
@@ -1355,11 +1355,11 @@ msgstr "Changement dans les options de workflow"
 #: admin/forms.py admin/settings.py admin/workflows.py backoffice/cards.py
 #: backoffice/management.py formdef.py forms/common.py forms/root.py
 msgid "Forms"
-msgstr "Formulare / Formulaires"
+msgstr "Formulare · Formulaires"
 
 #: admin/forms.py
 msgid "Import Form"
-msgstr "Ein Formular importieren / Importer un formulaire"
+msgstr "Ein Formular importieren · Importer un formulaire"
 
 #: admin/forms.py
 msgid ""
@@ -1387,7 +1387,7 @@ msgstr ""
 #: backoffice/submission.py forms/root.py
 #: templates/wcs/backoffice/data-management.html
 msgid "Misc"
-msgstr "Verschiedene / Divers"
+msgstr "Verschiedene · Divers"
 
 #: admin/forms.py admin/settings.py admin/workflows.py backoffice/cards.py
 msgid "Data sources"
@@ -1403,7 +1403,7 @@ msgstr "Nouveau formulaire"
 
 #: admin/forms.py
 msgid "You first have to define roles."
-msgstr "Sie müssen zunächst Rollen definieren / Vous devez d’abord définir des rôles"
+msgstr "Sie müssen zunächst Rollen definieren · Vous devez d’abord définir des rôles"
 
 #: admin/forms.py
 msgid "Updating digests"
@@ -1626,8 +1626,8 @@ msgid "Identification"
 msgstr "Identification"
 
 #: admin/settings.py
-msgid "Simple local username / password"
-msgstr "Simplement identifiant / mot de passe local"
+msgid "Simple local username · password"
+msgstr "Simplement identifiant · mot de passe local"
 
 #: admin/settings.py
 msgid "Delegated to SAML identity provider"
@@ -1750,8 +1750,8 @@ msgid "Configure access to the API endpoints"
 msgstr "Configurer les accès aux API"
 
 #: admin/settings.py
-msgid "Import / Export"
-msgstr "Import / Export"
+msgid "Import · Export"
+msgstr "Import · Export"
 
 #: admin/settings.py
 msgid "Initialise with data from another site"
@@ -2038,7 +2038,7 @@ msgstr "Nom de l’utilisateur pour l’authentification"
 
 #: admin/settings.py fields.py qommon/ident/password.py
 msgid "Password"
-msgstr "Passwort / Mot de passe"
+msgstr "Passwort · Mot de passe"
 
 #: admin/settings.py
 msgid "Password used to authenticate"
@@ -2313,12 +2313,12 @@ msgid "Pick an Action"
 msgstr "Choisir une action"
 
 #: admin/workflows.py
-msgid "Delete / Reassign"
-msgstr "Supprimer / Réassigner"
+msgid "Delete · Reassign"
+msgstr "Supprimer · Réassigner"
 
 #: admin/workflows.py
-msgid "Delete Status / Reassign"
-msgstr "Supprimer le statut / Réassigner"
+msgid "Delete Status · Reassign"
+msgstr "Supprimer le statut · Réassigner"
 
 #: admin/workflows.py
 msgid ""
@@ -2719,7 +2719,7 @@ msgstr "Le workflow a été importé correctement."
 
 #: admin/wscalls.py
 msgid "Beware it is risky to change it"
-msgstr "Vorsicht, diese Änderung ist riskant / Attention, ce changement est risqué"
+msgstr "Vorsicht, diese Änderung ist riskant · Attention, ce changement est risqué"
 
 #: admin/wscalls.py wf/wscall.py
 msgid "Request"
@@ -3287,7 +3287,7 @@ msgid ""
 "Beware this view is available to all users, and will thus be removed for "
 "everyone."
 msgstr ""
-"Bitte beachten Sie, dass diese Ansicht für alle Benutzer freigegeben ist und daher für alle gelöscht wird. / Attention, cette vue est partagée avec tous les utilisateurs et sera donc "
+"Bitte beachten Sie, dass diese Ansicht für alle Benutzer freigegeben ist und daher für alle gelöscht wird. · Attention, cette vue est partagée avec tous les utilisateurs et sera donc "
 "supprimée pour tout le monde."
 
 #: backoffice/management.py
@@ -3759,11 +3759,11 @@ msgstr "Suppression du formulaire"
 
 #: backoffice/submission.py forms/root.py
 msgid "This form has already been submitted."
-msgstr "Dieses Formular wurde bereits registriert. / Ce formulaire a déjà été enregistré."
+msgstr "Dieses Formular wurde bereits registriert. · Ce formulaire a déjà été enregistré."
 
 #: backoffice/submission.py
 msgid "Delete this form"
-msgstr "Diesen Antrag löschen / Supprimer cette demande"
+msgstr "Diesen Antrag löschen · Supprimer cette demande"
 
 #: backoffice/submission.py
 msgid "New submission"
@@ -3784,19 +3784,19 @@ msgstr "n°%(id)s, %(time)s"
 
 #: blocks.py formdef.py
 msgid "Unknown datasources"
-msgstr "Unbekannte Datenquellen / Sources de données inconnues"
+msgstr "Unbekannte Datenquellen · Sources de données inconnues"
 
 #: blocks.py formdef.py workflows.py
 msgid "Missing name"
-msgstr "Fehlender Name / Nom manquant"
+msgstr "Fehlender Name · Nom manquant"
 
 #: blocks.py formdef.py
 msgid "Unexpected root node"
-msgstr "Unerwartetes Wurzelelement / Élément racine inattendu"
+msgstr "Unerwartetes Wurzelelement · Élément racine inattendu"
 
 #: blocks.py formdef.py
 msgid "Unknown field type"
-msgstr "Feldtyp unbekannt / Type de champ inconnu"
+msgstr "Feldtyp unbekannt · Type de champ inconnu"
 
 #: blocks.py
 msgid "Add another"
@@ -3804,7 +3804,7 @@ msgstr "Ajouter un autre"
 
 #: blocks.py qommon/form.py
 msgid "This field is required."
-msgstr "Dieses Feld ist obligatorisch. / Ce champ est obligatoire."
+msgstr "Dieses Feld ist obligatorisch. · Ce champ est obligatoire."
 
 #: carddef.py
 msgid "Card model"
@@ -3924,8 +3924,8 @@ msgid "Refreshing agendas"
 msgstr "Actualisation des agendas"
 
 #: fields.py workflows.py
-msgid "String / Template"
-msgstr "Texte / Gabarit"
+msgid "String · Template"
+msgstr "Texte · Gabarit"
 
 #: fields.py
 msgid "User Field"
@@ -3965,17 +3965,17 @@ msgstr "Identifiant d’adresse"
 
 #: fields.py
 msgid "Locked"
-msgstr "Abgeschlossen / Verrouillé"
+msgstr "Abgeschlossen · Verrouillé"
 
 #: fields.py
 #, python-format
 msgid "invalid expression: %s"
-msgstr "ungültiger Ausdruck / expression invalide : %s"
+msgstr "ungültiger Ausdruck · expression invalide : %s"
 
 #: fields.py
 #, python-format
 msgid "Failed to evaluate prefill on field \"%s\""
-msgstr "Fehler bei der Auswertung der Vorbefüllung des Feldes / Erreur à l’évaluation du préremplissage du champ « %s »"
+msgstr "Fehler bei der Auswertung der Vorbefüllung des Feldes · Erreur à l’évaluation du préremplissage du champ « %s »"
 
 #: fields.py
 msgid "Validation Page"
@@ -3991,7 +3991,7 @@ msgstr "Tableaux de traitement"
 
 #: fields.py wf/attachment.py workflows.py
 msgid "Required"
-msgstr "Obligatorisch / Obligatoire"
+msgstr "Obligatorisch · Obligatoire"
 
 #: fields.py
 msgid "This is used as suffix for variable names."
@@ -4593,15 +4593,15 @@ msgid ""
 "{{ form_details }}\n"
 "{% endif %}\n"
 msgstr ""
-"Hallo / Bonjour,\n"
+"Hallo · Bonjour,\n"
 "\n"
-"Diese Nachricht erinnert Sie an die Bewerbung, die Sie gerade abgeschickt haben. / Ce message est un rappel concernant la demande que vous venez d’envoyer.\n"
+"Diese Nachricht erinnert Sie an die Bewerbung, die Sie gerade abgeschickt haben. · Ce message est un rappel concernant la demande que vous venez d’envoyer.\n"
 "{% if form_user %}\n"
-"Sie können ihn unter folgendem Link einsehen  / Vous pouvez la consulter en suivant ce lien : {{ form_url }}\n"
+"Sie können ihn unter folgendem Link einsehen  · Vous pouvez la consulter en suivant ce lien : {{ form_url }}\n"
 "{% endif %}\n"
 "\n"
 "{% if form_details %}\n"
-"Hier sind die Einzelheiten des Antrags / Pour référence, voici le détail de la demande :\n"
+"Hier sind die Einzelheiten des Antrags · Pour référence, voici le détail de la demande :\n"
 "\n"
 "{{ form_details }}\n"
 "{% endif %}\n"
@@ -4633,18 +4633,18 @@ msgid ""
 "{{ form_evolution }}\n"
 "{% endif %}\n"
 msgstr ""
-"Hallo / Bonjour,\n"
+"Hallo · Bonjour,\n"
 "\n"
 "{% if form_status_changed %}\n"
-"Der Status des von Ihnen eingereichten Antrags hat sich soeben geändert / Le statut de la demande que vous avez transmise vient de changer (il est\n"
-"passé de / ging es von « {{ form_previous_status }} » à/nach « {{ form_status }} »).\n"
+"Der Status des von Ihnen eingereichten Antrags hat sich soeben geändert · Le statut de la demande que vous avez transmise vient de changer (il est\n"
+"passé de · ging es von « {{ form_previous_status }} » à/nach « {{ form_status }} »).\n"
 "{% endif %}\n"
 "\n"
 "{% if form_user %}\n"
-"Sie können darüber lesen, indem Sie diesem Link folgen / Vous pouvez en prendre connaissance en suivant ce lien : {{ form_url }}\n"
+"Sie können darüber lesen, indem Sie diesem Link folgen · Vous pouvez en prendre connaissance en suivant ce lien : {{ form_url }}\n"
 "{% endif %}\n"
 "\n"
-"{% if form_comment %}Neuer Kommentar / Nouveau commentaire : {{ form_comment }}{% endif %}\n"
+"{% if form_comment %}Neuer Kommentar · Nouveau commentaire : {{ form_comment }}{% endif %}\n"
 "\n"
 "{% if form_evolution %}\n"
 "{{ form_evolution }}\n"
@@ -4764,17 +4764,17 @@ msgstr "il y a moins de %s minutes"
 #, python-format
 msgid "Be warned forms of this user are also being looked at by: %s."
 msgstr ""
-"Bitte beachten Sie, dass die Formulare dieses Benutzers auch von / Attention, les formulaires de cet utilisateur sont également consultés par : "
+"Bitte beachten Sie, dass die Formulare dieses Benutzers auch von · Attention, les formulaires de cet utilisateur sont également consultés par : "
 "%s."
 
 #: forms/common.py
 msgid "(unlock actions)"
-msgstr "(Freischaltung der Aktien / Débloquer les actions)"
+msgstr "(Freischaltung der Aktien · Débloquer les actions)"
 
 #: forms/preview.py
 msgid "This was only a preview: form was not actually submitted."
 msgstr ""
-"Das Formular befindet sich in der Vorschau, es wurden noch keine Daten übertragen. / Le formulaire est en prévisualisation, aucune donnée n’a été transmise."
+"Das Formular befindet sich in der Vorschau, es wurden noch keine Daten übertragen. · Le formulaire est en prévisualisation, aucune donnée n’a été transmise."
 
 #: forms/preview.py
 msgid "Start another preview."
@@ -4786,7 +4786,7 @@ msgstr "Ne pas cocher la case ou le message ne sera PAS envoyé."
 
 #: forms/root.py
 msgid "Send email"
-msgstr "E-Mail senden / Envoyer le courriel"
+msgstr "E-Mail senden · Envoyer le courriel"
 
 #: forms/root.py
 msgid "Keep your tracking code"
@@ -4794,43 +4794,43 @@ msgstr "Behalten Sie Ihren Tracking-Code/ Conservez votre code de suivi"
 
 #: forms/root.py
 msgid "Filling"
-msgstr "Ausgabe / Édition"
+msgstr "Ausgabe · Édition"
 
 #: forms/root.py
 msgid "Validating"
-msgstr "Validierung / Validation"
+msgstr "Validierung · Validation"
 
 #: forms/root.py
 msgid "Save Changes"
-msgstr "Aufzeichnung von Änderungen / Enregistrer les changements"
+msgstr "Aufzeichnung von Änderungen · Enregistrer les changements"
 
 #: forms/root.py
 msgid "Next"
-msgstr "Weiter / Suivant"
+msgstr "Weiter · Suivant"
 
 #: forms/root.py
 msgid "Previous"
-msgstr "Zurück / Précédent"
+msgstr "Zurück · Précédent"
 
 #: forms/root.py
 msgid "Discard"
-msgstr "Abbrechen / Abandonner"
+msgstr "Abbrechen · Abandonner"
 
 #: forms/root.py
 msgid "Save Draft"
-msgstr "Als Entwurf speichern / Sauvegarder en tant que brouillon"
+msgstr "Als Entwurf speichern · Sauvegarder en tant que brouillon"
 
 #: forms/root.py
 msgid "leave this field blank to prove your humanity"
-msgstr "Lassen Sie dieses Feld leer, um zu beweisen, dass Sie kein Roboter sind. / Laissez ce champ vide pour prouver votre humanité."
+msgstr "Lassen Sie dieses Feld leer, um zu beweisen, dass Sie kein Roboter sind. · Laissez ce champ vide pour prouver votre humanité."
 
 #: forms/root.py
 msgid "Tracking code"
-msgstr "Tracking-Code / Code de suivi"
+msgstr "Tracking-Code · Code de suivi"
 
 #: forms/root.py
 msgid "Discard Draft"
-msgstr "Entwurf löschen / Supprimer le brouillon"
+msgstr "Entwurf löschen · Supprimer le brouillon"
 
 #: forms/root.py
 msgid "You need a stronger authentication level to fill this form."
@@ -4841,15 +4841,15 @@ msgstr ""
 #: forms/root.py
 #, python-format
 msgid "Login with %s"
-msgstr "Anmelden mit... / Connexion avec... %s"
+msgstr "Anmelden mit... · Connexion avec... %s"
 
 #: forms/root.py
 msgid "Sorry, your session have been lost."
-msgstr "Tut mir leid, Ihre Sitzung ist verloren gegangen. / Désolé, votre session a été perdue."
+msgstr "Tut mir leid, Ihre Sitzung ist verloren gegangen. · Désolé, votre session a été perdue."
 
 #: forms/root.py
 msgid "Honey pot should be left untouched."
-msgstr "Der Honigtopf sollte nicht berührt werden. / Le pot de miel ne doit pas être touché."
+msgstr "Der Honigtopf sollte nicht berührt werden. · Le pot de miel ne doit pas être touché."
 
 #: forms/root.py
 msgid "ex: RPQDFVCD"
@@ -4857,23 +4857,23 @@ msgstr "ex : RPQDFVCD"
 
 #: forms/root.py
 msgid "Load"
-msgstr "Validieren / Valider"
+msgstr "Validieren · Valider"
 
 #: forms/root.py root.py
 msgid "Register"
-msgstr "Registrieren Sie sich / S’inscrire"
+msgstr "Registrieren Sie sich · S’inscrire"
 
 #: forms/root.py
 msgid "Logout"
-msgstr "Abmelden / Déconnexion"
+msgstr "Abmelden · Déconnexion"
 
 #: forms/root.py qommon/ident/idp.py qommon/ident/password.py root.py
 msgid "Login"
-msgstr "Identifizieren Sie sich / S’identifier"
+msgstr "Identifizieren Sie sich · S’identifier"
 
 #: forms/root.py
 msgid "Your Current Drafts"
-msgstr "Ihre aktuellen Entwürfe / Vos brouillons en cours"
+msgstr "Ihre aktuellen Entwürfe · Vos brouillons en cours"
 
 #: forms/root.py
 #, python-format
@@ -4882,19 +4882,19 @@ msgstr "Vos formulaires avec le statut « %s »"
 
 #: forms/root.py
 msgid "already completed"
-msgstr "bereits abgeschlossen / déjà complétée"
+msgstr "bereits abgeschlossen · déjà complétée"
 
 #: forms/root.py
 msgid "review"
-msgstr "erneut lesen / relire"
+msgstr "erneut lesen · relire"
 
 #: forms/root.py
 msgid "authentication required"
-msgstr "Identifikation erforderlich / identification requise"
+msgstr "Identifikation erforderlich · identification requise"
 
 #: forms/root.py
 msgid "All forms"
-msgstr "Alle Formen / Tous les formulaires"
+msgstr "Alle Formen · Tous les formulaires"
 
 #: forms/root.py
 msgid "Welcome text on home page for logged users"
@@ -4916,11 +4916,11 @@ msgid ""
 "In order to submit the form you need to complete this simple question.\n"
 "</p>"
 msgstr ""
-"<h3>Bitte beantworten Sie die folgende Frage. / Veuillez répondre à la question suivante.</h3>\n"
+"<h3>Bitte beantworten Sie die folgende Frage. · Veuillez répondre à la question suivante.</h3>\n"
 "\n"
 "<p>\n"
-"Bevor Sie fortfahren, müssen Sie diese einfache Frage beantworten. / Avant de continuer, vous devez répondre à cette simple question.\n"
-"Il s’agit de prouver que vous êtes un humain et non un robot. / Es geht darum, zu beweisen, dass man ein Mensch und kein Roboter ist.\n"
+"Bevor Sie fortfahren, müssen Sie diese einfache Frage beantworten. · Avant de continuer, vous devez répondre à cette simple question.\n"
+"Il s’agit de prouver que vous êtes un humain et non un robot. · Es geht darum, zu beweisen, dass man ein Mensch und kein Roboter ist.\n"
 "</p>"
 
 #: forms/root.py
@@ -4932,7 +4932,7 @@ msgid ""
 "The form has been recorded on {{ form_receipt_datetime }} with the number "
 "{{ form_number }}."
 msgstr ""
-"Das Formular wurde registriert am / Le formulaire a été enregistré le {{ form_receipt_datetime }} avec le numéro / mit der Nummer"
+"Das Formular wurde registriert am · Le formulaire a été enregistré le {{ form_receipt_datetime }} avec le numéro · mit der Nummer"
 "{{ form_number }}."
 
 #: forms/root.py
@@ -4945,7 +4945,7 @@ msgstr ""
 
 #: forms/root.py
 msgid "The form has been recorded on {{ form_receipt_datetime }}."
-msgstr "Das Formular wurde registriert am / Le formulaire a été enregistré le {{ form_receipt_datetime }}."
+msgstr "Das Formular wurde registriert am · Le formulaire a été enregistré le {{ form_receipt_datetime }}."
 
 #: forms/root.py
 msgid "Message when a form is displayed before validation"
@@ -4953,7 +4953,7 @@ msgstr "Message quand un formulaire est affiché pour validation"
 
 #: forms/root.py
 msgid "Check values then click submit."
-msgstr "Überprüfen Sie den Inhalt des Formulars und klicken Sie auf / Vérifiez le contenu du formulaire puis cliquez sur « Validieren / Valider »."
+msgstr "Überprüfen Sie den Inhalt des Formulars und klicken Sie auf · Vérifiez le contenu du formulaire puis cliquez sur « Validieren · Valider »."
 
 #: forms/root.py
 msgid "Message in tracking code popup dialog"
@@ -4961,7 +4961,7 @@ msgstr "Message dans la fenêtre popup du code de suivi"
 
 #: forms/root.py
 msgid "You can get a reminder of the tracking code by email."
-msgstr "Sie erhalten eine Erinnerung an den Tracking-Code per E-Mail. / Obtenir un rappel du code de suivi par courriel."
+msgstr "Sie erhalten eine Erinnerung an den Tracking-Code per E-Mail. · Obtenir un rappel du code de suivi par courriel."
 
 #: forms/root.py
 msgid "Short text in the tracking code box"
@@ -4969,11 +4969,11 @@ msgstr "Text court dans la boîte du code de suivi"
 
 #: forms/root.py qommon/admin/emails.py qommon/admin/texts.py
 msgid "Miscellaneous"
-msgstr "Verschiedene / Divers"
+msgstr "Verschiedene · Divers"
 
 #: forms/root.py
 msgid "Tracking Code reminder"
-msgstr "Erinnerung an den Überwachungscode / Rappel du code de suivi"
+msgstr "Erinnerung an den Überwachungscode · Rappel du code de suivi"
 
 #: forms/root.py
 msgid ""
@@ -4983,9 +4983,9 @@ msgid ""
 "{{ form_tracking_code }}.\n"
 "\n"
 msgstr ""
-"Hallo / Bonjour,\n"
+"Hallo · Bonjour,\n"
 "\n"
-"Zur Erinnerung: Der Tracking-Code für / Pour rappel, le code de suivi pour {{ form_name }} est / ist :"
+"Zur Erinnerung: Der Tracking-Code für · Pour rappel, le code de suivi pour {{ form_name }} est · ist :"
 "{{ form_tracking_code }}.\n"
 "\n"
 
@@ -5385,7 +5385,7 @@ msgstr "Code SIRET invalide"
 
 #: qommon/form.py
 msgid "NIR (France)"
-msgstr "Numéro de sécurité sociale / NIR (France)"
+msgstr "Numéro de sécurité sociale · NIR (France)"
 
 #: qommon/form.py
 msgid "Invalid NIR"
@@ -6174,7 +6174,7 @@ msgstr "S’identifier"
 
 #: qommon/ident/password.py
 msgid "Lost Password?"
-msgstr "Haben Sie Ihr Passwort vergessen? / Mot de passe perdu ?"
+msgstr "Haben Sie Ihr Passwort vergessen? · Mot de passe perdu ?"
 
 #: qommon/ident/password.py
 msgid "Invalid credentials"
@@ -6190,11 +6190,11 @@ msgstr "Ce compte a été désactivé"
 
 #: qommon/ident/password.py
 msgid "Submit Request"
-msgstr "Bestätigen Sie die Anfrage / Valider la demande"
+msgstr "Bestätigen Sie die Anfrage · Valider la demande"
 
 #: qommon/ident/password.py
 msgid "Forgotten password"
-msgstr "Haben Sie Ihr Passwort vergessen? / Mot de passe oublié"
+msgstr "Haben Sie Ihr Passwort vergessen? · Mot de passe oublié"
 
 #: qommon/ident/password.py
 msgid "There is no user with that name or it has no email contact."
@@ -6207,7 +6207,7 @@ msgstr "N’a pas pu envoyé de courriel (erreur de serveur)"
 
 #: qommon/ident/password.py
 msgid "Forgotten Password"
-msgstr "Haben Sie Ihr Passwort vergessen? / Mot de passe oublié"
+msgstr "Haben Sie Ihr Passwort vergessen? · Mot de passe oublié"
 
 #: qommon/ident/password.py
 msgid ""
@@ -6216,7 +6216,7 @@ msgstr "Le jeton que vous avez envoyé n’existe pas, a expiré ou a été annu
 
 #: qommon/ident/password.py
 msgid "home page"
-msgstr "Homepage / page d’accueil"
+msgstr "Homepage · page d’accueil"
 
 #: qommon/ident/password.py
 msgid "The token you submitted is not appropriate for the requested task."
@@ -6224,39 +6224,39 @@ msgstr "Le jeton que vous avez envoyé n’est pas approprié pour cette tâche.
 
 #: qommon/ident/password.py
 msgid "Password Change"
-msgstr "Haben Sie Ihr Passwort vergessen? / Changement de mot de passe"
+msgstr "Haben Sie Ihr Passwort vergessen? · Changement de mot de passe"
 
 #: qommon/ident/password.py
 msgid "Request Cancelled"
-msgstr "Antrag annulliert / Demande annulée"
+msgstr "Antrag annulliert · Demande annulée"
 
 #: qommon/ident/password.py
 msgid "Your request has been cancelled"
-msgstr "Ihre Bewerbung wurde gelöscht / Votre demande a été annulée"
+msgstr "Ihre Bewerbung wurde gelöscht · Votre demande a été annulée"
 
 #: qommon/ident/password.py
 msgid "Continue to <a href=\"/\">home page</a></p>"
-msgstr "Weiter zum / Continuer vers la <a href=\"/\">page d’accueil/Homepage</a></p>"
+msgstr "Weiter zum · Continuer vers la <a href=\"/\">page d’accueil/Homepage</a></p>"
 
 #: qommon/ident/password.py qommon/myspace.py
 msgid "New Password"
-msgstr "Neues Passwort / Nouveau mot de passe"
+msgstr "Neues Passwort · Nouveau mot de passe"
 
 #: qommon/ident/password.py
 msgid "New password sent by email"
-msgstr "Neues Passwort per E-Mail erhalten / Nouveau mot de passe envoyé par courriel"
+msgstr "Neues Passwort per E-Mail erhalten · Nouveau mot de passe envoyé par courriel"
 
 #: qommon/ident/password.py
 msgid "This will be your username to connect to this site."
-msgstr "Dies wird Ihr Login für diese Website sein. / Ce sera votre identifiant pour vous connecter à ce site."
+msgstr "Dies wird Ihr Login für diese Website sein. · Ce sera votre identifiant pour vous connecter à ce site."
 
 #: qommon/ident/password.py
 msgid "There is already a user with that username"
-msgstr "Es gibt bereits einen Benutzer mit dieser ID / Il y a déjà un utilisateur avec cet identifiant"
+msgstr "Es gibt bereits einen Benutzer mit dieser ID · Il y a déjà un utilisateur avec cet identifiant"
 
 #: qommon/ident/password.py
 msgid "There is already a user with that email address"
-msgstr "Es gibt bereits einen Benutzer mit dieser E-Mail-Adresse / Il y a déjà un utilisateur avec cette adresse électronique"
+msgstr "Es gibt bereits einen Benutzer mit dieser E-Mail-Adresse · Il y a déjà un utilisateur avec cette adresse électronique"
 
 #: qommon/ident/password.py
 msgid ""
@@ -6276,11 +6276,11 @@ msgstr ""
 
 #: qommon/ident/password.py
 msgid "Email sent"
-msgstr "E-Mail gesendet / Courriel envoyé"
+msgstr "E-Mail gesendet · Courriel envoyé"
 
 #: qommon/ident/password.py
-msgid "Username / Password"
-msgstr "Identifiant / mot de passe"
+msgid "Username · Password"
+msgstr "Identifiant · mot de passe"
 
 #: qommon/ident/password.py
 msgid "Configure username/password identification method"
@@ -6288,7 +6288,7 @@ msgstr "Configurer la méthode d’identification par mot de passe"
 
 #: qommon/ident/password.py
 msgid "Passwords"
-msgstr "Passwörter / Mots de passe"
+msgstr "Passwörter · Mots de passe"
 
 #: qommon/ident/password.py
 msgid "Configure all password things"
@@ -6363,8 +6363,8 @@ msgid "Use current password"
 msgstr "Utiliser le mot de passe actuel"
 
 #: qommon/ident/password.py
-msgid "Username / password"
-msgstr "Identifiant / mot de passe"
+msgid "Username · password"
+msgstr "Identifiant · mot de passe"
 
 #: qommon/ident/password.py
 msgid "Duplicate user name"
@@ -6464,7 +6464,7 @@ msgstr "Variables disponibles : username, password, hostname"
 
 #: qommon/ident/password.py
 msgid "Your new password"
-msgstr "Ihr neues Passwort / Votre nouveau mot de passe"
+msgstr "Ihr neues Passwort · Votre nouveau mot de passe"
 
 #: qommon/ident/password.py
 msgid ""
@@ -6494,7 +6494,7 @@ msgstr "Variables disponibles : username, password"
 
 #: qommon/ident/password.py
 msgid "Your account has been approved"
-msgstr "Die Erstellung Ihres Kontos wurde validiert / La création de votre compte a été validée"
+msgstr "Die Erstellung Ihres Kontos wurde validiert · La création de votre compte a été validée"
 
 #: qommon/ident/password.py
 msgid ""
@@ -6534,7 +6534,7 @@ msgstr "Notification de la suppression d’un compte inutilisé"
 
 #: qommon/ident/password.py
 msgid "Your account has been removed"
-msgstr "Ihr Konto wurde gelöscht / Votre compte a été supprimé"
+msgstr "Ihr Konto wurde gelöscht · Votre compte a été supprimé"
 
 #: qommon/ident/password.py
 msgid ""
@@ -6786,19 +6786,19 @@ msgstr ""
 
 #: qommon/misc.py
 msgid "January"
-msgstr "Januar / Janvier"
+msgstr "Januar · Janvier"
 
 #: qommon/misc.py
 msgid "February"
-msgstr "Februar / Février"
+msgstr "Februar · Février"
 
 #: qommon/misc.py
 msgid "March"
-msgstr "März / Mars"
+msgstr "März · Mars"
 
 #: qommon/misc.py
 msgid "April"
-msgstr "April / Avril"
+msgstr "April · Avril"
 
 #: qommon/misc.py
 msgid "May"
@@ -6806,66 +6806,66 @@ msgstr "Mai"
 
 #: qommon/misc.py
 msgid "June"
-msgstr "Juni / juin"
+msgstr "Juni · juin"
 
 #: qommon/misc.py
 msgid "July"
-msgstr "Juli / Juillet"
+msgstr "Juli · Juillet"
 
 #: qommon/misc.py
 msgid "August"
-msgstr "August / Août"
+msgstr "August · Août"
 
 #: qommon/misc.py
 msgid "September"
-msgstr "September / Septembre"
+msgstr "September · Septembre"
 
 #: qommon/misc.py
 msgid "October"
-msgstr "Oktober / Octobre"
+msgstr "Oktober · Octobre"
 
 #: qommon/misc.py
 msgid "November"
-msgstr "November / Novembre"
+msgstr "November · Novembre"
 
 #: qommon/misc.py
 msgid "December"
-msgstr "Dezember / Décembre"
+msgstr "Dezember · Décembre"
 
 #: qommon/misc.py qommon/templates/qommon/forms/widgets/select-timetable.html
 #: sql.py
 msgid "Monday"
-msgstr "Montag / Lundi"
+msgstr "Montag · Lundi"
 
 #: qommon/misc.py qommon/templates/qommon/forms/widgets/select-timetable.html
 #: sql.py
 msgid "Tuesday"
-msgstr "Dienstag / mardi"
+msgstr "Dienstag · mardi"
 
 #: qommon/misc.py qommon/templates/qommon/forms/widgets/select-timetable.html
 #: sql.py
 msgid "Wednesday"
-msgstr "Mittwoch / Mercredi"
+msgstr "Mittwoch · Mercredi"
 
 #: qommon/misc.py qommon/templates/qommon/forms/widgets/select-timetable.html
 #: sql.py
 msgid "Thursday"
-msgstr "Donnerstag / Jeudi"
+msgstr "Donnerstag · Jeudi"
 
 #: qommon/misc.py qommon/templates/qommon/forms/widgets/select-timetable.html
 #: sql.py
 msgid "Friday"
-msgstr "Freitag / Vendredi"
+msgstr "Freitag · Vendredi"
 
 #: qommon/misc.py qommon/templates/qommon/forms/widgets/select-timetable.html
 #: sql.py
 msgid "Saturday"
-msgstr "Samstag / samedi"
+msgstr "Samstag · samedi"
 
 #: qommon/misc.py qommon/templates/qommon/forms/widgets/select-timetable.html
 #: sql.py
 msgid "Sunday"
-msgstr "Sonntag / Dimanche"
+msgstr "Sonntag · Dimanche"
 
 #: qommon/misc.py
 msgid "Sound files"
@@ -6889,7 +6889,7 @@ msgstr "backoffice"
 
 #: qommon/myspace.py
 msgid "My Profile"
-msgstr "Mein Profil / Mon profil"
+msgstr "Mein Profil · Mon profil"
 
 #: qommon/myspace.py
 msgid "Empty profile"
@@ -6897,35 +6897,35 @@ msgstr "Profil vide"
 
 #: qommon/myspace.py
 msgid "Edit My Profile"
-msgstr "Mein Profil bearbeiten / Modifier mon profil"
+msgstr "Mein Profil bearbeiten · Modifier mon profil"
 
 #: qommon/myspace.py
 msgid "Change My Password"
-msgstr "Mein Passwort ändern / Modifier mon mot de passe"
+msgstr "Mein Passwort ändern · Modifier mon mot de passe"
 
 #: qommon/myspace.py
 msgid "Remove My Account"
-msgstr "Mein Konto löschen / Supprimer mon compte"
+msgstr "Mein Konto löschen · Supprimer mon compte"
 
 #: qommon/myspace.py
 msgid "Apply Changes"
-msgstr "Aufzeichnung von Änderungen / Enregistrer les changements"
+msgstr "Aufzeichnung von Änderungen · Enregistrer les changements"
 
 #: qommon/myspace.py
 msgid "Edit Profile"
-msgstr "Änderung des Profils / Modification du profil"
+msgstr "Änderung des Profils · Modification du profil"
 
 #: qommon/myspace.py
 msgid "New Password (confirm)"
-msgstr "Neues Passwort (Bestätigung) / Nouveau mot de passe (confirmation)"
+msgstr "Neues Passwort (Bestätigung) · Nouveau mot de passe (confirmation)"
 
 #: qommon/myspace.py
 msgid "Change Password"
-msgstr "Änderung des Passworts / Changement de mot de passe"
+msgstr "Änderung des Passworts · Changement de mot de passe"
 
 #: qommon/myspace.py
 msgid "Are you really sure you want to remove your account?"
-msgstr "Sind Sie wirklich sicher, dass Sie Ihr Konto löschen wollen? / Êtes-vous vraiment sûr·e de vouloir supprimer votre compte ?"
+msgstr "Sind Sie wirklich sicher, dass Sie Ihr Konto löschen wollen? · Êtes-vous vraiment sûr·e de vouloir supprimer votre compte ?"
 
 #: qommon/myspace.py
 msgid "Remove my account"
@@ -6933,7 +6933,7 @@ msgstr "Mein Konto löschen"
 
 #: qommon/myspace.py
 msgid "Removing Account"
-msgstr "Löschung des Kontos / Suppression de compte"
+msgstr "Löschung des Kontos · Suppression de compte"
 
 #: qommon/myspace.py
 msgid "Text on top of the profile page"
@@ -6957,7 +6957,7 @@ msgstr ""
 
 #: qommon/publisher.py
 msgid "Internal Server Error"
-msgstr "Interner Serverfehler / Erreur interne du serveur"
+msgstr "Interner Serverfehler · Erreur interne du serveur"
 
 #: qommon/publisher.py
 msgid ""
@@ -7801,17 +7801,17 @@ msgid ""
 "       "
 msgstr ""
 "\n"
-"Sie haben bereits begonnen, dieses Formular auszufüllen. Sie können Ihre Bewerbung fortsetzen oder eine neue Bewerbung einreichen. / Vous aviez déjà commencé à remplir ce formulaire. Vous pouvez poursuivre   "
+"Sie haben bereits begonnen, dieses Formular auszufüllen. Sie können Ihre Bewerbung fortsetzen oder eine neue Bewerbung einreichen. · Vous aviez déjà commencé à remplir ce formulaire. Vous pouvez poursuivre   "
 "votre demande ou en saisir une nouvelle.\n"
 "   "
 
 #: templates/wcs/formdata_filling.html
 msgid "Continue with draft"
-msgstr "Mit dem Entwurf weitermachen / Reprendre le brouillon"
+msgstr "Mit dem Entwurf weitermachen · Reprendre le brouillon"
 
 #: templates/wcs/formdata_filling.html
 msgid "continue with draft from "
-msgstr "Mit dem Entwurf weitermachen / Reprendre le brouillon du "
+msgstr "Mit dem Entwurf weitermachen · Reprendre le brouillon du "
 
 #: templates/wcs/formdata_filling.html
 #, python-format
@@ -8278,7 +8278,7 @@ msgstr "Aucun workflow avec des actions globales pouvant être déclenchées."
 
 #: wf/external_workflow.py
 msgid "Form/Card"
-msgstr "Formulaire / Modèle de fiche"
+msgstr "Formulaire · Modèle de fiche"
 
 #: wf/external_workflow.py
 msgid "Targeting"
@@ -8819,8 +8819,8 @@ msgstr ""
 "Doit donner une date; cela s’appliquera uniquement aux demandes ouvertes."
 
 #: workflows.py
-msgid "String / Template with reference date"
-msgstr "Texte / Gabarit avec la date de référence"
+msgid "String · Template with reference date"
+msgstr "Texte · Gabarit avec la date de référence"
 
 #: workflows.py
 msgid "This should be a date; it will only apply to open forms."
