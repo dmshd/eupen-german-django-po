@@ -1,0 +1,709 @@
+# Translation for auquotidien w.c.s. extension
+# Copyright (C) 2006-2011 Entr'ouvert
+# This file is distributed under the same license as the auquotidien package.
+# Frederic Peters <fpeters@entrouvert.com>, 2006-2011
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: auquotidien 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 10:05+0200\n"
+"PO-Revision-Date: 2021-07-27 10:06+0200\n"
+"Last-Translator: Frederic Peters <fpeters@entrouvert.com>\n"
+"Language-Team: french\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: auquotidien.py:25 modules/payments_ui.py:531 modules/payments_ui.py:550
+#: modules/payments_ui.py:553
+msgid "Payments"
+msgstr "Paiements"
+
+#: modules/admin.py:25
+msgid "Control Panel"
+msgstr "Panneau de contrôle"
+
+#: modules/admin.py:30
+msgid "Invalid value"
+msgstr "Valeur invalide"
+
+#: modules/admin.py:42
+msgid "Admin role for forms"
+msgstr "Rôle d’administration des formulaires"
+
+#: modules/admin.py:44 modules/admin.py:52
+msgid "Nobody"
+msgstr "Personne"
+
+#: modules/admin.py:50
+msgid "Admin role for payments"
+msgstr "Rôle d’administration des paiements"
+
+#: modules/admin.py:54 modules/payments_ui.py:216 modules/payments_ui.py:230
+#: modules/payments_ui.py:283
+msgid "Submit"
+msgstr "Bestätigen · Valider"
+
+#: modules/admin.py:55 modules/myspace.py:288 modules/myspace.py:323
+#: modules/myspace.py:388 modules/payments_ui.py:217 modules/payments_ui.py:231
+#: modules/payments_ui.py:284
+msgid "Cancel"
+msgstr "Abbrechen · Annuler"
+
+#: modules/admin.py:61 modules/admin.py:62 modules/admin.py:64
+#: modules/admin.py:84
+msgid "Permissions"
+msgstr "Permissions"
+
+#: modules/admin.py:82
+msgid "Extra Options"
+msgstr "Options supplémentaires"
+
+#: modules/backoffice.py:42
+msgid "Welcome on Publik back office interface"
+msgstr "Bienvenue sur le backoffice de Publik"
+
+#: modules/categories_admin.py:43
+msgid "Position on homepage"
+msgstr "Position sur la page d’accueil"
+
+#: modules/categories_admin.py:46
+msgid "First Column"
+msgstr "Première colonne"
+
+#: modules/categories_admin.py:47
+msgid "Second Column"
+msgstr "Seconde colonne"
+
+#: modules/categories_admin.py:48
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: modules/categories_admin.py:49
+msgid "None"
+msgstr "Aucun"
+
+#: modules/categories_admin.py:55
+msgid "Limit number of items displayed on homepage"
+msgstr "Limite au nombre d’éléments affichés sur la page d’accueil"
+
+#: modules/categories_admin.py:79
+msgid "Categories"
+msgstr "Catégories"
+
+#: modules/categories_admin.py:82
+msgid "New"
+msgstr "Nouveau"
+
+#: modules/categories_admin.py:96 modules/categories_admin.py:98
+msgid "New Category"
+msgstr "Nouvelle catégorie"
+
+#: modules/formpage.py:30
+msgid "Steps"
+msgstr "Étapes"
+
+#: modules/myspace.py:38 modules/myspace.py:46 modules/myspace.py:404
+#: modules/payments_ui.py:86 modules/payments_ui.py:104
+#: modules/payments_ui.py:585 modules/payments_ui.py:591
+#: modules/payments_ui.py:604 modules/payments_ui.py:617
+msgid "Invoices"
+msgstr "Paiements"
+
+#: modules/myspace.py:63 modules/myspace.py:100 modules/payments_ui.py:125
+msgid "Pay Selected Invoices"
+msgstr "Payer les factures selectionnées"
+
+#: modules/myspace.py:82 modules/payments.py:481 modules/payments_ui.py:127
+msgid "Pay"
+msgstr "Payer"
+
+#: modules/myspace.py:84 modules/payments_ui.py:66
+#, python-format
+msgid "canceled on %s"
+msgstr "annulé le %s"
+
+#: modules/myspace.py:86 modules/myspace.py:90 modules/payments.py:257
+msgid "Details"
+msgstr "Détails"
+
+#: modules/myspace.py:88 modules/payments_ui.py:71
+#, python-format
+msgid "paid on %s"
+msgstr "payé le %s"
+
+#: modules/myspace.py:139
+#, python-format
+msgid "%(name)s #%(id)s (%(status)s)"
+msgstr "%(name)s n°%(id)s (%(status)s)"
+
+#: modules/myspace.py:155 modules/myspace.py:170 modules/payments_ui.py:85
+#: modules/root.py:635
+msgid "My Space"
+msgstr "Mon espace personnel"
+
+#: modules/myspace.py:189 modules/myspace.py:238
+msgid "My Profile"
+msgstr "Mon profil"
+
+#: modules/myspace.py:191 modules/myspace.py:229
+msgid "My Forms"
+msgstr "Mes formulaires"
+
+#: modules/myspace.py:193
+msgid "My Invoices"
+msgstr "Mes paiements"
+
+#: modules/myspace.py:197
+msgid "Back office"
+msgstr "Backoffice"
+
+#: modules/myspace.py:199
+msgid "Admin"
+msgstr "Admin"
+
+#: modules/myspace.py:219
+msgid ""
+"You can delete your account freely from the services portal. This action is "
+"irreversible; it will destruct your personal datas and destruct the access "
+"to your request history."
+msgstr ""
+"Vous pouvez à tout moment supprimer votre compte du portail de démarche. "
+"Cette suppression est définitive et entrainera la destruction de vos données "
+"personnelles et la perte de l'accès à votre historique de demandes."
+
+#: modules/myspace.py:224
+msgid "Delete My Account"
+msgstr "Supprimer mon compte"
+
+#: modules/myspace.py:256
+msgid "Empty profile"
+msgstr "Profil vide"
+
+#: modules/myspace.py:268
+msgid "Edit My Profile"
+msgstr "Modifier mon profil"
+
+#: modules/myspace.py:273
+msgid "Change My Password"
+msgstr "Changer mon mot de passe"
+
+#: modules/myspace.py:287
+msgid "Apply Changes"
+msgstr "Enregistrer les changements"
+
+#: modules/myspace.py:297
+msgid "Edit Profile"
+msgstr "Modifier mon profil"
+
+#: modules/myspace.py:319
+msgid "New Password"
+msgstr "Neues Passwort · Nouveau mot de passe"
+
+#: modules/myspace.py:320
+msgid "New Password (confirm)"
+msgstr "Neues Passwort (Bestätigung)· Nouveau mot de passe (confirmation)"
+
+#: modules/myspace.py:322 modules/myspace.py:339
+msgid "Change Password"
+msgstr "Passwort ändern · Changer le mot de passe"
+
+#: modules/myspace.py:333
+msgid "Passwords do not match"
+msgstr "Die Passwörter stimmen nicht überein · Les mots de passe ne correspondent pas"
+
+#: modules/myspace.py:360
+msgid "Register"
+msgstr "Anmelden · S’inscrire"
+
+#: modules/myspace.py:375
+msgid "Welcome"
+msgstr "Willkommen · Bienvenue"
+
+#: modules/myspace.py:385
+msgid "Are you really sure you want to remove your account?"
+msgstr "Sind Sie wirklich sicher, dass Sie Ihr Konto löschen wollen · Êtes-vous vraiment sûr/e de vouloir supprimer votre compte ?"
+
+#: modules/myspace.py:387
+msgid "Remove my account"
+msgstr "Supprimer mon compte"
+
+#: modules/myspace.py:400
+msgid "Removing Account"
+msgstr "Suppression du compte"
+
+#: modules/myspace.py:404
+msgid "Message on top of invoices page"
+msgstr "Texte en haut de la page des paiements"
+
+#: modules/payments.py:130
+#, python-format
+msgid "invoice %s paid"
+msgstr "facture %s payée"
+
+#: modules/payments.py:137
+#, python-format
+msgid "invoice %s unpaid"
+msgstr "facture %s non payée"
+
+#: modules/payments.py:146
+#, python-format
+msgid "invoice %s canceled"
+msgstr "facture %s annulée"
+
+#: modules/payments.py:154
+#, python-format
+msgid ""
+"Create Invoice <a href=\"%(url)s\">%(id)s</a>: %(subject)s - %(amount)s "
+"&euro;"
+msgstr ""
+"Création du paiement <a href=\"%(url)s\">%(id)s</a> : %(subject)s - "
+"%(amount)s &euro;"
+
+#: modules/payments.py:156
+#, python-format
+msgid ""
+"Invoice <a href=\"%(url)s\">%(id)s</a> is paid with transaction number "
+"%(transaction_order_id)s"
+msgstr ""
+"Paiement <a href=\"%(url)s\">%(id)s</a> effectué par la transaction numéro "
+"%(transaction_order_id)s"
+
+#: modules/payments.py:158
+#, python-format
+msgid "Cancel Invoice <a href=\"%(url)s\">%(id)s</a>"
+msgstr "Annule le paiement <a href=\"%(url)s\">%(id)s</a>"
+
+#: modules/payments.py:160
+#, python-format
+msgid ""
+"Try paying invoice <a href=\"%(url)s\">%(id)s</a> with transaction number "
+"%(transaction_order_id)s"
+msgstr ""
+"Tentative de paiement de <a href=\"%(url)s\">%(id)s</a> par la transaction "
+"numéro %(transaction_order_id)s"
+
+#: modules/payments.py:222
+msgid "Payment Creation"
+msgstr "Paiement : création"
+
+#: modules/payments.py:243
+#, python-format
+msgid "Payable to %s"
+msgstr "Payable à %s"
+
+#: modules/payments.py:245 modules/payments.py:247
+msgid "Payable (not completed)"
+msgstr "Payable (non complété)"
+
+#: modules/payments.py:254
+msgid "Subject"
+msgstr "Sujet"
+
+#: modules/payments.py:260
+msgid "Amount"
+msgstr "Montant"
+
+#: modules/payments.py:265 modules/payments.py:366
+msgid "Regie"
+msgstr "Régie"
+
+#: modules/payments.py:273
+msgid "Status after validation"
+msgstr "Statut après validation"
+
+#: modules/payments.py:276
+msgid ""
+"Used only if the current status of the form does not contain any \"Payment "
+"Validation\" item"
+msgstr ""
+"Utilisé seulement si le statut actuel du formulaire ne contient pas "
+"d'élément de type \"Paiement : validation\""
+
+#: modules/payments.py:283
+msgid "If the value starts by = it will be interpreted as a Python expression."
+msgstr ""
+"Si la valeur débute par le symbole = elle sera interprétée comme une "
+"expression Python."
+
+#: modules/payments.py:285
+#, python-format
+msgid "Standard keys are: %s."
+msgstr "Les clés standards sont: %s."
+
+#: modules/payments.py:289
+msgid "Parameters for the payment system"
+msgstr "Paramètres pour le système de paiement"
+
+#: modules/payments.py:302 modules/payments_ui.py:48
+#, python-format
+msgid "%(form_name)s #%(formdata_id)s"
+msgstr "%(form_name)s - demande n°%(formdata_id)s"
+
+#: modules/payments.py:331
+msgid "Payment Cancel"
+msgstr "Paiement : suppression"
+
+#: modules/payments.py:347
+msgid "Cancel all Payments"
+msgstr "Annuler tous les paiements"
+
+#: modules/payments.py:350
+#, python-format
+msgid "Cancel Payments for %s"
+msgstr "Annuler les paiements pour %s"
+
+#: modules/payments.py:352 modules/payments.py:354
+msgid "Cancel Payments (non completed)"
+msgstr "Suppression d’un paiement (non complété)"
+
+#: modules/payments.py:361
+msgid "Reason"
+msgstr "Raison"
+
+#: modules/payments.py:368
+msgid "All Regies"
+msgstr "Toutes les régies"
+
+#: modules/payments.py:487
+msgid "Payment Validation"
+msgstr "Paiement : validation"
+
+#: modules/payments.py:500
+msgid "Wait for payment validation"
+msgstr "En attente de la validation du paiement"
+
+#: modules/payments.py:510
+msgid "Status once validated"
+msgstr "Statut après validation"
+
+#: modules/payments.py:594
+msgid "Payment failed"
+msgstr "Paiement refusé"
+
+#: modules/payments.py:597
+msgid "Payment succeeded"
+msgstr "Paiement terminé"
+
+#: modules/payments_ui.py:33
+#, python-format
+msgid "Invoice: %s"
+msgstr "Paiement : %s"
+
+#: modules/payments_ui.py:34
+#, python-format
+msgid "Amount: %s"
+msgstr "Montant : %s"
+
+#: modules/payments_ui.py:53
+msgid "From:"
+msgstr "Depuis :"
+
+#: modules/payments_ui.py:57 modules/payments_ui.py:145
+#: modules/payments_ui.py:148
+#, python-format
+msgid "Regie: %s"
+msgstr "Régie : %s"
+
+#: modules/payments_ui.py:58
+#, python-format
+msgid "Created on: %s"
+msgstr "Date de création : %s"
+
+#: modules/payments_ui.py:60
+msgid "Details:"
+msgstr "Détails :"
+
+#: modules/payments_ui.py:130
+msgid "You can not pay to different regies."
+msgstr "Vous ne pouvez pas payer différentes régies."
+
+#: modules/payments_ui.py:164
+msgid "Banking Service:"
+msgstr "Service bancaire :"
+
+#: modules/payments_ui.py:165
+msgid "options"
+msgstr "options"
+
+#: modules/payments_ui.py:168
+msgid "Payment notification URL:"
+msgstr "URL de notification de paiement :"
+
+#: modules/payments_ui.py:177
+msgid "Edit"
+msgstr "Ändern · Modifier"
+
+#: modules/payments_ui.py:178 modules/payments_ui.py:235
+msgid "Delete"
+msgstr "Löschen · Supprimer"
+
+#: modules/payments_ui.py:191 modules/payments_ui.py:193
+#, python-format
+msgid "Edit Regie: %s"
+msgstr "Modifier la régie : %s"
+
+#: modules/payments_ui.py:199
+msgid "Label"
+msgstr "Libellé"
+
+#: modules/payments_ui.py:201
+msgid "Description"
+msgstr "Description"
+
+#: modules/payments_ui.py:206
+msgid "Banking Service"
+msgstr "Service bancaire"
+
+#: modules/payments_ui.py:210
+msgid "Dummy (for tests)"
+msgstr "Factice (pour test)"
+
+#: modules/payments_ui.py:213
+msgid "SP+ (Caisse d'epargne)"
+msgstr "SP+ (Caisse d’epargne)"
+
+#: modules/payments_ui.py:229
+msgid "You are about to irrevocably delete this regie."
+msgstr "Vous allez définitivement supprimer cette régie."
+
+#: modules/payments_ui.py:237
+msgid "Delete Regie"
+msgstr "Supprimer la régie"
+
+#: modules/payments_ui.py:238
+#, python-format
+msgid "Deleting Regie: %s"
+msgstr "Suppression de la régie : %s"
+
+#: modules/payments_ui.py:255
+msgid "Direct Notification URL"
+msgstr "URL de notification directe"
+
+#: modules/payments_ui.py:256
+msgid "Dummy SIRET"
+msgstr "SIRET Factice"
+
+#: modules/payments_ui.py:297
+msgid "Payment backend do not list its options"
+msgstr "Le système de paiement ne liste pas ses options"
+
+#: modules/payments_ui.py:311 modules/payments_ui.py:312
+msgid "Edit Service Options"
+msgstr "Modifier les options du service"
+
+#: modules/payments_ui.py:325
+msgid "Valeur invalide"
+msgstr "Ungültige Eingabe · Valeur invalide"
+
+#: modules/payments_ui.py:383
+#, python-format
+msgid "manually set unpaid invoice %(invoice_id)s in regie %(regie)s"
+msgstr ""
+"paiement %(invoice_id)s sur la régie %(regie)s manuellement déclaré non-payé"
+
+#: modules/payments_ui.py:400
+#, python-format
+msgid "manually set paid invoice %(invoice_id)s in regie %(regie)s"
+msgstr "paiement %(invoice_id)s sur régie %(regie)s manuellement déclaré payé"
+
+#: modules/payments_ui.py:464
+msgid "Set unpaid"
+msgstr "Déclarer non payé"
+
+#: modules/payments_ui.py:466
+msgid "Set paid"
+msgstr "Déclarer payé"
+
+#: modules/payments_ui.py:486 modules/payments_ui.py:488
+msgid "Previous"
+msgstr "Zurück · Précédent"
+
+#: modules/payments_ui.py:496 modules/payments_ui.py:563
+msgid "Regies"
+msgstr "Régies"
+
+#: modules/payments_ui.py:513 modules/payments_ui.py:514
+#: modules/payments_ui.py:516 modules/payments_ui.py:580
+msgid "New Regie"
+msgstr "Nouvelle régie"
+
+#: modules/payments_ui.py:547
+msgid "You are not allowed to access Payments Management"
+msgstr "Vous n’êtes pas autorisé à accéder à la gestion des paiements"
+
+#: modules/payments_ui.py:559
+msgid "Payment is not supported."
+msgstr "Le paiement n’est pas géré."
+
+#: modules/payments_ui.py:566
+msgid "There are no regies defined at the moment."
+msgstr "Il n’y a pas de régie définie pour le moment."
+
+#: modules/payments_ui.py:585
+msgid "Message on top of an invoice"
+msgstr "Message en haut d’un paiement"
+
+#: modules/payments_ui.py:589 modules/payments_ui.py:592
+msgid "New invoice"
+msgstr "Nouvelle facture"
+
+#: modules/payments_ui.py:590 modules/payments_ui.py:603
+#: modules/payments_ui.py:616
+msgid "Available variables: user, regie, invoice, invoice_url"
+msgstr "Variables disponibles : user, regie, invoice, invoice_url"
+
+#: modules/payments_ui.py:594
+msgid ""
+"\n"
+"A new invoice is available at [invoice_url].\n"
+msgstr ""
+"\n"
+"Une nouvelle facture est disponible ici : [invoice_url].\n"
+
+#: modules/payments_ui.py:602 modules/payments_ui.py:605
+msgid "Paid invoice"
+msgstr "Facturé payée"
+
+#: modules/payments_ui.py:607
+msgid ""
+"\n"
+"The invoice [invoice_url] has been paid.\n"
+msgstr ""
+"\n"
+"La facture [invoice_url] a été payée.\n"
+
+#: modules/payments_ui.py:615 modules/payments_ui.py:618
+msgid "Canceled invoice"
+msgstr "Facture annulée"
+
+#: modules/payments_ui.py:620
+msgid ""
+"\n"
+"The invoice [invoice.id] has been canceled.\n"
+msgstr ""
+"\n"
+"La facture [invoice.id] a été annulée.\n"
+
+#: modules/root.py:96
+msgid "Authentication subsystem is not yet configured."
+msgstr "Le sous-système d’authentification n’est pas encore configuré."
+
+#: modules/root.py:151 modules/root.py:644
+msgid "Login"
+msgstr "Connexion"
+
+#: modules/root.py:155
+msgid "Email"
+msgstr "Courriel"
+
+#: modules/root.py:157
+msgid "Username"
+msgstr "Identifikator · Identifiant"
+
+#: modules/root.py:158
+msgid "Password"
+msgstr "Passwort · Mot de passe"
+
+#: modules/root.py:159 modules/root.py:191
+msgid "Connect"
+msgstr "Login · Connexion"
+
+#: modules/root.py:172
+msgid "Forgotten password ?"
+msgstr "Passwort vergessen · Mot de passe oublié ?"
+
+#: modules/root.py:294
+msgid "Home"
+msgstr "Accueil"
+
+#: modules/root.py:461 modules/root.py:463 modules/root.py:612
+#: modules/template.py:50
+msgid "Services"
+msgstr "Démarches"
+
+#: modules/root.py:547
+msgid "authentication required"
+msgstr "Identifikationserfordernis · identification requise"
+
+#: modules/root.py:552
+#, python-format
+msgid "Access to all forms of the \"%s\" category"
+msgstr "Afficher tous les formulaires de la catégorie « %s »"
+
+#: modules/root.py:553
+msgid "Access to all forms in this category"
+msgstr "Afficher tous les formulaires de cette catégorie"
+
+#: modules/root.py:577 modules/template.py:45
+msgid "Consultations"
+msgstr "Consultations"
+
+#: modules/root.py:602
+msgid "Tracking code"
+msgstr "Tracking-Code · Code de suivi"
+
+#: modules/root.py:603
+msgid "ex: RPQDFVCD"
+msgstr "ex : RPQDFVCD"
+
+#: modules/root.py:604
+msgid "Load"
+msgstr "Bestätigen · Valider"
+
+#: modules/root.py:639
+msgid "Access to your personal space"
+msgstr "Accès à votre espace personnel"
+
+#: modules/root.py:641
+msgid "Logout"
+msgstr "Abmelden · Déconnexion"
+
+#: modules/root.py:643
+msgid "Registration"
+msgstr "Inscription"
+
+#: modules/root.py:662 modules/root.py:684
+msgid "Editor Informations"
+msgstr "Informations éditeur"
+
+#: modules/root.py:666 modules/root.py:685
+msgid "Accessibility Statement"
+msgstr "Déclaration d’accessibilité"
+
+#: modules/root.py:670
+msgid "Contact"
+msgstr "Contact"
+
+#: modules/root.py:674 modules/root.py:687
+msgid "Help"
+msgstr "Aide"
+
+#: modules/root.py:686
+msgid "Contact Information"
+msgstr "Informations de contact"
+
+#: modules/root.py:690
+msgid "Connecting with Identity Provider"
+msgstr "Connexion par fournisseur d’identités"
+
+#: modules/root.py:692
+msgid ""
+"<h3>Connecting with Identity Provider</h3>\n"
+"<p>You can also use your identity provider to connect.\n"
+"</p>"
+msgstr ""
+"<h3>Connexion par fournisseur d'identités</h3>\n"
+"<p>Vous pouvez également utiliser votre fournisseur d'identités\n"
+"pour vous connecter.\n"
+"</p>"
+
+#: modules/root.py:698
+msgid "Home Page"
+msgstr "Page d’accueil"
+
+#: modules/template.py:87
+msgid "Assistance text next to errors"
+msgstr "Texte d’assistance à côté des erreurs"
