@@ -4555,7 +4555,7 @@ msgid ""
 "There were errors processing the form and you cannot go to the next page. Do "
 "check below that you filled all fields correctly."
 msgstr ""
-"Vous ne pouvez pas accéder à la page suivante. Vérifiez que vous avez rempli "
+"Sie können nicht auf die nächste Seite zugreifen. Prüfen Sie bitte, ob Sie alle Felder korrekt ausgefüllt haben. · Vous ne pouvez pas accéder à la page suivante. Vérifiez que vous avez rempli "
 "tous les champs correctement."
 
 #: formdef.py
@@ -5270,11 +5270,11 @@ msgstr ""
 
 #: qommon/form.py
 msgid "required field"
-msgstr "champ obligatoire"
+msgstr "Pflichtfeld · champ obligatoire"
 
 #: qommon/form.py
 msgid "invalid value selected"
-msgstr "valeur choisie invalide"
+msgstr "Gewählter Wert ungültig · valeur choisie invalide"
 
 #: qommon/form.py
 msgid ""
@@ -5417,25 +5417,25 @@ msgstr "Message à afficher en cas d’erreur de validation."
 
 #: qommon/form.py
 msgid "invalid value"
-msgstr "valeur invalide"
+msgstr "Ungültige Eingabe · valeur invalide"
 
 #: qommon/form.py
 msgid "invalid date"
-msgstr "date invalide"
+msgstr "Ungültige Datum · date invalide"
 
 #: qommon/form.py
 #, python-format
 msgid "invalid date: date must be on or after %s"
-msgstr "date invalide : la date doit être postérieure ou égale à %s"
+msgstr "Ungültige Datum · date invalide : la date doit être postérieure ou égale à · das Datum muss nach oder gleich %s"
 
 #: qommon/form.py
 #, python-format
 msgid "invalid date; date must be on or before %s"
-msgstr "date invalide : la date doit être antérieure ou égale à %s"
+msgstr "Ungültige Datum · date invalide :  · das Datum muss vor oder gleich %s"
 
 #: qommon/form.py
 msgid "invalid time"
-msgstr "heure invalide"
+msgstr "Ungültige Zeit · heure invalide"
 
 #: qommon/form.py
 msgid "invalid regular expression"
@@ -5453,7 +5453,7 @@ msgstr "Vous devez sélectionner au plus %d réponses."
 
 #: qommon/form.py
 msgid "wrong format"
-msgstr "format invalide"
+msgstr "Ungültige Format · format invalide"
 
 #: qommon/form.py
 msgid "must start with http:// or https:// and have a domain name"
