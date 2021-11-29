@@ -664,7 +664,7 @@ msgstr ""
 #: apps/family/templates/family/link_form.html
 #: apps/wcs/templates/combo/wcs/tracking_code_input.html
 msgid "Submit"
-msgstr "Validieren · Valider"
+msgstr "Bestätigen · Valider"
 
 #: apps/family/templates/family/person.html
 msgid "Born on"

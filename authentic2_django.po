@@ -3655,7 +3655,7 @@ msgstr "Choisir la collectivité du nouvel utilisateur"
 #: src/authentic2/manager/user_views.py:288
 #: src/authentic2/templates/authentic2/change_email.html:20
 msgid "Validate"
-msgstr "Valider"
+msgstr "Bestätigen · Valider"
 
 #: src/authentic2/manager/user_views.py:312
 msgid "Reset password"
